@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "CHATGPT_STOCK_WIKI_V1",
+  "title": "ChatGPT Stock Wiki Revision",
+  "type": "object",
+  "required": [
+    "revision_id",
+    "analysis_date",
+    "latest_complete_session",
+    "market",
+    "ticker",
+    "status",
+    "market_state",
+    "change_type",
+    "source_summary"
+  ],
+  "properties": {
+    "revision_id": {"type": "string", "pattern": "^[0-9]{8}-[0-9]{2}$"},
+    "analysis_date": {"type": "string", "format": "date"},
+    "latest_complete_session": {"type": "string", "format": "date"},
+    "market": {"enum": ["KR", "US", "JP"]},
+    "ticker": {"type": "string", "minLength": 1},
+    "name": {"type": "string"},
+    "status": {"enum": ["즉시 매입 가능", "매입 대기", "선발", "관찰", "보유", "해제", "추천 없음", "자료 부족"]},
+    "market_state": {"enum": ["ON", "WAIT", "OFF", "DATA_INVALID"]},
+    "company_risk": {"type": "string"},
+    "structure": {"type": "string"},
+    "price_volume_reaction": {"type": "string"},
+    "support": {"type": ["string", "null"]},
+    "breakout": {"type": ["string", "null"]},
+    "invalidation": {"type": ["string", "null"]},
+    "target": {"type": ["string", "null"]},
+    "risk_reward": {"type": ["number", "null"]},
+    "action": {"type": "string"},
+    "change_type": {"enum": ["NEW", "STATUS", "PRICE_LEVEL", "RISK", "STRUCTURE", "DATA_REVISION", "CORRECTION", "RELEASE"]},
+    "source_summary": {"type": "string"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}
