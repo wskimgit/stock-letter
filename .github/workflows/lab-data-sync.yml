@@ -1,0 +1,174 @@
+name: LAB Data Sync
+
+'on':
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lab-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch LAB public source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/lab-sync lab_data
+          ok=0
+          for url in \
+            "https://k-bizpost.myds.me/lab_cache/github_source.json" \
+            "http://k-bizpost.myds.me/lab_cache/github_source.json"
+          do
+            if curl --fail --silent --show-error --location \
+              --retry 2 --retry-delay 2 \
+              --connect-timeout 10 --max-time 45 \
+              -H 'Cache-Control: no-cache' \
+              "${url}?t=$(date +%s)" \
+              -o /tmp/lab-sync/source.json
+            then
+              ok=1
+              break
+            fi
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo 'LAB source fetch failed over both HTTPS and HTTP.' >&2
+            exit 1
+          fi
+
+      - name: Validate LAB source integrity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, re, sys
+          from pathlib import Path
+
+          p = Path('/tmp/lab-sync/source.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+
+          errors = []
+          if data.get('schema_version') != 'lab_github_chatgpt_v1':
+              errors.append('schema_version')
+          if data.get('lab_only') is not True:
+              errors.append('lab_only')
+          if data.get('actual_buy') is not False:
+              errors.append('actual_buy')
+          if not re.fullmatch(r'[0-9a-f]{64}', str(data.get('source_fingerprint',''))):
+              errors.append('source_fingerprint')
+          if not data.get('publish_id'):
+              errors.append('publish_id')
+
+          markets = data.get('markets')
+          if not isinstance(markets, dict):
+              errors.append('markets')
+              markets = {}
+
+          for market in ('KR','JP','US'):
+              m = markets.get(market)
+              if not isinstance(m, dict):
+                  errors.append(f'{market}.missing')
+                  continue
+              status = m.get('status')
+              session = m.get('market_session')
+              alignment = m.get('session_alignment')
+              integrity = m.get('integrity') or {}
+              rows = m.get('current_review_rows') or []
+              opens = m.get('virtual_open_reference') or []
+              active = set(m.get('active_experiment_hashes') or [])
+              top = m.get('top_candidate')
+
+              if integrity.get('candidate_ahead_of_market') is not False:
+                  errors.append(f'{market}.candidate_ahead_of_market')
+              if status == 'READY':
+                  if not isinstance(session, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', session):
+                      errors.append(f'{market}.market_session')
+                  if alignment != 'ALIGNED':
+                      errors.append(f'{market}.session_alignment')
+              if status in ('DATA_STALE','DATA_INVALID') and top is not None:
+                  errors.append(f'{market}.stale_top_candidate')
+
+              seen = set()
+              for row in rows:
+                  if not isinstance(row, dict):
+                      errors.append(f'{market}.row_type')
+                      continue
+                  if row.get('kind') == 'VIRTUAL_OPEN' or row.get('state') == 'VIRTUAL_OPEN':
+                      errors.append(f'{market}.virtual_open_in_review')
+                  if session and row.get('data_date') != session:
+                      errors.append(f'{market}.row_session_mismatch')
+                  eh = row.get('experiment_hash')
+                  if active and eh not in active:
+                      errors.append(f'{market}.inactive_experiment')
+                  key = (row.get('ticker'), row.get('setup'), eh, row.get('state'), row.get('data_date'))
+                  if key in seen:
+                      errors.append(f'{market}.duplicate_review_row')
+                  seen.add(key)
+
+              for row in opens:
+                  if isinstance(row, dict) and row.get('state') not in ('VIRTUAL_OPEN', None):
+                      errors.append(f'{market}.open_reference_state')
+
+              if isinstance(top, dict) and session and top.get('data_date') != session:
+                  errors.append(f'{market}.top_session_mismatch')
+
+          if errors:
+              print('LAB source integrity failed:', ', '.join(sorted(set(errors))), file=sys.stderr)
+              sys.exit(1)
+
+          print('LAB source integrity: PASS')
+          PY
+
+      - name: Update canonical GitHub LAB data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          src = Path('/tmp/lab-sync/source.json')
+          dst = Path('lab_data/LATEST.json')
+          incoming = json.loads(src.read_text(encoding='utf-8'))
+          current = None
+          if dst.exists():
+              try:
+                  current = json.loads(dst.read_text(encoding='utf-8'))
+              except Exception:
+                  current = None
+
+          if current and current.get('source_fingerprint') == incoming.get('source_fingerprint'):
+              print('UNCHANGED')
+          else:
+              dst.write_text(json.dumps(incoming, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              print('UPDATED')
+          PY
+
+      - name: Commit only when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- lab_data/LATEST.json; then
+            echo 'No LAB data change.'
+            exit 0
+          fi
+          publish_id=$(python3 - <<'PY'
+          import json
+          print(json.load(open('lab_data/LATEST.json', encoding='utf-8')).get('publish_id','unknown'))
+          PY
+          )
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add lab_data/LATEST.json
+          git commit -m "LAB data sync ${publish_id}"
+          git push
