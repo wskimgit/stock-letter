@@ -5,7 +5,7 @@
 - Project instruction status: `SPEC FROZEN`
 - Project instruction frozen blob SHA: `b4628d9cc6f8974f5013d82a171931300b1fd732`
 - Project instruction freeze registry: `INSTRUCTION_FREEZE.md`
-- Previous project instruction: `INSTRUCTION_v4.7.0.md` — `FROZEN_HISTORY`
+- Previous project instruction: `INSTRUCTION_v4.7.0.md` — `RELEASED_HISTORY`
 - Older project instruction: `INSTRUCTION_v4.6-candidate.4.md` — `SUPERSEDED_CANDIDATE_HISTORY`
 - LAB implementation candidate: `1.5.1-candidate.16`
 - LAB GitHub source mode: `GITHUB_ACTIONS_PULL`
@@ -29,8 +29,10 @@
 - Volume-cycle freeze registry: `VOLUME_CYCLE_FREEZE.md`
 - Volume-cycle Wiki: `../거래량-순환매-Wiki.md`
 - Git branch: `main`
-- Project instruction v4.7.1 freeze: `2026-08-12T00:55+09:00`
-- Project instruction v4.7.0 freeze: `2026-08-12T00:34+09:00`
+- Project instruction v4.7.1 original freeze: `2026-08-12T00:55+09:00`
+- Project instruction v4.7.1 freeze reaffirmed: `2026-08-12T01:02+09:00`
+- Project instruction v4.7.0 original freeze: `2026-08-12T00:34+09:00`
+- Project instruction v4.7.0 released from frozen history: `2026-08-12T01:02+09:00`
 - v2.2.0 original freeze: `2026-08-11T15:16+09:00`
 - v2.2.0 freeze reaffirmed: `2026-08-11T16:48+09:00`
 - v2.1.0 released from frozen history: `2026-08-11T16:48+09:00`
@@ -63,4 +65,4 @@ LAB 현재 추천행은 현재 코드의 active `experiment_hash`와 현재 `mar
 
 `VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`만 현재 FROZEN 거래량 순환매 운영 기준본이다. 본문과 SHA를 직접 수정·덮어쓰기하지 않는다. `v2.1.0`은 동결 효력을 해제하고 `RELEASED_HISTORY`로 보존한다. 향후 변경은 새 버전으로 생성한다.
 
-`INSTRUCTION_v4.7.1.md`는 현재 일반 종목 누적 분석의 **SPEC FROZEN** 기준본이다. 직접 수정하지 않는다. 향후 일반 지시문 변경은 새 버전으로 생성한다.
+`INSTRUCTION_v4.7.1.md`만 현재 일반 종목 누적 분석의 **SPEC FROZEN** 기준본이다. 본문과 SHA를 직접 수정하지 않는다. `INSTRUCTION_v4.7.0.md`는 동결 효력을 해지하고 `RELEASED_HISTORY`로 보존한다. 향후 일반 지시문 변경은 새 버전으로 생성한다.
