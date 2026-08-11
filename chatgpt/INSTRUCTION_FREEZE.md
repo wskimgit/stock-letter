@@ -1,25 +1,30 @@
 # 종목 누적 분석 지시문 동결 기록
 
-## 현재 동결본
+## 현재 유일한 동결본
 
 - Version: `v4.7.1`
 - File: `chatgpt/INSTRUCTION_v4.7.1.md`
 - Status: `SPEC FROZEN`
-- Freeze time: `2026-08-12T00:55+09:00`
+- Original freeze time: `2026-08-12T00:55+09:00`
+- Freeze reaffirmed: `2026-08-12T01:02+09:00`
 - Frozen blob SHA: `b4628d9cc6f8974f5013d82a171931300b1fd732`
 - Creation commit: `8fc92061e1e017a0e7b0d2b9170620008b225ad3`
 - Wiki schema: `CHATGPT_STOCK_WIKI_V1`
 
-## 직전 동결본
+`v4.7.1`만 현재 운영에 효력이 있는 일반 종목 누적 분석 지시문이다.
+
+## 직전 동결본 — 효력 해지
 
 - Version: `v4.7.0`
 - File: `chatgpt/INSTRUCTION_v4.7.0.md`
-- Status: `SPEC FROZEN / FROZEN_HISTORY`
-- Freeze time: `2026-08-12T00:34+09:00`
+- Original status: `SPEC FROZEN`
+- Current status: `RELEASED_HISTORY`
+- Original freeze time: `2026-08-12T00:34+09:00`
+- Release time: `2026-08-12T01:02+09:00`
 - Frozen blob SHA: `6e8491d67f44216f0525bd022eb7efe1aeffc446`
 - Creation commit: `4c6bfb43bb4658a860e698670c0c028cd2ccdd49`
 
-`v4.7.0`은 본문과 SHA를 수정하지 않고 동결 이력으로 보존한다.
+`v4.7.0`의 동결 효력은 해지한다. 파일 본문과 기존 SHA는 수정하지 않고 역사 이력으로 보존한다. 현재 운영 기준으로 사용하지 않는다.
 
 ## 이전 candidate 이력
 
@@ -33,7 +38,7 @@
 
 1. 전체 추천 질의에서는 신규 탐색 전에 기존 활성 Stock Wiki 종목을 최신 완료 정규장 기준으로 전수 재검증한다.
 2. stale Wiki 상태를 현재 추천 근거로 자동 재사용하지 않는다.
-3. **stale이라는 이유만으로 즉시 `자료 부족/자료 제한`으로 하향하지 않는다.**
+3. stale이라는 이유만으로 즉시 `자료 부족/자료 제한`으로 하향하지 않는다.
 4. stale 또는 기술자료 불완전 종목은 거래소·공시·기업 IR·데이터 공급자·Yahoo Finance 등 금융정보서비스·주요 금융언론을 이용해 외부 최신자료 재수집을 먼저 시도한다.
 5. 가격·기술지표는 가능한 한 하나의 동일 수정 일봉 OHLCV 계열에서 MA5·20·60·120·200과 ATR(14)을 직접 계산한다.
 6. 서로 다른 기준일 또는 수정주가 체계의 종가·이평·ATR을 임의 혼합하지 않는다.
@@ -47,10 +52,8 @@
 
 ## 동결 정책
 
-`INSTRUCTION_v4.7.1.md`의 본문과 frozen blob SHA를 직접 수정하거나 덮어쓰지 않는다.
-
-향후 변경이 필요하면 새 버전 파일을 만든다.
-
-새 버전을 동결할 경우 이 파일에는 새 동결 기록을 추가하되 과거 동결 기록을 삭제하지 않는다.
-
-GitHub 저장 성공 전에는 `동결 완료`라고 표현하지 않는다.
+- `INSTRUCTION_v4.7.1.md`의 본문과 frozen blob SHA를 직접 수정하거나 덮어쓰지 않는다.
+- 향후 변경이 필요하면 새 버전 파일을 만든다.
+- 새 버전을 동결하면 현재 동결본의 효력을 명시적으로 해지하고 `RELEASED_HISTORY`로 보존한다.
+- 과거 동결 파일과 SHA는 삭제하거나 새 판단에 맞춰 수정하지 않는다.
+- GitHub 저장 성공 전에는 `동결 완료` 또는 `해지 완료`라고 표현하지 않는다.
