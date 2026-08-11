@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lab_github_chatgpt_v1",
+  "title": "LAB GitHub ChatGPT Latest Data",
+  "type": "object",
+  "required": ["schema_version", "status", "version", "revision", "publish_id", "source_fingerprint", "lab_only", "actual_buy", "markets"],
+  "properties": {
+    "schema_version": {"const": "lab_github_chatgpt_v1"},
+    "status": {"type": "string"},
+    "version": {"type": "string"},
+    "revision": {"type": "string"},
+    "publish_id": {"type": "string"},
+    "source_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "lab_only": {"const": true},
+    "actual_buy": {"const": false},
+    "markets": {
+      "type": "object",
+      "required": ["KR", "JP", "US"],
+      "additionalProperties": {
+        "type": "object",
+        "required": ["status", "market_session", "market_state", "session_alignment", "champion_action", "integrity", "current_review_rows", "virtual_open_reference"]
+      }
+    }
+  }
+}
