@@ -14,9 +14,16 @@
 
 ## 전략 Wiki
 
-| 전략 | 저장체계 | 감시 대상 | 최근 갱신 | 문서 |
-|---|---|---|---|---|
-| 거래량 순환매 | `VOLUME_CYCLE_WIKI_V1` | KR: 스페코·빅텍·한일단조 / US: DPRO·RCAT·UAVS | 2026-08-11 | [거래량 순환매 Wiki](../거래량-순환매-Wiki.md) |
+| 전략 | 저장체계 | 감시 대상 | 지시문 상태 | 최근 갱신 | 문서 |
+|---|---|---|---|---|---|
+| 거래량 순환매 | `VOLUME_CYCLE_WIKI_V1` | KR: 스페코·빅텍·한일단조 / US: DPRO·RCAT·UAVS | `v1.0.0 FROZEN` | 2026-08-11 | [거래량 순환매 Wiki](../거래량-순환매-Wiki.md) |
+
+### 거래량 순환매 기준문
+
+- 동결 지시문: [VOLUME_CYCLE_INSTRUCTION_v1.0.0.md](VOLUME_CYCLE_INSTRUCTION_v1.0.0.md)
+- 동결 기록: [VOLUME_CYCLE_FREEZE.md](VOLUME_CYCLE_FREEZE.md)
+- 동결 blob SHA: `7510654f7447fdfdcacc703fe8cf6b49f3f6c59d`
+- 향후 지시문 변경은 새 버전 파일로만 생성한다.
 
 ## 상태 정의
 
