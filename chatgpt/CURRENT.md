@@ -1,15 +1,18 @@
 # Current configuration
 
 - Wiki schema: `CHATGPT_STOCK_WIKI_V1`
-- Project instruction candidate: `INSTRUCTION_v4.6-candidate.3.md`
+- Project instruction candidate: `INSTRUCTION_v4.6-candidate.4.md`
 - Project instruction status: `SPEC CANDIDATE`
-- LAB implementation candidate: `1.5.1-candidate.14`
-- LAB GitHub source mode: `GITHUB_PRIMARY`
+- LAB implementation candidate: `1.5.1-candidate.15`
+- LAB GitHub source mode: `GITHUB_ACTIONS_PULL`
 - LAB canonical data: `../lab_data/LATEST.json`
+- LAB pull source: `/lab_cache/github_source.json`
+- LAB sync workflow: `../.github/workflows/lab-data-sync.yml`
 - LAB data schema: `../lab_data/LATEST.schema.json`
-- LAB web policy: `../lab_data/LAB_WEB_POLICY_v1.8_FROZEN.md`
+- LAB web policy: `../lab_data/LAB_WEB_POLICY_v1.9_FROZEN.md`
 - LAB web policy status: `SPEC FROZEN`
-- LAB local NAS artifacts: `MIRROR_AND_DIAGNOSTIC`
+- LAB NAS GitHub credentials: `NONE`
+- LAB local NAS artifacts: `PULL_SOURCE_MIRROR_AND_DIAGNOSTIC`
 - LAB coupling: `NONE`
 - Volume-cycle Wiki schema: `VOLUME_CYCLE_WIKI_V2`
 - Volume-cycle current frozen instruction: `VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`
@@ -26,7 +29,9 @@
 - v2.2.0 freeze reaffirmed: `2026-08-11T16:48+09:00`
 - v2.1.0 released from frozen history: `2026-08-11T16:48+09:00`
 
-LAB 자료를 사용하는 질의(`lab.php 자료로 추천`, `LAB 후보 분석` 등)는 `CURRENT.md → INSTRUCTION_v4.6-candidate.3.md → ../lab_data/LATEST.json` 순으로 확인한다. `LATEST.json`이 `WAITING_FOR_LAB_SYNC`, `DATA_STALE`, `DATA_INVALID`이거나 시장세션/후보세션 무결성이 깨져 있으면 최신 추천으로 사용하지 않는다. NAS `/lab_cache/*`, `/lab.php?view=*`, `/lab_chatgpt.html`은 GitHub source 감사·fallback용이며 1차 원천이 아니다.
+LAB 자료를 사용하는 질의(`lab.php 자료로 추천`, `LAB 후보 분석` 등)는 `CURRENT.md → INSTRUCTION_v4.6-candidate.4.md → ../lab_data/LATEST.json` 순으로 확인한다. `LATEST.json`이 `WAITING_FOR_LAB_SYNC`, `DATA_STALE`, `DATA_INVALID`이거나 시장세션/후보세션 무결성이 깨져 있으면 최신 추천으로 사용하지 않는다. NAS `/lab_cache/*`, `/lab.php?view=*`, `/lab_chatgpt.html`은 GitHub canonical 감사·fallback용이며 1차 원천이 아니다.
+
+`lab.php`는 GitHub token/PAT/SSH key를 사용하지 않는다. Tick/cron 후 `/lab_cache/github_source.json`을 발행하고 `.github/workflows/lab-data-sync.yml`이 5분 주기로 HTTPS 우선, HTTP fallback으로 이를 pull하여 `lab_data/LATEST.json`에 commit한다. 별도 사용자 GitHub secret/PAT는 요구하지 않는다. 동일 `source_fingerprint`이면 commit하지 않는다.
 
 LAB 현재 추천행은 현재 코드의 active `experiment_hash`와 현재 `market_session`만 사용한다. 과거 experiment_hash는 성과·감사 이력에만 유지하고 `VIRTUAL_OPEN`은 신규 추천이 아닌 `virtual_open_reference`로만 본다. LAB과 ChatGPT Stock Wiki는 계속 독립한다.
 
