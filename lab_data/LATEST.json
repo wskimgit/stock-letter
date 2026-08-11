@@ -1,0 +1,25 @@
+{
+  "schema_version": "lab_github_chatgpt_v1",
+  "status": "WAITING_FOR_LAB_SYNC",
+  "version": "1.5.1-candidate.14",
+  "revision": "lab-v151-candidate14-github-primary-session-integrity-20260811",
+  "spec_version": "v4.6-candidate.3",
+  "generated_at": "2026-08-11T22:05:00+09:00",
+  "published_at": null,
+  "publish_id": "BOOTSTRAP-WAITING-FOR-FIRST-LAB-SYNC",
+  "source_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+  "lab_only": true,
+  "actual_buy": false,
+  "source_policy": {
+    "primary_for_chatgpt": "GITHUB",
+    "repository": "wskimgit/stock-letter",
+    "branch": "main",
+    "path": "lab_data/LATEST.json"
+  },
+  "markets": {
+    "KR": {"status": "DATA_STALE", "market_session": null, "market_state": "WAIT", "session_alignment": "MISMATCH", "champion_action": "DATA_NOT_READY", "top_candidate": null, "current_review_rows": [], "virtual_open_reference": [], "integrity": {"candidate_ahead_of_market": false}},
+    "JP": {"status": "DATA_STALE", "market_session": null, "market_state": "WAIT", "session_alignment": "MISMATCH", "champion_action": "DATA_NOT_READY", "top_candidate": null, "current_review_rows": [], "virtual_open_reference": [], "integrity": {"candidate_ahead_of_market": false}},
+    "US": {"status": "DATA_STALE", "market_session": null, "market_state": "WAIT", "session_alignment": "MISMATCH", "champion_action": "DATA_NOT_READY", "top_candidate": null, "current_review_rows": [], "virtual_open_reference": [], "integrity": {"candidate_ahead_of_market": false}}
+  },
+  "note": "Bootstrap placeholder. Deploy lab_v1.5.1-candidate.14.php as /lab.php, configure LAB_GITHUB_TOKEN, then run Tick or cron-run once. Until then this file is not market data."
+}
