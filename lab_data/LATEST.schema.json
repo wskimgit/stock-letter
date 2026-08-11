@@ -3,22 +3,61 @@
   "$id": "lab_github_chatgpt_v1",
   "title": "LAB GitHub ChatGPT Latest Data",
   "type": "object",
-  "required": ["schema_version", "status", "version", "revision", "publish_id", "source_fingerprint", "lab_only", "actual_buy", "markets"],
+  "required": ["schema_version", "status", "version", "revision", "publish_id", "source_fingerprint", "lab_only", "actual_buy", "source_policy", "markets"],
   "properties": {
     "schema_version": {"const": "lab_github_chatgpt_v1"},
     "status": {"type": "string"},
     "version": {"type": "string"},
     "revision": {"type": "string"},
-    "publish_id": {"type": "string"},
+    "publish_id": {"type": "string", "minLength": 1},
     "source_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "lab_only": {"const": true},
     "actual_buy": {"const": false},
+    "source_policy": {
+      "type": "object",
+      "required": ["primary_for_chatgpt", "repository", "branch", "path"],
+      "properties": {
+        "primary_for_chatgpt": {"const": "GITHUB"},
+        "repository": {"const": "wskimgit/stock-letter"},
+        "branch": {"const": "main"},
+        "path": {"const": "lab_data/LATEST.json"},
+        "sync_mode": {"type": "string"},
+        "server_token_required": {"type": "boolean"},
+        "pull_source": {"type": "string"}
+      }
+    },
     "markets": {
       "type": "object",
       "required": ["KR", "JP", "US"],
-      "additionalProperties": {
-        "type": "object",
-        "required": ["status", "market_session", "market_state", "session_alignment", "champion_action", "integrity", "current_review_rows", "virtual_open_reference"]
+      "properties": {
+        "KR": {"$ref": "#/$defs/market"},
+        "JP": {"$ref": "#/$defs/market"},
+        "US": {"$ref": "#/$defs/market"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "market": {
+      "type": "object",
+      "required": ["status", "market_session", "market_state", "session_alignment", "champion_action", "active_experiment_hashes", "integrity", "current_review_rows", "virtual_open_reference"],
+      "properties": {
+        "status": {"type": "string"},
+        "market_session": {"type": ["string", "null"]},
+        "market_state": {"type": "string"},
+        "session_alignment": {"type": "string"},
+        "champion_action": {"type": "string"},
+        "active_experiment_hashes": {"type": "array", "items": {"type": "string"}},
+        "top_candidate": {"type": ["object", "null"]},
+        "current_review_rows": {"type": "array", "items": {"type": "object"}},
+        "virtual_open_reference": {"type": "array", "items": {"type": "object"}},
+        "integrity": {
+          "type": "object",
+          "required": ["candidate_ahead_of_market"],
+          "properties": {
+            "candidate_ahead_of_market": {"const": false}
+          }
+        }
       }
     }
   }
