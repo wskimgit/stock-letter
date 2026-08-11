@@ -11,6 +11,7 @@
 |---|---|---|---|---|---|---|
 | KR | 055550 | 신한지주 | 관찰 | 2026-08-11 | 2026-08-12 | [055550](stocks/KR/055550.md) |
 | JP | 7203 | Toyota Motor | 관찰 | 2026-08-10 | 2026-08-12 | [7203](stocks/JP/7203.md) |
+| US | BRK.B | Berkshire Hathaway Class B | 매입 대기 | 2026-08-10 | 2026-08-12 | [BRK.B](stocks/US/BRK.B.md) |
 | US | MS | Morgan Stanley | 매입 대기 | 2026-08-07 | 2026-08-08 | [MS](stocks/US/MS.md) |
 | US | DELL | Dell Technologies | 매입 대기 | 2026-08-07 | 2026-08-08 | [DELL](stocks/US/DELL.md) |
 
