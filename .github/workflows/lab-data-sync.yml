@@ -56,8 +56,37 @@ jobs:
 
           p = Path('/tmp/lab-sync/source.json')
           data = json.loads(p.read_text(encoding='utf-8'))
-
           errors = []
+
+          def active_hash_set(market, m):
+              raw = m.get('active_experiment_hashes') or []
+              if isinstance(raw, dict):
+                  values = list(raw.values())
+              elif isinstance(raw, list):
+                  values = raw
+              else:
+                  errors.append(f'{market}.active_experiment_hashes_type')
+                  values = []
+              out = set()
+              for h in values:
+                  h = str(h)
+                  if re.fullmatch(r'[0-9a-f]{64}', h):
+                      out.add(h)
+                  else:
+                      errors.append(f'{market}.active_experiment_hash_invalid')
+              amap = m.get('active_experiment_map')
+              if amap is not None:
+                  if not isinstance(amap, dict):
+                      errors.append(f'{market}.active_experiment_map_type')
+                  else:
+                      for setup, h in amap.items():
+                          h = str(h)
+                          if not re.fullmatch(r'[0-9a-f]{64}', h):
+                              errors.append(f'{market}.active_experiment_map_hash_invalid')
+                          elif out and h not in out:
+                              errors.append(f'{market}.active_experiment_contract_mismatch')
+              return out
+
           if data.get('schema_version') != 'lab_github_chatgpt_v1':
               errors.append('schema_version')
           if data.get('lab_only') is not True:
@@ -85,7 +114,7 @@ jobs:
               integrity = m.get('integrity') or {}
               rows = m.get('current_review_rows') or []
               opens = m.get('virtual_open_reference') or []
-              active = set(m.get('active_experiment_hashes') or [])
+              active = active_hash_set(market, m)
               top = m.get('top_candidate')
 
               if integrity.get('candidate_ahead_of_market') is not False:
@@ -107,8 +136,10 @@ jobs:
                       errors.append(f'{market}.virtual_open_in_review')
                   if session and row.get('data_date') != session:
                       errors.append(f'{market}.row_session_mismatch')
-                  eh = row.get('experiment_hash')
-                  if active and eh not in active:
+                  eh = str(row.get('experiment_hash') or '')
+                  if not active:
+                      errors.append(f'{market}.active_experiment_missing')
+                  elif eh not in active:
                       errors.append(f'{market}.inactive_experiment')
                   key = (row.get('ticker'), row.get('setup'), eh, row.get('state'), row.get('data_date'))
                   if key in seen:
@@ -116,11 +147,22 @@ jobs:
                   seen.add(key)
 
               for row in opens:
-                  if isinstance(row, dict) and row.get('state') not in ('VIRTUAL_OPEN', None):
+                  if not isinstance(row, dict):
+                      continue
+                  if row.get('state') not in ('VIRTUAL_OPEN', None):
                       errors.append(f'{market}.open_reference_state')
+                  eh = str(row.get('experiment_hash') or '')
+                  if active and eh not in active:
+                      errors.append(f'{market}.inactive_open_experiment')
 
-              if isinstance(top, dict) and session and top.get('data_date') != session:
-                  errors.append(f'{market}.top_session_mismatch')
+              if isinstance(top, dict):
+                  if session and top.get('data_date') != session:
+                      errors.append(f'{market}.top_session_mismatch')
+                  eh = str(top.get('experiment_hash') or '')
+                  if not active:
+                      errors.append(f'{market}.active_experiment_missing')
+                  elif eh not in active:
+                      errors.append(f'{market}.inactive_top_experiment')
 
           if errors:
               print('LAB source integrity failed:', ', '.join(sorted(set(errors))), file=sys.stderr)
