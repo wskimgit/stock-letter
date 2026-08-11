@@ -89,7 +89,7 @@ GitHub write가 성공하기 전에는 `저장 완료`, `이력 반영 완료`�
 
 - 기본 감시종목: KR `스페코(013810)`, `빅텍(065450)`, `한일단조(024740)` / US `DPRO`, `RCAT`, `UAVS`.
 - 반복 질의 시 날짜별 새 MD 파일을 만들지 않는다.
-- 먼저 `CURRENT.md`, `INDEX.md`, `RULES.md`, `VOLUME_CYCLE_FREEZE.md`, CURRENT가 가리키는 최신 ACTIVE 지시문, `거래량-순환매-Wiki.md`를 순서대로 확인한다.
+- 먼저 `CURRENT.md`, `INDEX.md`, `RULES.md`, `VOLUME_CYCLE_FREEZE.md`, CURRENT가 가리키는 현재 FROZEN 지시문, `거래량-순환매-Wiki.md`를 순서대로 확인한다.
 - 최근 완료 정규장으로 **확정상태**를 산출한다.
 - 정규장이 진행 중이면 장중 가격과 거래량을 추가해 **장중 잠정상태 `P-M1/P-M2/P-W/P-S1/P-S2/P-S3`**를 산출한다.
 - 현재 행동지시는 `확정상태 + 장중상태 + 기업위험`을 종합해 결정한다.
@@ -140,23 +140,31 @@ GitHub write가 성공하기 전에는 `저장 완료`, `이력 반영 완료`�
 - `PARTIALLY_CONFIRMED`
 - `NOT_CONFIRMED_AT_CLOSE`
 
-## 12. 거래량 순환매 지시문 동결 및 활성 버전
+## 12. 거래량 순환매 지시문 동결
 
-`VOLUME_CYCLE_INSTRUCTION_v1.0.0.md`는 2026-08-11 기준 **FROZEN BASELINE**이다.
+현재 운영 기준은 `VOLUME_CYCLE_INSTRUCTION_v1.2.0.md` **FROZEN**이다.
 
-- 동결 blob SHA: `7510654f7447fdfdcacc703fe8cf6b49f3f6c59d`
+- 동결 시각: `2026-08-11T12:46+09:00`
+- 동결 blob SHA: `687d70bb5db6fce33c70d94db7cc0bc496f9a547`
 - 동결 기록: `VOLUME_CYCLE_FREEZE.md`
-- 동결 파일의 본문은 수정·덮어쓰기 금지.
+- v1.2.0 파일 본문은 수정·덮어쓰기 금지.
+- 파일 내부의 `상태: ACTIVE` 및 과거 v1.0.0 관련 문구는 동결 직전 원본 스냅샷의 일부로 그대로 보존한다.
+- 운영상 상태는 `CURRENT.md`와 `VOLUME_CYCLE_FREEZE.md`의 FROZEN 판정을 우선한다.
+
+이전 기준본 `VOLUME_CYCLE_INSTRUCTION_v1.0.0.md`의 FROZEN_BASELINE 지위는 해제되었다.
+
+- v1.0.0 상태: `RELEASED_HISTORY`
+- 이전 blob SHA: `7510654f7447fdfdcacc703fe8cf6b49f3f6c59d`
+- 파일은 삭제·수정하지 않고 과거 감사·비교 이력으로 보존한다.
 
 버전 이력:
 
-- `v1.0.0` = FROZEN BASELINE
-- `v1.1.0` = 한줄 행동지시 도입, 이전 ACTIVE 이력
-- `v1.2.0` = 장중 보정 상태체계 도입, **현재 ACTIVE**
-- v1.2.0 blob SHA: `687d70bb5db6fce33c70d94db7cc0bc496f9a547`
+- `v1.0.0` = `RELEASED_HISTORY`
+- `v1.1.0` = 이전 ACTIVE 이력
+- `v1.2.0` = **현재 FROZEN 운영 기준본**
 
 운영선:
 
-`v1.0.0 FROZEN BASELINE → v1.1.0 HISTORY → v1.2.0 ACTIVE`
+`v1.0.0 RELEASED_HISTORY → v1.1.0 HISTORY → v1.2.0 FROZEN`
 
-향후 변경은 활성 파일을 직접 덮어쓰기보다 새 버전 파일로 생성하고 사용자의 명시 승인 후 `CURRENT.md` 활성 포인터를 변경한다.
+향후 변경은 현재 동결본을 직접 수정하지 않고 새 버전 파일로 생성한다. 새 버전은 사용자 명시 승인 전 현재 FROZEN v1.2.0을 대체하지 않는다.
