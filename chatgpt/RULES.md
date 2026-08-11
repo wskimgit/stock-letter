@@ -177,9 +177,9 @@ GitHub write가 성공하기 전에는 `저장 완료`라고 표현하지 않는
 - `v1.1.0` HISTORY
 - `v1.2.0` FROZEN_HISTORY
 - `v2.0.0` FROZEN_HISTORY
-- `v2.1.0` FROZEN_HISTORY
-- `v2.2.0` **FROZEN**
+- `v2.1.0` **RELEASED_HISTORY**
+- `v2.2.0` **FROZEN — 유일한 현재 운영 기준본**
 
 현재 동결 SHA: `99694d8d476dea84aae28b1d344ce273ef5e4fa2`
 
-현재 동결본을 직접 수정하지 않는다. 향후 변경은 새 버전 파일로 생성한다.
+`v2.1.0`은 동결 효력이 없으며 이력 보존용이다. `v2.2.0` 현재 동결본은 직접 수정하지 않는다. 향후 변경은 새 버전 파일로 생성한다.
