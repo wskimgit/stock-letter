@@ -4,9 +4,9 @@
   "version": "1.5.1-candidate.16",
   "revision": "lab-v151-candidate16-active-experiment-contract-20260811",
   "spec_version": "v4.6-candidate.4",
-  "generated_at": "2026-08-11T23:37:46+09:00",
-  "published_at": "2026-08-11T23:37:46+09:00",
-  "publish_id": "20260811_233746-69e21f756bba",
+  "generated_at": "2026-08-11T23:44:18+09:00",
+  "published_at": "2026-08-11T23:44:18+09:00",
+  "publish_id": "20260811_234418-140248e6e0d9",
   "lab_only": true,
   "actual_buy": false,
   "source_policy": {
@@ -74,7 +74,7 @@
       "runtime_session": "2026-08-11",
       "production_session": "2026-08-11",
       "cache_session": "2026-08-11",
-      "data_revision": "8330c304102785e30f6539d9adc108b34057b07de0126be588513d8ddfded53f",
+      "data_revision": "f67aaf0f5164cf6bfc506581f7d61071d463d607c8f3e99c48b7f830518b9dd7",
       "champion_action": "NO_NEW_BUY",
       "active_experiment_hashes": [
         "b0e5e6b04e7474f70f2ebc6ec3459fbbbbed5d4f39c1349d723fc3d2bb91b648",
@@ -209,7 +209,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-11T23:37:12+09:00",
+          "retrieved_at": "2026-08-11T23:43:43+09:00",
           "data_revision": "24004c8c8b5fff3f35f60c778c9fa787ac674453994279bef432f64281ae840f"
         },
         "raw_adjusted_ohlcv": [
@@ -2042,8 +2042,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:13+09:00",
-            "data_revision": "c87cc44e1607eddd5d03a3828ff120220fb6cd6c05a858d982bde94b3d22941a",
+            "retrieved_at": "2026-08-11T23:43:44+09:00",
+            "data_revision": "186aafb9fc1607bffaa9af89893317407286ae86c5cef45c36433a45042d7c7a",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -2083,8 +2083,8 @@
             "ma5": 235400,
             "ma20": 244450,
             "ma60": 290812.6927083333,
-            "ma120": 249265.015625,
-            "ma200": 197696.7615625,
+            "ma120": 249265.01549479167,
+            "ma200": 197696.761640625,
             "atr14": 22985.714285714286,
             "return_20d_pct": -5.893909626719052,
             "return_60d_pct": -18.998609743883833,
@@ -2894,7 +2894,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:14+09:00",
+            "retrieved_at": "2026-08-11T23:43:45+09:00",
             "data_revision": "685c22fafc326a9ca88a0bfdc9e5b7c83b63a55cb24f5dfd7d17d1711bddec44",
             "source_meta": {
               "currency": "KRW",
@@ -2936,7 +2936,7 @@
             "ma20": 1666300,
             "ma60": 2073207.2958333334,
             "ma120": 1592676.259375,
-            "ma200": 1212645.28640625,
+            "ma200": 1212645.28546875,
             "atr14": 180357.14285714287,
             "return_20d_pct": -22.764227642276424,
             "return_60d_pct": -27.652878511096233,
@@ -2944,7 +2944,7 @@
             "relative_strength_20d_pct": -15.985835933975345,
             "relative_strength_60d_pct": -7.156746385713085,
             "high_252": 2987000,
-            "low_252": 243980.46875,
+            "low_252": 243980.453125,
             "distance_to_high_252_pct": -52.293270840308004
           },
           "trend": {
@@ -3746,7 +3746,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:15+09:00",
+            "retrieved_at": "2026-08-11T23:43:46+09:00",
             "data_revision": "171415b414931107e4b8745d634b36e37bc5e8fd3a51302c27266eb84ad4aeb5",
             "source_meta": {
               "currency": "KRW",
@@ -4598,7 +4598,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:16+09:00",
+            "retrieved_at": "2026-08-11T23:43:47+09:00",
             "data_revision": "a64ce407324f2782cdc40241fd06160602a0ed4a80056a19c5f49a945b6c68e2",
             "source_meta": {
               "currency": "KRW",
@@ -5440,7 +5440,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:17+09:00",
+            "retrieved_at": "2026-08-11T23:43:49+09:00",
             "data_revision": "0aab43bdd73d1e3b961835475c34739cd940eac2bf9d82eadbbdbaf6fbeb87aa",
             "source_meta": {
               "currency": "KRW",
@@ -6282,7 +6282,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:18+09:00",
+            "retrieved_at": "2026-08-11T23:43:50+09:00",
             "data_revision": "3ee88f1e853aa1c5d2e4f1609ae05b130ea42137fc800f064afb12f3e5a12012",
             "source_meta": {
               "currency": "KRW",
@@ -7124,7 +7124,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:19+09:00",
+            "retrieved_at": "2026-08-11T23:43:51+09:00",
             "data_revision": "87beb5ad2a231eb8edde384a3dd4e91a95a8454a0c64a49648904e24af65c157",
             "source_meta": {
               "currency": "KRW",
@@ -7966,7 +7966,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:20+09:00",
+            "retrieved_at": "2026-08-11T23:43:52+09:00",
             "data_revision": "5aad8d2cd18770d4381f6f0e523c70dbf8751a091997724c09cc1df7ee996a2a",
             "source_meta": {
               "currency": "KRW",
@@ -8796,7 +8796,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:21+09:00",
+            "retrieved_at": "2026-08-11T23:43:52+09:00",
             "data_revision": "6801962e1c37f37bba646c35fd0b1837370eb858902aa7bdfd04a0234cc9a501",
             "source_meta": {
               "currency": "KRW",
@@ -9626,8 +9626,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:22+09:00",
-            "data_revision": "d4cc4e9f26f2ac3fe7906c22e01eeb47f332cb2284228c69507e00219567958f",
+            "retrieved_at": "2026-08-11T23:43:53+09:00",
+            "data_revision": "e9117c5afd6552e6221ec1ac97df64186207042bd0ca6e57e3a8c27fbec5c8a9",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -9667,8 +9667,8 @@
             "ma5": 171029,
             "ma20": 170909.23515625,
             "ma60": 163111.66875,
-            "ma120": 158069.708203125,
-            "ma200": 144781.6387109375,
+            "ma120": 158069.70833333334,
+            "ma200": 144781.6382421875,
             "atr14": 7869.7487383041425,
             "return_20d_pct": -9.916790636969663,
             "return_60d_pct": 7.522392599122707,
@@ -10488,7 +10488,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:23+09:00",
+            "retrieved_at": "2026-08-11T23:43:54+09:00",
             "data_revision": "445bba51439385f542833552f4988026288b964dd6c0b75a9b7f05bd8377bc2b",
             "source_meta": {
               "currency": "KRW",
@@ -10530,7 +10530,7 @@
             "ma20": 103791.138671875,
             "ma60": 100356.20572916667,
             "ma120": 97547.91145833333,
-            "ma200": 89583.1989453125,
+            "ma200": 89583.1984765625,
             "atr14": 4740.727727594123,
             "return_20d_pct": -3.064399850074484,
             "return_60d_pct": 8.752131890578907,
@@ -10538,7 +10538,7 @@
             "relative_strength_20d_pct": 3.713991858226595,
             "relative_strength_60d_pct": 29.248264015962057,
             "high_252": 112469.061607965,
-            "low_252": 61644.769702148435,
+            "low_252": 61644.7658203125,
             "distance_to_high_252_pct": -7.085558903072275
           },
           "trend": {
@@ -11350,7 +11350,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:24+09:00",
+            "retrieved_at": "2026-08-11T23:43:55+09:00",
             "data_revision": "15cb9a7a602c465ea1b07b3968f086e3b5635326081511f0fcb433a1c283a251",
             "source_meta": {
               "currency": "KRW",
@@ -12314,7 +12314,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-11T23:37:26+09:00",
+          "retrieved_at": "2026-08-11T23:43:55+09:00",
           "data_revision": "b2184b8ef11313c376a82115b8b5e53acc9badd03e51ec54652aa83ab4f1f1f8"
         },
         "raw_adjusted_ohlcv": [
@@ -14159,7 +14159,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:27+09:00",
+            "retrieved_at": "2026-08-11T23:43:56+09:00",
             "data_revision": "2aaa45640f234976f815ab3e532ac5ab75b22e7993f755b9a7e9f76987021b90",
             "source_meta": {
               "currency": "JPY",
@@ -15001,7 +15001,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:28+09:00",
+            "retrieved_at": "2026-08-11T23:43:57+09:00",
             "data_revision": "27498f88846dec5b7dcde2484528ce617c36cb9856f387f3564c89ffc59d1941",
             "source_meta": {
               "currency": "JPY",
@@ -15843,7 +15843,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:28+09:00",
+            "retrieved_at": "2026-08-11T23:43:57+09:00",
             "data_revision": "9d00bcac09201eda78a2ca9264eb47ed2a528fbbea22b807a80b57934260c504",
             "source_meta": {
               "currency": "JPY",
@@ -16685,7 +16685,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:29+09:00",
+            "retrieved_at": "2026-08-11T23:43:58+09:00",
             "data_revision": "3c46c0e2d6b21fe3e66cc99a7a51fb714d3d468ca64d57f0a4e7a06b7e9819ac",
             "source_meta": {
               "currency": "JPY",
@@ -17527,7 +17527,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:30+09:00",
+            "retrieved_at": "2026-08-11T23:43:59+09:00",
             "data_revision": "2d1a14fb640816c55114f9867429dbcec3bf16020283278e0dc2180735b267c3",
             "source_meta": {
               "currency": "JPY",
@@ -18369,7 +18369,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:31+09:00",
+            "retrieved_at": "2026-08-11T23:44:00+09:00",
             "data_revision": "6f13371b814031dd1a9009f66101f3b320042c8c33dc3cec51da1bfb4f6cf686",
             "source_meta": {
               "currency": "JPY",
@@ -19211,7 +19211,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:31+09:00",
+            "retrieved_at": "2026-08-11T23:44:00+09:00",
             "data_revision": "e1e5b6c276889991dae3ab03eecb511eb7cd27065fb94c68c3ea71e8f05c4b59",
             "source_meta": {
               "currency": "JPY",
@@ -20053,7 +20053,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:32+09:00",
+            "retrieved_at": "2026-08-11T23:44:01+09:00",
             "data_revision": "a5997603147c7e00f490b40325b96482482a28cdb6731cfb03149e3ad16c3ae7",
             "source_meta": {
               "currency": "JPY",
@@ -20895,7 +20895,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:33+09:00",
+            "retrieved_at": "2026-08-11T23:44:02+09:00",
             "data_revision": "acf32369608e7891efc6b93141ec279e81de9757bb3178f7cabfd24a48842de8",
             "source_meta": {
               "currency": "JPY",
@@ -20944,9 +20944,9 @@
             "return_120d_pct": -2.4668735099979577,
             "relative_strength_20d_pct": 19.88314582854266,
             "relative_strength_60d_pct": 6.52272205189335,
-            "high_252": 14463.939554412957,
+            "high_252": 14463.938568521302,
             "low_252": 6544,
-            "distance_to_high_252_pct": -42.85789173200504
+            "distance_to_high_252_pct": -42.85788783708199
           },
           "trend": {
             "ma20_rising": true,
@@ -21737,7 +21737,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:34+09:00",
+            "retrieved_at": "2026-08-11T23:44:02+09:00",
             "data_revision": "b9ec3d0784d16f2d4b4ae1c61dcb00540256449fabfd34592626e38b3d1146a2",
             "source_meta": {
               "currency": "JPY",
@@ -21786,9 +21786,9 @@
             "return_120d_pct": 6.004025221158549,
             "relative_strength_20d_pct": 10.648902979364637,
             "relative_strength_60d_pct": -3.719556512556842,
-            "high_252": 161.67482859205708,
+            "high_252": 161.6748440542964,
             "low_252": 142.60000610351562,
-            "distance_to_high_252_pct": -1.0977804714740302
+            "distance_to_high_252_pct": -1.097789930272608
           },
           "trend": {
             "ma20_rising": true,
@@ -22578,7 +22578,7 @@
       "runtime_session": "2026-08-10",
       "production_session": "2026-08-10",
       "cache_session": "2026-08-10",
-      "data_revision": "79d4518d7d0f1fafe19fbcc399476016aae1b46d1bc5d263dbec4e80b69a356e",
+      "data_revision": "64d026e1109806fd13c41a0c079f140dcdbd931f0b6a9db9d84e09ac114607b3",
       "champion_action": "EXTERNAL_RISK_AND_CHAMPION_REVIEW_REQUIRED",
       "active_experiment_hashes": [
         "0923f75561f0bb3d92c9c2b80ebcdc36befb425d6d86326e63d080c7c860afa5",
@@ -22624,7 +22624,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-11T23:37:34+09:00",
+          "retrieved_at": "2026-08-11T23:44:03+09:00",
           "data_revision": "67af310df8e130b4dc7a436549165902f91647e69be6727f6c243ee354ae920d"
         },
         "raw_adjusted_ohlcv": [
@@ -24469,7 +24469,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:35+09:00",
+            "retrieved_at": "2026-08-11T23:44:04+09:00",
             "data_revision": "bfefea97e5786e1de4b2760e2bbcf112b4826e040b142bdb5c077be067a7f9fd",
             "source_meta": {
               "currency": "USD",
@@ -24511,7 +24511,7 @@
             "ma20": 207.51799850463868,
             "ma60": 208.45713119506837,
             "ma120": 199.359353129069,
-            "ma200": 193.98298034667968,
+            "ma200": 193.98298011779787,
             "atr14": 7.972856794084821,
             "return_20d_pct": 6.888421538126122,
             "return_60d_pct": -3.5541995320767406,
@@ -24519,7 +24519,7 @@
             "relative_strength_20d_pct": 3.7246255624991953,
             "relative_strength_60d_pct": -7.703171735874981,
             "high_252": 236.26463268418732,
-            "low_252": 163.8517783946414,
+            "low_252": 163.85179338392152,
             "distance_to_high_252_pct": -7.921045744263033
           },
           "trend": {
@@ -25321,7 +25321,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:36+09:00",
+            "retrieved_at": "2026-08-11T23:44:06+09:00",
             "data_revision": "e5d95f4886aa985af41aeec4e0d6a9c5973b864418b54b160de0c20e89e85e11",
             "source_meta": {
               "currency": "USD",
@@ -25363,16 +25363,16 @@
             "ma20": 429.58899993896483,
             "ma60": 410.19776153564453,
             "ma120": 403.86138381958006,
-            "ma200": 431.7890814208984,
+            "ma200": 431.78908126831055,
             "atr14": 18.05356924874442,
             "return_20d_pct": 29.430422823674142,
             "return_60d_pct": 25.158822497164923,
             "return_120d_pct": 28.083868471642816,
             "relative_strength_20d_pct": 26.266626848047217,
             "relative_strength_60d_pct": 21.009850293366682,
-            "high_252": 550.2352153811122,
+            "high_252": 550.2351530342114,
             "low_252": 349.20001220703125,
-            "distance_to_high_252_pct": -8.02842431521239
+            "distance_to_high_252_pct": -8.028413893954001
           },
           "trend": {
             "ma20_rising": true,
@@ -26173,8 +26173,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:37+09:00",
-            "data_revision": "800b9cadd663971d371aaf22c738bb9c6a0d451a54fa78ea1eda78088e0dd8ea",
+            "retrieved_at": "2026-08-11T23:44:07+09:00",
+            "data_revision": "1731d44c7fdd6bb9fc382a2045cff55820048f24e50254c3612e035a960af66b",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -26214,8 +26214,8 @@
             "ma5": 310.6612487792969,
             "ma20": 322.7139724731445,
             "ma60": 308.5386688232422,
-            "ma120": 286.55248692830406,
-            "ma200": 279.12304267883303,
+            "ma120": 286.5524895985921,
+            "ma200": 279.1230442047119,
             "atr14": 9.42096708078995,
             "return_20d_pct": -2.7683085797255313,
             "return_60d_pct": 3.230793711106661,
@@ -26223,14 +26223,14 @@
             "relative_strength_20d_pct": -5.932104555352458,
             "relative_strength_60d_pct": -0.9181784926915793,
             "high_252": 344.2730974331505,
-            "low_252": 218.19545972697713,
+            "low_252": 218.19544514014734,
             "distance_to_high_252_pct": -10.460616277029422
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": true,
             "ma20_slope_5d_pct": -0.28178220184391645,
-            "ma60_slope_5d_pct": 0.4776001066665314,
+            "ma60_slope_5d_pct": 0.477599940238016,
             "above_ma20": false,
             "above_ma60": false,
             "above_ma200": true,
@@ -26293,10 +26293,10 @@
           "raw_adjusted_ohlcv": [
             {
               "date": "2026-04-01",
-              "open": 253.62737973002484,
-              "high": 255.7236296181179,
-              "low": 252.8787157917901,
-              "close": 255.17462158203125,
+              "open": 253.6273948962928,
+              "high": 255.72364490973627,
+              "low": 252.8787309132899,
+              "close": 255.1746368408203,
               "volume": 40059400
             },
             {
@@ -26309,10 +26309,10 @@
             },
             {
               "date": "2026-04-06",
-              "open": 256.053045051996,
-              "high": 261.6929736576745,
-              "low": 256.003115847535,
-              "close": 258.3988342285156,
+              "open": 256.0530752925303,
+              "high": 261.6930045642991,
+              "low": 256.0031460821725,
+              "close": 258.39886474609375,
               "volume": 29329900
             },
             {
@@ -26325,18 +26325,18 @@
             },
             {
               "date": "2026-04-08",
-              "open": 257.98960165960847,
-              "high": 259.2872736156141,
-              "low": 256.0730086009651,
-              "close": 258.43878173828125,
+              "open": 257.9896321241455,
+              "high": 259.28730423338584,
+              "low": 256.07303883918246,
+              "close": 258.4388122558594,
               "volume": 41032800
             },
             {
               "date": "2026-04-09",
-              "open": 258.5386040524215,
-              "high": 260.65482250105316,
-              "low": 255.6138310165902,
-              "close": 260.02593994140625,
+              "open": 258.5386343954405,
+              "high": 260.6548530924392,
+              "low": 255.61386101634736,
+              "close": 260.0259704589844,
               "volume": 28121600
             },
             {
@@ -26357,10 +26357,10 @@
             },
             {
               "date": "2026-04-14",
-              "open": 258.78816168339415,
-              "high": 261.4633801130582,
-              "low": 256.73183388682423,
-              "close": 258.368896484375,
+              "open": 258.7881922504944,
+              "high": 261.4634109961452,
+              "low": 256.7318642110386,
+              "close": 258.3689270019531,
               "volume": 48370700
             },
             {
@@ -26373,10 +26373,10 @@
             },
             {
               "date": "2026-04-16",
-              "open": 266.3246925362851,
-              "high": 266.6840670491935,
-              "low": 260.804545264895,
-              "close": 262.9307556152344,
+              "open": 266.3247234477873,
+              "high": 266.68409800240715,
+              "low": 260.80457553569033,
+              "close": 262.9307861328125,
               "volume": 43323100
             },
             {
@@ -26461,18 +26461,18 @@
             },
             {
               "date": "2026-05-01",
-              "open": 278.36321169794013,
-              "high": 286.7083346607987,
-              "low": 277.87409435408995,
-              "close": 279.6409606933594,
+              "open": 278.3632420760759,
+              "high": 286.70836594964845,
+              "low": 277.8741246788477,
+              "close": 279.6409912109375,
               "volume": 79915400
             },
             {
               "date": "2026-05-04",
-              "open": 279.16182884121525,
-              "high": 280.13010214166496,
-              "low": 274.3703610857382,
-              "close": 276.33685302734375,
+              "open": 279.16179801165765,
+              "high": 280.13007120517506,
+              "low": 274.3703307853319,
+              "close": 276.3368225097656,
               "volume": 46668400
             },
             {
@@ -26485,18 +26485,18 @@
             },
             {
               "date": "2026-05-06",
-              "open": 281.4177950537395,
-              "high": 287.5168959460148,
-              "low": 280.5693031693742,
-              "close": 286.9978332519531,
+              "open": 281.4178249779708,
+              "high": 287.5169265187869,
+              "low": 280.5693330033821,
+              "close": 286.99786376953125,
               "volume": 58336100
             },
             {
               "date": "2026-05-07",
-              "open": 288.75467457606095,
-              "high": 291.60959552514373,
-              "low": 285.2709015174152,
-              "close": 286.9279479980469,
+              "open": 288.75470528792926,
+              "high": 291.6096265406606,
+              "low": 285.2709318587503,
+              "close": 286.927978515625,
               "volume": 45224300
             },
             {
@@ -27025,7 +27025,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:38+09:00",
+            "retrieved_at": "2026-08-11T23:44:07+09:00",
             "data_revision": "5490351092f26690dfa0bb69bf0421dc6de2cd2ddffbe5dcc9fda59828ccad58",
             "source_meta": {
               "currency": "USD",
@@ -27877,7 +27877,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:38+09:00",
+            "retrieved_at": "2026-08-11T23:44:09+09:00",
             "data_revision": "d7c52137e17df71e25c8ae7cd66c3f8dcbaa00ff9d63f43166d091cf964e748e",
             "source_meta": {
               "currency": "USD",
@@ -28707,7 +28707,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:39+09:00",
+            "retrieved_at": "2026-08-11T23:44:10+09:00",
             "data_revision": "47f1b8ad868bed9081d8c3dd1c1abfaa1d21743e8105c9097201fa2c87e09de5",
             "source_meta": {
               "currency": "USD",
@@ -28756,9 +28756,9 @@
             "return_120d_pct": -6.774516361137806,
             "relative_strength_20d_pct": -12.57557850373323,
             "relative_strength_60d_pct": -7.580305463354797,
-            "high_252": 793.6487524142633,
+            "high_252": 793.6488143059948,
             "low_252": 519.7782492802263,
-            "distance_to_high_252_pct": -25.039889359061952
+            "distance_to_high_252_pct": -25.039895204734442
           },
           "trend": {
             "ma20_rising": false,
@@ -29559,8 +29559,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:40+09:00",
-            "data_revision": "cb2000e1d4909e5e7ac76823351b33528634736ad481a8ef13337b4abf773679",
+            "retrieved_at": "2026-08-11T23:44:11+09:00",
+            "data_revision": "e4d0fb60b24e63c883227f69cf8b79f6caa8123aef8fdac3e7186ebd87a1158c",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -29601,7 +29601,7 @@
             "ma20": 393.7750015258789,
             "ma60": 399.08522033691406,
             "ma120": 378.44206085205076,
-            "ma200": 366.99584091186523,
+            "ma200": 366.99584106445315,
             "atr14": 16.215709141322545,
             "return_20d_pct": 9.98568085469882,
             "return_60d_pct": 1.506395593831944,
@@ -30411,7 +30411,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:41+09:00",
+            "retrieved_at": "2026-08-11T23:44:11+09:00",
             "data_revision": "0c7ee450330f95a77903754781f38a6a50bdf007fa45c124c6b4f7c4e0f7cc12",
             "source_meta": {
               "currency": "USD",
@@ -31241,8 +31241,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:42+09:00",
-            "data_revision": "be1f79fabb03484a63fcd93bb313158004c3df92dcaf4e8e145282deacb23b83",
+            "retrieved_at": "2026-08-11T23:44:13+09:00",
+            "data_revision": "2dfc595454803229f4a168ef6e3e0eba1e30f803a3e17d727e7f8d92f4bda1c7",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NYQ",
@@ -31282,16 +31282,16 @@
             "ma5": 358.07399291992186,
             "ma20": 350.66699981689453,
             "ma60": 327.89183400472007,
-            "ma120": 313.19942270914714,
-            "ma200": 311.12311187744143,
+            "ma120": 313.1994229634603,
+            "ma200": 311.12311264038084,
             "atr14": 6.385713849748884,
             "return_20d_pct": 7.550895243415834,
             "return_60d_pct": 20.369965947107495,
-            "return_120d_pct": 18.275785374415786,
+            "return_120d_pct": 18.275797240097404,
             "relative_strength_20d_pct": 4.387099267788908,
             "relative_strength_60d_pct": 16.220993743309254,
             "high_252": 363,
-            "low_252": 276.4336079693154,
+            "low_252": 276.43363807803536,
             "distance_to_high_252_pct": -0.8842951666881871
           },
           "trend": {
@@ -32093,7 +32093,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:42+09:00",
+            "retrieved_at": "2026-08-11T23:44:14+09:00",
             "data_revision": "928cdf80f32d9329210d14540c8866aac2b7d07747c915978d431837c745c911",
             "source_meta": {
               "currency": "USD",
@@ -32135,7 +32135,7 @@
             "ma20": 214.59670486450196,
             "ma60": 211.97927322387696,
             "ma120": 192.50738741556805,
-            "ma200": 184.13908851623535,
+            "ma200": 184.13908882141112,
             "atr14": 5.73079221502774,
             "return_20d_pct": -2.069135178760906,
             "return_60d_pct": 11.703727450468214,
@@ -32143,7 +32143,7 @@
             "relative_strength_20d_pct": -5.232931154387832,
             "relative_strength_60d_pct": 7.554755246669974,
             "high_252": 230.9785232797176,
-            "low_252": 137.90380738731824,
+            "low_252": 137.90379245568434,
             "distance_to_high_252_pct": -6.774881589191029
           },
           "trend": {
@@ -32945,7 +32945,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:43+09:00",
+            "retrieved_at": "2026-08-11T23:44:15+09:00",
             "data_revision": "169c608db9cea0f2be65193af981505bbcf21148f549e367f550b660831e3210",
             "source_meta": {
               "currency": "USD",
@@ -32987,7 +32987,7 @@
             "ma20": 358.21300048828124,
             "ma60": 343.7874577840169,
             "ma120": 324.29282201131184,
-            "ma200": 316.6101705932617,
+            "ma200": 316.6101707458496,
             "atr14": 9.988571166992188,
             "return_20d_pct": 3.7575684100335405,
             "return_60d_pct": 24.582515727782805,
@@ -33797,7 +33797,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:44+09:00",
+            "retrieved_at": "2026-08-11T23:44:15+09:00",
             "data_revision": "a46e6f66c58d6248a4eb854957d7e9c31b001eee9c829eb40717f09d4de1b36e",
             "source_meta": {
               "currency": "USD",
@@ -33839,7 +33839,7 @@
             "ma20": 863.021728515625,
             "ma60": 909.5845296223958,
             "ma120": 839.1778325398762,
-            "ma200": 745.3485865783691,
+            "ma200": 745.3485836791992,
             "atr14": 40.722137451171875,
             "return_20d_pct": -9.912948546718969,
             "return_60d_pct": -7.000571770942743,
@@ -33847,7 +33847,7 @@
             "relative_strength_20d_pct": -13.076744522345894,
             "relative_strength_60d_pct": -11.149543974740983,
             "high_252": 1071.4723093369823,
-            "low_252": 401.8427420048564,
+            "low_252": 401.84277199142224,
             "distance_to_high_252_pct": -21.829056169624117
           },
           "trend": {
@@ -34649,7 +34649,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:45+09:00",
+            "retrieved_at": "2026-08-11T23:44:16+09:00",
             "data_revision": "204b3e7e9c391e64d4e6be44c55d90b836e462f62afed9b07d0844422d6bf877",
             "source_meta": {
               "currency": "USD",
@@ -35501,7 +35501,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-11T23:37:46+09:00",
+            "retrieved_at": "2026-08-11T23:44:17+09:00",
             "data_revision": "ce428e2a13bd2dd2af3a4516328c9a53997b653c10716f36f7ce41267473fa4f",
             "source_meta": {
               "currency": "USD",
@@ -35543,7 +35543,7 @@
             "ma20": 942.911245727539,
             "ma60": 964.5382639567057,
             "ma120": 980.2632914225261,
-            "ma200": 955.3644519042969,
+            "ma200": 955.3644515991211,
             "atr14": 18.665220646228754,
             "return_20d_pct": 3.004519769164804,
             "return_60d_pct": -7.629145527984482,
@@ -36388,13 +36388,13 @@
     "schema_version": "lab_summary_v1",
     "version": "1.5.1-candidate.16",
     "revision": "lab-v151-candidate16-active-experiment-contract-20260811",
-    "generated_at": "2026-08-11T23:37:46+09:00",
+    "generated_at": "2026-08-11T23:44:18+09:00",
     "markets": {
       "KR": {
         "status": "READY",
         "market_state": "OFF",
         "last_successful_session": "2026-08-11",
-        "last_attempt_at": "2026-08-11T23:37:11+09:00",
+        "last_attempt_at": "2026-08-11T23:43:42+09:00",
         "last_error": null,
         "benchmark": "^KS11",
         "data_revision": "24004c8c8b5fff3f35f60c778c9fa787ac674453994279bef432f64281ae840f",
@@ -36414,7 +36414,7 @@
         "status": "READY",
         "market_state": "WAIT",
         "last_successful_session": "2026-08-10",
-        "last_attempt_at": "2026-08-11T23:37:25+09:00",
+        "last_attempt_at": "2026-08-11T23:43:55+09:00",
         "last_error": null,
         "benchmark": "^N225",
         "data_revision": "b2184b8ef11313c376a82115b8b5e53acc9badd03e51ec54652aa83ab4f1f1f8",
@@ -36434,7 +36434,7 @@
         "status": "READY",
         "market_state": "ON",
         "last_successful_session": "2026-08-10",
-        "last_attempt_at": "2026-08-11T23:37:34+09:00",
+        "last_attempt_at": "2026-08-11T23:44:02+09:00",
         "last_error": null,
         "benchmark": "^GSPC",
         "data_revision": "67af310df8e130b4dc7a436549165902f91647e69be6727f6c243ee354ae920d",
@@ -36508,8 +36508,8 @@
       "note": "experiment_hash가 다른 성과는 승격 판단에서 합산하지 않는다. overall_reference_only는 운영 참고용이다."
     },
     "actual_buy": false,
-    "published_at": "2026-08-11T23:37:46+09:00",
-    "publish_id": "20260811_233746-69e21f756bba"
+    "published_at": "2026-08-11T23:44:18+09:00",
+    "publish_id": "20260811_234418-140248e6e0d9"
   },
-  "source_fingerprint": "01baffffbb7ec6330ce874e39eb63059b124f809c8dda16a0582243e01c93fe9"
+  "source_fingerprint": "801c95ac2e620e32cbee20558aea37bf1ad32637fe7827b01a83e76a14d259ae"
 }
