@@ -4,19 +4,21 @@
 
 - frozen_instruction: `VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`
 - frozen_operational_status: `FROZEN`
-- freeze_timestamp: `2026-08-11T15:16+09:00`
+- original_freeze_timestamp: `2026-08-11T15:16+09:00`
+- freeze_reaffirmed_timestamp: `2026-08-11T16:48+09:00`
 - repository: `wskimgit/stock-letter`
 - branch: `main`
 - frozen_blob_sha: `99694d8d476dea84aae28b1d344ce273ef5e4fa2`
 - wiki_schema: `VOLUME_CYCLE_WIKI_V2`
 - wiki_file: `../거래량-순환매-Wiki.md`
 
-## 직전 동결 기준
+## 직전 기준 해제
 
-- previous_frozen_instruction: `VOLUME_CYCLE_INSTRUCTION_v2.1.0.md`
-- previous_status: `FROZEN_HISTORY`
+- previous_instruction: `VOLUME_CYCLE_INSTRUCTION_v2.1.0.md`
+- previous_status: `RELEASED_HISTORY`
+- release_timestamp: `2026-08-11T16:48+09:00`
 - previous_blob_sha: `99986e11d0b2a5aa6f98a1ba3787c63508febd4d`
-- 처리: 파일은 수정·삭제하지 않고 이전 기준본으로 보존한다.
+- 처리: 동결 효력만 해제하고 파일은 수정·삭제하지 않은 채 감사·이력용으로 보존한다.
 
 ## 현재 기본 유니버스
 
@@ -43,19 +45,20 @@
 - `v1.1.0` = HISTORY
 - `v1.2.0` = FROZEN_HISTORY
 - `v2.0.0` = FROZEN_HISTORY
-- `v2.1.0` = FROZEN_HISTORY
-- `v2.2.0` = **현재 FROZEN 운영 기준본**
+- `v2.1.0` = **RELEASED_HISTORY**
+- `v2.2.0` = **현재 유일한 FROZEN 운영 기준본**
 
 ## 동결 원칙
 
-1. 현재 운영 기준은 `VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`이다.
+1. 현재 운영 기준은 `VOLUME_CYCLE_INSTRUCTION_v2.2.0.md` 하나뿐이다.
 2. v2.2.0의 동결 무결성 기준 SHA는 `99694d8d476dea84aae28b1d344ce273ef5e4fa2`이다.
 3. v2.2.0 파일은 직접 수정·덮어쓰기하지 않는다.
-4. 이후 변경은 반드시 새 버전 파일로 생성한다.
-5. 재질의 시 GitHub를 먼저 읽고 최신 시장데이터와 비교한다.
-6. Wiki의 Current View, Cycle Elapsed View, Intraday View, Revision Timeline은 계속 갱신할 수 있다.
-7. 유동성·기업위험 게이트를 경과일보다 먼저 적용한다.
-8. 표본이 부족하면 `자료상태=제한/부족`을 명시하고 주기성을 확정하지 않는다.
+4. v2.1.0은 `RELEASED_HISTORY`이며 운영 동결 효력이 없다.
+5. 이후 변경은 반드시 새 버전 파일로 생성한다.
+6. 재질의 시 GitHub를 먼저 읽고 최신 시장데이터와 비교한다.
+7. Wiki의 Current View, Cycle Elapsed View, Intraday View, Revision Timeline은 계속 갱신할 수 있다.
+8. 유동성·기업위험 게이트를 경과일보다 먼저 적용한다.
+9. 표본이 부족하면 `자료상태=제한/부족`을 명시하고 주기성을 확정하지 않는다.
 
 운영선:
-`v1.0.0 RELEASED_HISTORY → v1.1.0 HISTORY → v1.2.0 FROZEN_HISTORY → v2.0.0 FROZEN_HISTORY → v2.1.0 FROZEN_HISTORY → v2.2.0 FROZEN`
+`v1.0.0 RELEASED_HISTORY → v1.1.0 HISTORY → v1.2.0 FROZEN_HISTORY → v2.0.0 FROZEN_HISTORY → v2.1.0 RELEASED_HISTORY → v2.2.0 FROZEN`
