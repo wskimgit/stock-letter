@@ -20,13 +20,14 @@
 
 ### 거래량 순환매 기준문
 
-- 현재 동결 지시문: [VOLUME_CYCLE_INSTRUCTION_v2.2.0.md](VOLUME_CYCLE_INSTRUCTION_v2.2.0.md)
+- 현재 유일한 동결 지시문: [VOLUME_CYCLE_INSTRUCTION_v2.2.0.md](VOLUME_CYCLE_INSTRUCTION_v2.2.0.md)
 - 현재 동결 blob SHA: `99694d8d476dea84aae28b1d344ce273ef5e4fa2`
-- 직전 동결 이력: [VOLUME_CYCLE_INSTRUCTION_v2.1.0.md](VOLUME_CYCLE_INSTRUCTION_v2.1.0.md)
+- 직전 기준 이력: [VOLUME_CYCLE_INSTRUCTION_v2.1.0.md](VOLUME_CYCLE_INSTRUCTION_v2.1.0.md) — `RELEASED_HISTORY`
 - 동결 기록: [VOLUME_CYCLE_FREEZE.md](VOLUME_CYCLE_FREEZE.md)
 - v2.0.0 핵심 변경: 스페코→퍼스텍, UAVS→KTOS 교체 및 최소 유동성 게이트 도입
 - v2.1.0 핵심 변경: 직전 주요고점 이후 달력/거래일 경과, 과거 고점간격 평균·중앙값·범위·표본수, 순환 타이밍 상태 추가
 - v2.2.0 핵심 변경: **순환 경과일을 6종목 공통 필수 운영값으로 승격하고 실제 계산값을 Wiki Current View에 상시 유지**
+- 2026-08-11 16:48 KST: `v2.1.0` 동결 효력 해제, `v2.2.0` 동결 재확인
 
 ## 상태 정의
 
