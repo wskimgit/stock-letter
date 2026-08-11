@@ -1,8 +1,11 @@
 # Current configuration
 
 - Wiki schema: `CHATGPT_STOCK_WIKI_V1`
-- Project instruction candidate: `INSTRUCTION_v4.6-candidate.4.md`
-- Project instruction status: `SPEC CANDIDATE`
+- Project instruction: `INSTRUCTION_v4.7.0.md`
+- Project instruction status: `SPEC FROZEN`
+- Project instruction frozen blob SHA: `6e8491d67f44216f0525bd022eb7efe1aeffc446`
+- Project instruction freeze registry: `INSTRUCTION_FREEZE.md`
+- Previous project instruction: `INSTRUCTION_v4.6-candidate.4.md` — `SUPERSEDED_CANDIDATE_HISTORY`
 - LAB implementation candidate: `1.5.1-candidate.16`
 - LAB GitHub source mode: `GITHUB_ACTIONS_PULL`
 - LAB canonical data: `../lab_data/LATEST.json`
@@ -25,11 +28,16 @@
 - Volume-cycle freeze registry: `VOLUME_CYCLE_FREEZE.md`
 - Volume-cycle Wiki: `../거래량-순환매-Wiki.md`
 - Git branch: `main`
+- Project instruction v4.7.0 freeze: `2026-08-12T00:34+09:00`
 - v2.2.0 original freeze: `2026-08-11T15:16+09:00`
 - v2.2.0 freeze reaffirmed: `2026-08-11T16:48+09:00`
 - v2.1.0 released from frozen history: `2026-08-11T16:48+09:00`
 
-LAB 자료를 사용하는 질의(`lab.php 자료로 추천`, `LAB 후보 분석` 등)는 `CURRENT.md → INSTRUCTION_v4.6-candidate.4.md → ../lab_data/LATEST.json` 순으로 확인한다. `LATEST.json`이 `WAITING_FOR_LAB_SYNC`, `DATA_STALE`, `DATA_INVALID`이거나 시장세션/후보세션 무결성이 깨져 있으면 최신 추천으로 사용하지 않는다. NAS `/lab_cache/*`, `/lab.php?view=*`, `/lab_chatgpt.html`은 GitHub canonical 감사·fallback용이며 1차 원천이 아니다.
+일반 전체 추천 질의(`추천하라`, `종목 추천`, 국가별 종목 추천 등)는 `CURRENT.md → INDEX.md → RULES.md → 활성 Stock Wiki 종목 전수 재검증 → 신규 후보 탐색 → 기존+신규 동일기준 비교 → 국가별 최대 1종목 선정` 순으로 처리한다. 기존 Wiki 종목이 최신 완료세션으로 재검증되지 않았으면 과거 `즉시 매입 가능/매입 대기/선발` 상태를 현재 추천 근거로 재사용하지 않는다.
+
+상태가 의미 있게 변하면 Current View + Revision Timeline + INDEX를 동기화한다. 단순 반복확인이나 종가변화만 있으면 새 Revision을 만들지 않는다. 필요하면 최근 검증세션 메타데이터만 갱신할 수 있으며, write가 없으면 `상태 재검증: 유지 / Wiki write 없음`으로 표시한다.
+
+LAB 자료를 사용하는 질의(`lab.php 자료로 추천`, `LAB 후보 분석` 등)는 `CURRENT.md → INSTRUCTION_v4.7.0.md → ../lab_data/LATEST.json` 순으로 확인한다. `LATEST.json`이 `WAITING_FOR_LAB_SYNC`, `DATA_STALE`, `DATA_INVALID`이거나 시장세션/후보세션 무결성이 깨져 있으면 최신 추천으로 사용하지 않는다. NAS `/lab_cache/*`, `/lab.php?view=*`, `/lab_chatgpt.html`은 GitHub canonical 감사·fallback용이며 1차 원천이 아니다.
 
 `lab.php`는 GitHub token/PAT/SSH key를 사용하지 않는다. Tick/cron 후 `/lab_cache/github_source.json`을 발행하고 `.github/workflows/lab-data-sync.yml`이 5분 주기로 HTTPS 우선, HTTP fallback으로 이를 pull하여 `lab_data/LATEST.json`에 commit한다. 별도 사용자 GitHub secret/PAT는 요구하지 않는다. 동일 `source_fingerprint`이면 commit하지 않는다.
 
@@ -37,7 +45,7 @@ LAB 자료를 사용하는 질의(`lab.php 자료로 추천`, `LAB 후보 분석
 
 LAB 현재 추천행은 현재 코드의 active `experiment_hash`와 현재 `market_session`만 사용한다. 과거 experiment_hash는 성과·감사 이력에만 유지하고 `VIRTUAL_OPEN`은 신규 추천이 아닌 `virtual_open_reference`로만 본다. LAB과 ChatGPT Stock Wiki는 계속 독립한다.
 
-거래량 순환매 재질의 시에는 `CURRENT.md → INDEX.md → RULES.md → VOLUME_CYCLE_FREEZE.md → 현재 FROZEN 지시문 → 거래량-순환매-Wiki.md` 순으로 확인한다.
+거래량 순환매 재질의 시에는 `CURRENT.md → INDEX.md → RULES.md → VOLUME_CYCLE_FREEZE.md → 현재 FROZEN VOLUME_CYCLE_INSTRUCTION → 거래량-순환매-Wiki.md` 순으로 확인한다.
 
 현재 기본 감시종목은 KR `빅텍(065450)`, `퍼스텍(010820)`, `한일단조(024740)` / US `RCAT`, `KTOS`, `DPRO`이다.
 
@@ -47,4 +55,6 @@ LAB 현재 추천행은 현재 코드의 active `experiment_hash`와 현재 `mar
 
 순환 경과일은 단독 매수·매도 신호가 아니며, 유동성·M1/M2·거래량 고갈·바닥 유지와 결합해 우선순위만 보정한다.
 
-`VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`만 현재 FROZEN 운영 기준본이다. 본문과 SHA를 직접 수정·덮어쓰기하지 않는다. `v2.1.0`은 동결 효력을 해제하고 `RELEASED_HISTORY`로 보존한다. 향후 변경은 새 버전으로 생성한다.
+`VOLUME_CYCLE_INSTRUCTION_v2.2.0.md`만 현재 FROZEN 거래량 순환매 운영 기준본이다. 본문과 SHA를 직접 수정·덮어쓰기하지 않는다. `v2.1.0`은 동결 효력을 해제하고 `RELEASED_HISTORY`로 보존한다. 향후 변경은 새 버전으로 생성한다.
+
+`INSTRUCTION_v4.7.0.md`는 현재 일반 종목 누적 분석의 **SPEC FROZEN** 기준본이다. 직접 수정하지 않는다. 향후 일반 지시문 변경은 새 버전으로 생성한다.
