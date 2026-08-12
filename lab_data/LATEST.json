@@ -1,12 +1,12 @@
 {
   "schema_version": "lab_github_chatgpt_v1",
   "status": "READY",
-  "version": "1.5.1-candidate.16",
-  "revision": "lab-v151-candidate16-active-experiment-contract-20260811",
+  "version": "1.5.1-candidate.17",
+  "revision": "lab-v151-candidate17-sync-state-and-cron-visibility-20260812",
   "spec_version": "v4.6-candidate.4",
-  "generated_at": "2026-08-12T21:20:00+09:00",
-  "published_at": "2026-08-12T21:20:00+09:00",
-  "publish_id": "20260812_212000-01c0e14b3fb9",
+  "generated_at": "2026-08-12T21:58:19+09:00",
+  "published_at": "2026-08-12T21:58:19+09:00",
+  "publish_id": "20260812_215819-c151eed26afd",
   "lab_only": true,
   "actual_buy": false,
   "source_policy": {
@@ -74,56 +74,26 @@
       "runtime_session": "2026-08-12",
       "production_session": "2026-08-12",
       "cache_session": "2026-08-12",
-      "data_revision": "fc9f3195d16d16e02afbcd15a62d6fa3594e4c98c5b8cf0344399bf915a9b88a",
+      "data_revision": "9b19c1f8ddbb60b500f4352338add6d07a3cf74d58d4fd89b74f2c5d3f023f57",
       "champion_action": "NO_NEW_BUY",
       "active_experiment_hashes": [
-        "b0e5e6b04e7474f70f2ebc6ec3459fbbbbed5d4f39c1349d723fc3d2bb91b648",
-        "f77d57c21770b8bb594748329f214addac4f31ec7011a5cb60ee74e2b40d3df4",
-        "697884c5c7f43b784a89ccc13c9b50be68c74793cb641d06ffa10537ebc25eed"
+        "c0c60dfb4467e0e6e2b3ae1b69f57adf0007d85671ede578fd17f121c612a727",
+        "6e83d9bb4a4c5e0da14dc0fbf9458138d38f87391f0a4e95d0d39fe44b5aa27c",
+        "49ab513e0b0e4d2e8fda77f8c3fc02549b5443a822447ed806a240776609ea38"
       ],
       "active_experiment_map": {
-        "GAP": "b0e5e6b04e7474f70f2ebc6ec3459fbbbbed5d4f39c1349d723fc3d2bb91b648",
-        "RS": "f77d57c21770b8bb594748329f214addac4f31ec7011a5cb60ee74e2b40d3df4",
-        "VCP": "697884c5c7f43b784a89ccc13c9b50be68c74793cb641d06ffa10537ebc25eed"
+        "GAP": "c0c60dfb4467e0e6e2b3ae1b69f57adf0007d85671ede578fd17f121c612a727",
+        "RS": "6e83d9bb4a4c5e0da14dc0fbf9458138d38f87391f0a4e95d0d39fe44b5aa27c",
+        "VCP": "49ab513e0b0e4d2e8fda77f8c3fc02549b5443a822447ed806a240776609ea38"
       },
       "top_candidate": null,
       "current_review_rows": [],
-      "virtual_open_reference": [
-        {
-          "kind": "VIRTUAL_OPEN",
-          "market": "KR",
-          "ticker": "055550",
-          "symbol": "055550.KS",
-          "name": "신한지주",
-          "sector": "금융",
-          "setup": "RS",
-          "setup_version": "v1",
-          "rule_hash": "4f68341adc538ca8047836d82792c39817b39e29d66a01bf53e9f891dc58f6ee",
-          "experiment_hash": "f77d57c21770b8bb594748329f214addac4f31ec7011a5cb60ee74e2b40d3df4",
-          "experiment_mode": "FORWARD",
-          "state": "VIRTUAL_OPEN",
-          "signal_date": "2026-08-11",
-          "entry_session": "2026-08-12",
-          "signal_price": 104500,
-          "entry_price": 105500,
-          "stop": 97388.90840860881,
-          "target": 120144.40150106061,
-          "planned_rr": 2.2,
-          "actual_rr": 1.805478502622709,
-          "score": 3.0310228329363142,
-          "reason": "relative_20d=3.71% ma20_distance=0.68%",
-          "data_date": "2026-08-11",
-          "data_quality_status": "VERIFIED",
-          "data_revision": "445bba51439385f542833552f4988026288b964dd6c0b75a9b7f05bd8377bc2b",
-          "selectable_for_new_review": false,
-          "actual_buy": false
-        }
-      ],
+      "virtual_open_reference": [],
       "integrity": {
-        "candidate_max_session": "2026-08-11",
+        "candidate_max_session": null,
         "candidate_ahead_of_market": false,
-        "older_active_rows_excluded": 1,
-        "old_experiment_rows_excluded": 26
+        "older_active_rows_excluded": 0,
+        "old_experiment_rows_excluded": 28
       },
       "benchmark": {
         "symbol": "^KS11",
@@ -150,7 +120,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-12T21:19:30+09:00",
+          "retrieved_at": "2026-08-12T21:57:46+09:00",
           "data_revision": "48cd9dc2dbbe26157e7b5cdf6f981956656ad120d7959e2d9a915d84623914e4"
         },
         "raw_adjusted_ohlcv": [
@@ -1983,8 +1953,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:31+09:00",
-            "data_revision": "bc8d39edf51c1fe064b080a3ca8cb982229c1f4c475235723d51da60ec0d0bff",
+            "retrieved_at": "2026-08-12T21:57:46+09:00",
+            "data_revision": "e8d167bb510e5afc4827227d2ef4a3422d0d30fc94cae6c5e8e8391593f81f5d",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -2010,7 +1980,7 @@
             "high": 260500,
             "low": 241000,
             "close": 255500,
-            "volume": 27102479
+            "volume": 29198020
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -2025,7 +1995,7 @@
             "ma20": 244075,
             "ma60": 290567.659375,
             "ma120": 249910.559375,
-            "ma200": 198487.6793359375,
+            "ma200": 198487.679296875,
             "atr14": 23592.85714285714,
             "return_20d_pct": -2.851711026615966,
             "return_60d_pct": -5.441114425503879,
@@ -2047,10 +2017,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 29621750.45,
-            "avg_traded_value_20": 7119477143425,
-            "last_volume": 27102479,
-            "volume_ratio_20": 0.9149519723943256
+            "avg_volume_20": 29726527.5,
+            "avg_traded_value_20": 7146247679700,
+            "last_volume": 29198020,
+            "volume_ratio_20": 0.9822210145466873
           },
           "corporate_actions_180d": [
             {
@@ -2081,10 +2051,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 29621750.45,
-                "avg_traded_value_20": 7119477143425,
-                "last_volume": 27102479,
-                "volume_ratio_20": 0.9149519723943256
+                "avg_volume_20": 29726527.5,
+                "avg_traded_value_20": 7146247679700,
+                "last_volume": 29198020,
+                "volume_ratio_20": 0.9822210145466873
               },
               "data_integrity": {
                 "ok": true
@@ -2819,7 +2789,7 @@
               "high": 260500,
               "low": 241000,
               "close": 255500,
-              "volume": 27102479
+              "volume": 29198020
             }
           ]
         },
@@ -2835,8 +2805,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:32+09:00",
-            "data_revision": "153e839c8ae27b20205dbc09873adde4c4d6b3b47a94b33eb7035f26d29fcef6",
+            "retrieved_at": "2026-08-12T21:57:47+09:00",
+            "data_revision": "df9d1eda3266d4f1865a9bbc9d2873bd00c09bb46b33eafbe46ab55e75208a9e",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -2862,7 +2832,7 @@
             "high": 1549000,
             "low": 1440000,
             "close": 1504000,
-            "volume": 4566672
+            "volume": 4910808
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -2876,8 +2846,8 @@
             "ma5": 1453200,
             "ma20": 1645850,
             "ma60": 2067962.3645833333,
-            "ma120": 1597824.4572916667,
-            "ma200": 1217744.39453125,
+            "ma120": 1597824.4578125,
+            "ma200": 1217744.3940625,
             "atr14": 180785.7142857143,
             "return_20d_pct": -21.380031364349193,
             "return_60d_pct": -17.30338091848369,
@@ -2899,10 +2869,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 5880126.25,
-            "avg_traded_value_20": 9553647007950,
-            "last_volume": 4566672,
-            "volume_ratio_20": 0.7766282229059283
+            "avg_volume_20": 5897333.05,
+            "avg_traded_value_20": 9579526035150,
+            "last_volume": 4910808,
+            "volume_ratio_20": 0.8327167481239677
           },
           "corporate_actions_180d": [
             {
@@ -2933,10 +2903,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 5880126.25,
-                "avg_traded_value_20": 9553647007950,
-                "last_volume": 4566672,
-                "volume_ratio_20": 0.7766282229059283
+                "avg_volume_20": 5897333.05,
+                "avg_traded_value_20": 9579526035150,
+                "last_volume": 4910808,
+                "volume_ratio_20": 0.8327167481239677
               },
               "data_integrity": {
                 "ok": true
@@ -3671,7 +3641,7 @@
               "high": 1549000,
               "low": 1440000,
               "close": 1504000,
-              "volume": 4566672
+              "volume": 4910808
             }
           ]
         },
@@ -3687,8 +3657,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:33+09:00",
-            "data_revision": "b97fe7f3009aad3cb5e8157a9435f8040e6f47014217bf14d28aedf4622dfc9e",
+            "retrieved_at": "2026-08-12T21:57:48+09:00",
+            "data_revision": "994cf25bce9a0374bff01d2b22cf3d2f35b618819cea6966ad731db788405e83",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -3714,7 +3684,7 @@
             "high": 413000,
             "low": 400500,
             "close": 409500,
-            "volume": 411565
+            "volume": 436525
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -3729,7 +3699,7 @@
             "ma20": 398675,
             "ma60": 520704.94479166664,
             "ma120": 526972.3927083333,
-            "ma200": 450851.020859375,
+            "ma200": 450851.020625,
             "atr14": 25892.85714285714,
             "return_20d_pct": -3.5335689045936425,
             "return_60d_pct": -41.284451025747735,
@@ -3737,7 +3707,7 @@
             "relative_strength_20d_pct": 0.5177206256620321,
             "relative_strength_60d_pct": -29.08482262666896,
             "high_252": 783000,
-            "low_252": 201064.5233264218,
+            "low_252": 201064.53865521325,
             "distance_to_high_252_pct": -47.70114942528736
           },
           "trend": {
@@ -3751,10 +3721,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 775779.35,
-            "avg_traded_value_20": 306513333725,
-            "last_volume": 411565,
-            "volume_ratio_20": 0.530518117039336
+            "avg_volume_20": 777027.35,
+            "avg_traded_value_20": 307024389725,
+            "last_volume": 436525,
+            "volume_ratio_20": 0.5617884621435784
           },
           "corporate_actions_180d": [
             {
@@ -3785,10 +3755,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 775779.35,
-                "avg_traded_value_20": 306513333725,
-                "last_volume": 411565,
-                "volume_ratio_20": 0.530518117039336
+                "avg_volume_20": 777027.35,
+                "avg_traded_value_20": 307024389725,
+                "last_volume": 436525,
+                "volume_ratio_20": 0.5617884621435784
               },
               "data_integrity": {
                 "ok": true
@@ -4523,7 +4493,7 @@
               "high": 413000,
               "low": 400500,
               "close": 409500,
-              "volume": 411565
+              "volume": 436525
             }
           ]
         },
@@ -4539,8 +4509,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:33+09:00",
-            "data_revision": "1f3d831a8102fea2f3e6e1536e7be60630b244ad802acb73332ef4c19aeb1ab9",
+            "retrieved_at": "2026-08-12T21:57:48+09:00",
+            "data_revision": "b4157b1a21d8de96cc81bd160ea17fbfa5c62d26f16cf65870af224aa9658e38",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -4566,7 +4536,7 @@
             "high": 137900,
             "low": 134700,
             "close": 135600,
-            "volume": 851047
+            "volume": 915738
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -4603,10 +4573,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 968668.7,
-            "avg_traded_value_20": 129180587415,
-            "last_volume": 851047,
-            "volume_ratio_20": 0.8785738612179789
+            "avg_volume_20": 971903.25,
+            "avg_traded_value_20": 129619192395,
+            "last_volume": 915738,
+            "volume_ratio_20": 0.942211068848674
           },
           "corporate_actions_180d": [
             {
@@ -4627,10 +4597,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 968668.7,
-                "avg_traded_value_20": 129180587415,
-                "last_volume": 851047,
-                "volume_ratio_20": 0.8785738612179789
+                "avg_volume_20": 971903.25,
+                "avg_traded_value_20": 129619192395,
+                "last_volume": 915738,
+                "volume_ratio_20": 0.942211068848674
               },
               "data_integrity": {
                 "ok": true
@@ -5365,7 +5335,7 @@
               "high": 137900,
               "low": 134700,
               "close": 135600,
-              "volume": 851047
+              "volume": 915738
             }
           ]
         },
@@ -5381,8 +5351,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:34+09:00",
-            "data_revision": "407f9908506f323330921a917daf6b4b4aec6938735fdcba0f3c0bca9ae58476",
+            "retrieved_at": "2026-08-12T21:57:49+09:00",
+            "data_revision": "8fc8d7e96a9b0f4e500a2cae23721844b07376e1fff19a11858997923e30b9f5",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -5408,7 +5378,7 @@
             "high": 220500,
             "low": 214500,
             "close": 215500,
-            "volume": 862865
+            "volume": 833014
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -5445,10 +5415,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 1308881.5,
-            "avg_traded_value_20": 275921547865,
-            "last_volume": 862865,
-            "volume_ratio_20": 0.6592384413715069
+            "avg_volume_20": 1307388.95,
+            "avg_traded_value_20": 275599903340,
+            "last_volume": 833014,
+            "volume_ratio_20": 0.6371585135395247
           },
           "corporate_actions_180d": [
             {
@@ -5469,10 +5439,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1308881.5,
-                "avg_traded_value_20": 275921547865,
-                "last_volume": 862865,
-                "volume_ratio_20": 0.6592384413715069
+                "avg_volume_20": 1307388.95,
+                "avg_traded_value_20": 275599903340,
+                "last_volume": 833014,
+                "volume_ratio_20": 0.6371585135395247
               },
               "data_integrity": {
                 "ok": true
@@ -6207,7 +6177,7 @@
               "high": 220500,
               "low": 214500,
               "close": 215500,
-              "volume": 862865
+              "volume": 833014
             }
           ]
         },
@@ -6223,8 +6193,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:35+09:00",
-            "data_revision": "6587983a2688b15a3901f3741b8b5eb450093c1d87b8dbe3976dd80df98c7b64",
+            "retrieved_at": "2026-08-12T21:57:50+09:00",
+            "data_revision": "641c46cf77baf0bb9f8e00e87437ab74e5f9c4a1774786533afe07beddec79e8",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -6250,7 +6220,7 @@
             "high": 41450,
             "low": 39500,
             "close": 39550,
-            "volume": 2446194
+            "volume": 2365015
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -6287,10 +6257,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 2387881.1,
-            "avg_traded_value_20": 88982369345,
-            "last_volume": 2446194,
-            "volume_ratio_20": 1.0244203532579574
+            "avg_volume_20": 2383822.15,
+            "avg_traded_value_20": 88821837872.5,
+            "last_volume": 2365015,
+            "volume_ratio_20": 0.9921105062305089
           },
           "corporate_actions_180d": [
             {
@@ -6311,10 +6281,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 2387881.1,
-                "avg_traded_value_20": 88982369345,
-                "last_volume": 2446194,
-                "volume_ratio_20": 1.0244203532579574
+                "avg_volume_20": 2383822.15,
+                "avg_traded_value_20": 88821837872.5,
+                "last_volume": 2365015,
+                "volume_ratio_20": 0.9921105062305089
               },
               "data_integrity": {
                 "ok": true
@@ -7049,7 +7019,7 @@
               "high": 41450,
               "low": 39500,
               "close": 39550,
-              "volume": 2446194
+              "volume": 2365015
             }
           ]
         },
@@ -7065,8 +7035,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:35+09:00",
-            "data_revision": "e70a6c7d3ac01ca934ed8a8124a2f8a842b6d4f3013c00755ab221038d0b3471",
+            "retrieved_at": "2026-08-12T21:57:51+09:00",
+            "data_revision": "fcff665928b71b05580eed240841325f2f993d8138f464c3877c099ad3410b7b",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -7092,7 +7062,7 @@
             "high": 281000,
             "low": 272000,
             "close": 275500,
-            "volume": 127493
+            "volume": 117471
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -7129,10 +7099,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 196001.15,
-            "avg_traded_value_20": 50183061025,
-            "last_volume": 127493,
-            "volume_ratio_20": 0.6504706732588049
+            "avg_volume_20": 195500.05,
+            "avg_traded_value_20": 50045007975,
+            "last_volume": 117471,
+            "volume_ratio_20": 0.6008745266305558
           },
           "corporate_actions_180d": [
             {
@@ -7153,10 +7123,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 196001.15,
-                "avg_traded_value_20": 50183061025,
-                "last_volume": 127493,
-                "volume_ratio_20": 0.6504706732588049
+                "avg_volume_20": 195500.05,
+                "avg_traded_value_20": 50045007975,
+                "last_volume": 117471,
+                "volume_ratio_20": 0.6008745266305558
               },
               "data_integrity": {
                 "ok": true
@@ -7891,7 +7861,7 @@
               "high": 281000,
               "low": 272000,
               "close": 275500,
-              "volume": 127493
+              "volume": 117471
             }
           ]
         },
@@ -7907,8 +7877,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:36+09:00",
-            "data_revision": "853ead26949d4f38ac937b275957b38d8a6248c5da2fe086d8c6f1a3c44160b3",
+            "retrieved_at": "2026-08-12T21:57:51+09:00",
+            "data_revision": "d88435541c58688c2f9a694ab926021d507704dee6ee27b1dd55964f350c4e50",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -7934,7 +7904,7 @@
             "high": 496500,
             "low": 459500,
             "close": 485500,
-            "volume": 479152
+            "volume": 498802
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -7971,10 +7941,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 449379.25,
-            "avg_traded_value_20": 190036459500,
-            "last_volume": 479152,
-            "volume_ratio_20": 1.0662530590809434
+            "avg_volume_20": 450361.75,
+            "avg_traded_value_20": 190513463250,
+            "last_volume": 498802,
+            "volume_ratio_20": 1.1075585348888977
           },
           "corporate_actions_180d": [],
           "company_risk": {
@@ -7983,10 +7953,10 @@
             "lab_available": {
               "corporate_actions": [],
               "liquidity": {
-                "avg_volume_20": 449379.25,
-                "avg_traded_value_20": 190036459500,
-                "last_volume": 479152,
-                "volume_ratio_20": 1.0662530590809434
+                "avg_volume_20": 450361.75,
+                "avg_traded_value_20": 190513463250,
+                "last_volume": 498802,
+                "volume_ratio_20": 1.1075585348888977
               },
               "data_integrity": {
                 "ok": true
@@ -8721,7 +8691,7 @@
               "high": 496500,
               "low": 459500,
               "close": 485500,
-              "volume": 479152
+              "volume": 498802
             }
           ]
         },
@@ -8737,7 +8707,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:37+09:00",
+            "retrieved_at": "2026-08-12T21:57:52+09:00",
             "data_revision": "9a1409453bb422b183b02478618202b4ef3182292f2248a9ccdb2cf4d97bbe7e",
             "source_meta": {
               "currency": "KRW",
@@ -9567,8 +9537,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:38+09:00",
-            "data_revision": "93710c0767834deabbfefd1cd80781dc9cc297a4fb20e82168cb4df80b884605",
+            "retrieved_at": "2026-08-12T21:57:53+09:00",
+            "data_revision": "6c6efd5bffaf418815ead1a4fde88670d0df3328d6ffcd62803bfa38c0fe430d",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -9594,7 +9564,7 @@
             "high": 170300,
             "low": 165600,
             "close": 166000,
-            "volume": 996808
+            "volume": 920851
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -9608,8 +9578,8 @@
             "ma5": 170320,
             "ma20": 170270.13125,
             "ma60": 163302.54921875,
-            "ma120": 158081.65950520834,
-            "ma200": 145038.4222265625,
+            "ma120": 158081.659375,
+            "ma200": 145038.4223046875,
             "atr14": 7772.696891943434,
             "return_20d_pct": -7.149529896426799,
             "return_60d_pct": 7.410571145399669,
@@ -9617,7 +9587,7 @@
             "relative_strength_20d_pct": -3.098240366171124,
             "relative_strength_60d_pct": 19.610199544478444,
             "high_252": 193183.9651584318,
-            "low_252": 101795.3982606132,
+            "low_252": 101795.39046285379,
             "distance_to_high_252_pct": -14.071543223651094
           },
           "trend": {
@@ -9631,10 +9601,10 @@
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 1130120.85,
-            "avg_traded_value_20": 192115031307.23438,
-            "last_volume": 996808,
-            "volume_ratio_20": 0.8820366423643984
+            "avg_volume_20": 1126323,
+            "avg_traded_value_20": 191484588207.23438,
+            "last_volume": 920851,
+            "volume_ratio_20": 0.8175727566603896
           },
           "corporate_actions_180d": [
             {
@@ -9675,10 +9645,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1130120.85,
-                "avg_traded_value_20": 192115031307.23438,
-                "last_volume": 996808,
-                "volume_ratio_20": 0.8820366423643984
+                "avg_volume_20": 1126323,
+                "avg_traded_value_20": 191484588207.23438,
+                "last_volume": 920851,
+                "volume_ratio_20": 0.8175727566603896
               },
               "data_integrity": {
                 "ok": true
@@ -10413,7 +10383,7 @@
               "high": 170300,
               "low": 165600,
               "close": 166000,
-              "volume": 996808
+              "volume": 920851
             }
           ]
         },
@@ -10429,8 +10399,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:38+09:00",
-            "data_revision": "570eef5639d114b496e27683d584d0dce1112c91de518ae029bf8f6a84e37e01",
+            "retrieved_at": "2026-08-12T21:57:53+09:00",
+            "data_revision": "5e92a0d4ab614ac2f515382411a6371dab4397936c5738b1387aedbe68237048",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -10456,7 +10426,7 @@
             "high": 107900,
             "low": 103700,
             "close": 103800,
-            "volume": 1281510
+            "volume": 1209125
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -10470,16 +10440,16 @@
             "ma5": 106420,
             "ma20": 103695.1921875,
             "ma60": 100512.830078125,
-            "ma120": 97550.02421875,
-            "ma200": 89741.6353125,
+            "ma120": 97550.02415364583,
+            "ma200": 89741.63515625,
             "atr14": 4849.284992380456,
             "return_20d_pct": -1.8151240209981934,
             "return_60d_pct": 9.954669684549833,
-            "return_120d_pct": 0.2448326725240424,
+            "return_120d_pct": 0.2448402359176205,
             "relative_strength_20d_pct": 2.2361655092574813,
             "relative_strength_60d_pct": 22.15429808362861,
             "high_252": 112469.061607965,
-            "low_252": 61644.7658203125,
+            "low_252": 61644.769702148435,
             "distance_to_high_252_pct": -7.707952288410547
           },
           "trend": {
@@ -10493,10 +10463,10 @@
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 1166827.65,
-            "avg_traded_value_20": 120890330392.41757,
-            "last_volume": 1281510,
-            "volume_ratio_20": 1.0982855951348085
+            "avg_volume_20": 1163208.4,
+            "avg_traded_value_20": 120514652242.41757,
+            "last_volume": 1209125,
+            "volume_ratio_20": 1.0394740959573538
           },
           "corporate_actions_180d": [
             {
@@ -10537,10 +10507,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1166827.65,
-                "avg_traded_value_20": 120890330392.41757,
-                "last_volume": 1281510,
-                "volume_ratio_20": 1.0982855951348085
+                "avg_volume_20": 1163208.4,
+                "avg_traded_value_20": 120514652242.41757,
+                "last_volume": 1209125,
+                "volume_ratio_20": 1.0394740959573538
               },
               "data_integrity": {
                 "ok": true
@@ -11275,7 +11245,7 @@
               "high": 107900,
               "low": 103700,
               "close": 103800,
-              "volume": 1281510
+              "volume": 1209125
             }
           ]
         },
@@ -11291,8 +11261,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:39+09:00",
-            "data_revision": "728cbbc308fcce98f67190debf0fdb7de2007ab509e73aea4303d2f80d97bb4a",
+            "retrieved_at": "2026-08-12T21:57:54+09:00",
+            "data_revision": "d23c1c7529f7b192ee7d325ba9a8bc6ce2a37409fb3497d8ca8bc175c5a3687e",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -11318,7 +11288,7 @@
             "high": 1191000,
             "low": 1083000,
             "close": 1156000,
-            "volume": 300729
+            "volume": 316947
           },
           "previous_bar": {
             "date": "2026-08-11",
@@ -11355,10 +11325,10 @@
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 223948,
-            "avg_traded_value_20": 215676727950,
-            "last_volume": 300729,
-            "volume_ratio_20": 1.3428519120510118
+            "avg_volume_20": 224758.9,
+            "avg_traded_value_20": 216614128350,
+            "last_volume": 316947,
+            "volume_ratio_20": 1.4101644028334361
           },
           "corporate_actions_180d": [],
           "company_risk": {
@@ -11367,10 +11337,10 @@
             "lab_available": {
               "corporate_actions": [],
               "liquidity": {
-                "avg_volume_20": 223948,
-                "avg_traded_value_20": 215676727950,
-                "last_volume": 300729,
-                "volume_ratio_20": 1.3428519120510118
+                "avg_volume_20": 224758.9,
+                "avg_traded_value_20": 216614128350,
+                "last_volume": 316947,
+                "volume_ratio_20": 1.4101644028334361
               },
               "data_integrity": {
                 "ok": true
@@ -12105,7 +12075,7 @@
               "high": 1191000,
               "low": 1083000,
               "close": 1156000,
-              "volume": 300729
+              "volume": 316947
             }
           ]
         }
@@ -12123,14 +12093,14 @@
       "data_revision": "1e7868c15b0eba4467524cb5f194f05fc7d42f4ebab93a17d992cacd4532d3c5",
       "champion_action": "NO_NEW_BUY",
       "active_experiment_hashes": [
-        "22991277b55e05367397b18b28a6f19bdd2e146ace28414c059282e9d8578864",
-        "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
-        "bbb60254dd83c925ead42fb0b5f470a912e0555e0ac3cfcfda4f78cda7487433"
+        "363f7db64e39777a5e296e106d046f0d3315c3e1d432392a3dfd6ed35d79b39a",
+        "451930218dfaa1df2a16dc0cdbd1bf56475f7b836fe0f19983b594510aa38ae0",
+        "6e86eff07b27462da4e5a2009699f828406cd9d264bb998c0d856b5f47d800ba"
       ],
       "active_experiment_map": {
-        "GAP": "22991277b55e05367397b18b28a6f19bdd2e146ace28414c059282e9d8578864",
-        "RS": "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
-        "VCP": "bbb60254dd83c925ead42fb0b5f470a912e0555e0ac3cfcfda4f78cda7487433"
+        "GAP": "363f7db64e39777a5e296e106d046f0d3315c3e1d432392a3dfd6ed35d79b39a",
+        "RS": "451930218dfaa1df2a16dc0cdbd1bf56475f7b836fe0f19983b594510aa38ae0",
+        "VCP": "6e86eff07b27462da4e5a2009699f828406cd9d264bb998c0d856b5f47d800ba"
       },
       "top_candidate": {
         "kind": "VIRTUAL_WAIT",
@@ -12142,7 +12112,7 @@
         "setup": "RS",
         "setup_version": "v1",
         "rule_hash": "4f68341adc538ca8047836d82792c39817b39e29d66a01bf53e9f891dc58f6ee",
-        "experiment_hash": "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
+        "experiment_hash": "451930218dfaa1df2a16dc0cdbd1bf56475f7b836fe0f19983b594510aa38ae0",
         "experiment_mode": "FORWARD",
         "state": "VIRTUAL_WAIT",
         "signal_date": "2026-08-12",
@@ -12172,7 +12142,7 @@
           "setup": "RS",
           "setup_version": "v1",
           "rule_hash": "4f68341adc538ca8047836d82792c39817b39e29d66a01bf53e9f891dc58f6ee",
-          "experiment_hash": "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
+          "experiment_hash": "451930218dfaa1df2a16dc0cdbd1bf56475f7b836fe0f19983b594510aa38ae0",
           "experiment_mode": "FORWARD",
           "state": "VIRTUAL_WAIT",
           "signal_date": "2026-08-12",
@@ -12201,7 +12171,7 @@
           "setup": "RS",
           "setup_version": "v1",
           "rule_hash": "4f68341adc538ca8047836d82792c39817b39e29d66a01bf53e9f891dc58f6ee",
-          "experiment_hash": "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
+          "experiment_hash": "451930218dfaa1df2a16dc0cdbd1bf56475f7b836fe0f19983b594510aa38ae0",
           "experiment_mode": "FORWARD",
           "state": "RS_ARMED",
           "signal_date": null,
@@ -12223,42 +12193,12 @@
           "actual_buy": false
         }
       ],
-      "virtual_open_reference": [
-        {
-          "kind": "VIRTUAL_OPEN",
-          "market": "JP",
-          "ticker": "7203",
-          "symbol": "7203.T",
-          "name": "Toyota Motor",
-          "sector": "자동차",
-          "setup": "RS",
-          "setup_version": "v1",
-          "rule_hash": "4f68341adc538ca8047836d82792c39817b39e29d66a01bf53e9f891dc58f6ee",
-          "experiment_hash": "dcf021fd555d86f8b8ee427b2da56d93f50d229207c5f5fac5671d9620158e7e",
-          "experiment_mode": "FORWARD",
-          "state": "VIRTUAL_OPEN",
-          "signal_date": "2026-08-10",
-          "entry_session": "2026-08-12",
-          "signal_price": 2981,
-          "entry_price": 3010,
-          "stop": 2836.6785714285716,
-          "target": 3298.5071428571428,
-          "planned_rr": 2.2,
-          "actual_rr": 1.66457861116835,
-          "score": 7.187688662676483,
-          "reason": "relative_20d=7.91% ma20_distance=0.72%",
-          "data_date": "2026-08-10",
-          "data_quality_status": "VERIFIED",
-          "data_revision": "2aaa45640f234976f815ab3e532ac5ab75b22e7993f755b9a7e9f76987021b90",
-          "selectable_for_new_review": false,
-          "actual_buy": false
-        }
-      ],
+      "virtual_open_reference": [],
       "integrity": {
         "candidate_max_session": "2026-08-12",
         "candidate_ahead_of_market": false,
         "older_active_rows_excluded": 0,
-        "old_experiment_rows_excluded": 30
+        "old_experiment_rows_excluded": 34
       },
       "benchmark": {
         "symbol": "^N225",
@@ -12285,7 +12225,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-12T21:19:40+09:00",
+          "retrieved_at": "2026-08-12T21:57:55+09:00",
           "data_revision": "d661762ef0de604ba1ebc83e4bd52e820e03250249d3bfb76299a73192eb6520"
         },
         "raw_adjusted_ohlcv": [
@@ -14130,7 +14070,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:41+09:00",
+            "retrieved_at": "2026-08-12T21:57:56+09:00",
             "data_revision": "389920c0bebe0bf53a61211e270c91de2735e41be9b54517c31f323d41c993ea",
             "source_meta": {
               "currency": "JPY",
@@ -14972,7 +14912,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:41+09:00",
+            "retrieved_at": "2026-08-12T21:57:56+09:00",
             "data_revision": "8b988b0ebf01b2d5c082ec56c6be82356deeaa2362b576469eca2998e5841add",
             "source_meta": {
               "currency": "JPY",
@@ -15814,7 +15754,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:42+09:00",
+            "retrieved_at": "2026-08-12T21:57:57+09:00",
             "data_revision": "2370c920b7d1bac1c586dd71e696d57406295092701cc797f14b74e732292c52",
             "source_meta": {
               "currency": "JPY",
@@ -16656,7 +16596,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:43+09:00",
+            "retrieved_at": "2026-08-12T21:57:58+09:00",
             "data_revision": "c90f8280b9766e9a031caf0111236879bd3a117e70059ff05c20fa655655119e",
             "source_meta": {
               "currency": "JPY",
@@ -17498,7 +17438,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:44+09:00",
+            "retrieved_at": "2026-08-12T21:57:59+09:00",
             "data_revision": "231a55d5c2cb2853e8c1224e727c5e0b26827e84f0b02268d0740b0addb6a25c",
             "source_meta": {
               "currency": "JPY",
@@ -18340,7 +18280,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:44+09:00",
+            "retrieved_at": "2026-08-12T21:57:59+09:00",
             "data_revision": "99336a1c6c0115c65ea6157d4b59c62cec20942ab7378cd600ba7f3ff3b5d32c",
             "source_meta": {
               "currency": "JPY",
@@ -19182,7 +19122,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:45+09:00",
+            "retrieved_at": "2026-08-12T21:58:00+09:00",
             "data_revision": "3c38046d938764a4b5433e7b55f1ef5afb77e36030cbde0d75fdb77a788329c5",
             "source_meta": {
               "currency": "JPY",
@@ -20024,7 +19964,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:46+09:00",
+            "retrieved_at": "2026-08-12T21:58:01+09:00",
             "data_revision": "70c14895da9a6687cafc76939b6a9b6296f6be3f3ee85d772ab3e2e591aa6705",
             "source_meta": {
               "currency": "JPY",
@@ -20866,7 +20806,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:47+09:00",
+            "retrieved_at": "2026-08-12T21:58:01+09:00",
             "data_revision": "0571d2ed3aeb5b7fada474a49ecfc99b9f007f078f262c83b4c3b0413ebc7081",
             "source_meta": {
               "currency": "JPY",
@@ -21708,7 +21648,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:47+09:00",
+            "retrieved_at": "2026-08-12T21:58:03+09:00",
             "data_revision": "87af293a27ec457c506940ceba8b18597b0492547c2c5f173d09f14254fc61c3",
             "source_meta": {
               "currency": "JPY",
@@ -21757,9 +21697,9 @@
             "return_120d_pct": 4.1945188809557665,
             "relative_strength_20d_pct": 5.819027452409675,
             "relative_strength_60d_pct": -7.093179554663931,
-            "high_252": 161.67482859205708,
+            "high_252": 161.6748440542964,
             "low_252": 142.60000610351562,
-            "distance_to_high_252_pct": -2.025568682578205
+            "distance_to_high_252_pct": -2.025578052645094
           },
           "trend": {
             "ma20_rising": true,
@@ -22549,17 +22489,17 @@
       "runtime_session": "2026-08-11",
       "production_session": "2026-08-11",
       "cache_session": "2026-08-11",
-      "data_revision": "6707b02cc7ba7d28f88d77c4f08092f1e96c6cf5e4a668d4497a0d5be4fb1c7c",
+      "data_revision": "32a36f392b0dc7a18967e80b3a6b78e9c7c59e91d976a24a326ab231320a70ac",
       "champion_action": "EXTERNAL_RISK_AND_CHAMPION_REVIEW_REQUIRED",
       "active_experiment_hashes": [
-        "0923f75561f0bb3d92c9c2b80ebcdc36befb425d6d86326e63d080c7c860afa5",
-        "13f4306969ccc374b3774065c92ca1d7564491abb95d07aa685fca87c3fb0b90",
-        "3d00152a64d4f6414b9cd0de98634dff483b93e611a54d7966a31c598be3bf28"
+        "fe3c3d1033eae0dc545c6a797cf6c3d115685a231e3789a8571ecc4bdd4cdfdc",
+        "8e15609137db4c0374ba087976709e6f61bb42f4d25b721df408308bc4eb2b4c",
+        "ae6af2795173b2a65af31389431c5a3c354a42633a7976d78da2c4b314aed938"
       ],
       "active_experiment_map": {
-        "GAP": "0923f75561f0bb3d92c9c2b80ebcdc36befb425d6d86326e63d080c7c860afa5",
-        "RS": "13f4306969ccc374b3774065c92ca1d7564491abb95d07aa685fca87c3fb0b90",
-        "VCP": "3d00152a64d4f6414b9cd0de98634dff483b93e611a54d7966a31c598be3bf28"
+        "GAP": "fe3c3d1033eae0dc545c6a797cf6c3d115685a231e3789a8571ecc4bdd4cdfdc",
+        "RS": "8e15609137db4c0374ba087976709e6f61bb42f4d25b721df408308bc4eb2b4c",
+        "VCP": "ae6af2795173b2a65af31389431c5a3c354a42633a7976d78da2c4b314aed938"
       },
       "top_candidate": null,
       "current_review_rows": [],
@@ -22595,7 +22535,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-12T21:19:48+09:00",
+          "retrieved_at": "2026-08-12T21:58:04+09:00",
           "data_revision": "17ed8b363ec48c43764e9db89f2d7aa4a37272d1dc21c2d7ccda27bad0b10bbc"
         },
         "raw_adjusted_ohlcv": [
@@ -24440,8 +24380,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:49+09:00",
-            "data_revision": "183343ce580dc71e3774a5e4fa4a5e0f31152e90716daef6a1502d1766169fd8",
+            "retrieved_at": "2026-08-12T21:58:05+09:00",
+            "data_revision": "812893f5db6a9bf1bb212429157ed841fa06dc01f154dc9cbe2737f399514694",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -24481,8 +24421,8 @@
             "ma5": 219.44400329589843,
             "ma20": 207.8029983520508,
             "ma60": 208.1577049255371,
-            "ma120": 199.60726153055828,
-            "ma200": 194.17022850036622,
+            "ma120": 199.6072612762451,
+            "ma200": 194.17022827148438,
             "atr14": 7.727142333984375,
             "return_20d_pct": 2.6912166506670276,
             "return_60d_pct": -7.629810040156892,
@@ -25292,7 +25232,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:50+09:00",
+            "retrieved_at": "2026-08-12T21:58:06+09:00",
             "data_revision": "47da37fb1b2eada6b3658366d5abb9970c5b936f61d4d3f4644769d142af54d9",
             "source_meta": {
               "currency": "USD",
@@ -26144,8 +26084,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:51+09:00",
-            "data_revision": "dc67516638823da27622c60d35b58c8514ab3436fbb4ce1f934fe0c352397a90",
+            "retrieved_at": "2026-08-12T21:58:07+09:00",
+            "data_revision": "1cdbc41eaae334baea406abc656a0ddc1877fcad219cba820884c80de7b7f91d",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -26185,8 +26125,8 @@
             "ma5": 309.82056884765626,
             "ma20": 322.23003845214845,
             "ma60": 308.6546183268229,
-            "ma120": 286.89441095987956,
-            "ma200": 279.36009750366213,
+            "ma120": 286.89441363016766,
+            "ma200": 279.36009963989255,
             "atr14": 9.529886101977995,
             "return_20d_pct": -3.0766142934111618,
             "return_60d_pct": 2.334921760773101,
@@ -26194,7 +26134,7 @@
             "relative_strength_20d_pct": -5.523862293187454,
             "relative_strength_60d_pct": -0.6907107192725137,
             "high_252": 344.2730974331505,
-            "low_252": 222.95639256938466,
+            "low_252": 222.9564229349862,
             "distance_to_high_252_pct": -11.433682754919438
           },
           "trend": {
@@ -26272,10 +26212,10 @@
             },
             {
               "date": "2026-04-06",
-              "open": 256.053045051996,
-              "high": 261.6929736576745,
-              "low": 256.003115847535,
-              "close": 258.3988342285156,
+              "open": 256.0530752925303,
+              "high": 261.6930045642991,
+              "low": 256.0031460821725,
+              "close": 258.39886474609375,
               "volume": 29329900
             },
             {
@@ -26288,18 +26228,18 @@
             },
             {
               "date": "2026-04-08",
-              "open": 257.98960165960847,
-              "high": 259.2872736156141,
-              "low": 256.0730086009651,
-              "close": 258.43878173828125,
+              "open": 257.9896321241455,
+              "high": 259.28730423338584,
+              "low": 256.07303883918246,
+              "close": 258.4388122558594,
               "volume": 41032800
             },
             {
               "date": "2026-04-09",
-              "open": 258.5386040524215,
-              "high": 260.65482250105316,
-              "low": 255.6138310165902,
-              "close": 260.02593994140625,
+              "open": 258.5386343954405,
+              "high": 260.6548530924392,
+              "low": 255.61386101634736,
+              "close": 260.0259704589844,
               "volume": 28121600
             },
             {
@@ -26320,10 +26260,10 @@
             },
             {
               "date": "2026-04-14",
-              "open": 258.78816168339415,
-              "high": 261.4633801130582,
-              "low": 256.73183388682423,
-              "close": 258.368896484375,
+              "open": 258.7881922504944,
+              "high": 261.4634109961452,
+              "low": 256.7318642110386,
+              "close": 258.3689270019531,
               "volume": 48370700
             },
             {
@@ -26336,10 +26276,10 @@
             },
             {
               "date": "2026-04-16",
-              "open": 266.3246925362851,
-              "high": 266.6840670491935,
-              "low": 260.804545264895,
-              "close": 262.9307556152344,
+              "open": 266.3247234477873,
+              "high": 266.68409800240715,
+              "low": 260.80457553569033,
+              "close": 262.9307861328125,
               "volume": 43323100
             },
             {
@@ -26424,18 +26364,18 @@
             },
             {
               "date": "2026-05-01",
-              "open": 278.36321169794013,
-              "high": 286.7083346607987,
-              "low": 277.87409435408995,
-              "close": 279.6409606933594,
+              "open": 278.3632420760759,
+              "high": 286.70836594964845,
+              "low": 277.8741246788477,
+              "close": 279.6409912109375,
               "volume": 79915400
             },
             {
               "date": "2026-05-04",
-              "open": 279.16182884121525,
-              "high": 280.13010214166496,
-              "low": 274.3703610857382,
-              "close": 276.33685302734375,
+              "open": 279.16179801165765,
+              "high": 280.13007120517506,
+              "low": 274.3703307853319,
+              "close": 276.3368225097656,
               "volume": 46668400
             },
             {
@@ -26448,18 +26388,18 @@
             },
             {
               "date": "2026-05-06",
-              "open": 281.4177950537395,
-              "high": 287.5168959460148,
-              "low": 280.5693031693742,
-              "close": 286.9978332519531,
+              "open": 281.4178249779708,
+              "high": 287.5169265187869,
+              "low": 280.5693330033821,
+              "close": 286.99786376953125,
               "volume": 58336100
             },
             {
               "date": "2026-05-07",
-              "open": 288.75467457606095,
-              "high": 291.60959552514373,
-              "low": 285.2709015174152,
-              "close": 286.9279479980469,
+              "open": 288.75470528792926,
+              "high": 291.6096265406606,
+              "low": 285.2709318587503,
+              "close": 286.927978515625,
               "volume": 45224300
             },
             {
@@ -26996,8 +26936,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:52+09:00",
-            "data_revision": "39dc4401ed9dc252684cd358e50fa0657d53dce92d2aa95fb924c2c0d55328cd",
+            "retrieved_at": "2026-08-12T21:58:08+09:00",
+            "data_revision": "837b2ed44b1d717c603248fb0113ed1c5d7bd4d164c97d7346b1dcf4095dfd00",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -27037,8 +26977,8 @@
             "ma5": 355.1599914550781,
             "ma20": 348.22699584960935,
             "ma60": 360.69685414632164,
-            "ma120": 343.78445587158205,
-            "ma200": 329.82873962402346,
+            "ma120": 343.7844553629557,
+            "ma200": 329.82873992919923,
             "atr14": 13.644997732979911,
             "return_20d_pct": -4.369842715338601,
             "return_60d_pct": -14.228107726441152,
@@ -27046,7 +26986,7 @@
             "relative_strength_20d_pct": -6.817090715114893,
             "relative_strength_60d_pct": -17.253740206486768,
             "high_252": 408.36608091552193,
-            "low_252": 196.04074228977996,
+            "low_252": 196.04075734034146,
             "distance_to_high_252_pct": -15.810836438178589
           },
           "trend": {
@@ -27848,7 +27788,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:53+09:00",
+            "retrieved_at": "2026-08-12T21:58:09+09:00",
             "data_revision": "1b1941af869a136e7d488134e64b8f48552ef23fb44c9bcb57ce1c80cba82f44",
             "source_meta": {
               "currency": "USD",
@@ -28678,8 +28618,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:53+09:00",
-            "data_revision": "ac7ab152f6fbf8a4645f110de4652b3173d1e1478c6cead1abe573c7d91856b8",
+            "retrieved_at": "2026-08-12T21:58:10+09:00",
+            "data_revision": "ebffd07e9f55e2399b770f5901f593bab3b98f3cf0349fdfd0180bae69baefff",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NMS",
@@ -28719,17 +28659,17 @@
             "ma5": 592.9619995117188,
             "ma20": 606.0799957275391,
             "ma60": 601.1510040283204,
-            "ma120": 613.9741053263347,
-            "ma200": 629.0945416259766,
+            "ma120": 613.9741068522136,
+            "ma200": 629.0945428466797,
             "atr14": 22.117850167410715,
             "return_20d_pct": -9.36705569532058,
             "return_60d_pct": -3.0326361568610016,
             "return_120d_pct": -6.689977738066233,
             "relative_strength_20d_pct": -11.814303695096871,
             "relative_strength_60d_pct": -6.058268636906616,
-            "high_252": 793.6488143059948,
+            "high_252": 793.6487524142633,
             "low_252": 519.7782492802263,
-            "distance_to_high_252_pct": -24.51069234683011
+            "distance_to_high_252_pct": -24.510686459888365
           },
           "trend": {
             "ma20_rising": false,
@@ -29530,7 +29470,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:54+09:00",
+            "retrieved_at": "2026-08-12T21:58:11+09:00",
             "data_revision": "6d53066f2a05e57b2ecee7bba976e02c3f95f208c65aeed38fe50829084e5227",
             "source_meta": {
               "currency": "USD",
@@ -29572,7 +29512,7 @@
             "ma20": 395.1235015869141,
             "ma60": 398.7016357421875,
             "ma120": 379.1403444925944,
-            "ma200": 367.38422241210935,
+            "ma200": 367.3842231750488,
             "atr14": 15.854280744280134,
             "return_20d_pct": 6.9312025483837525,
             "return_60d_pct": -5.241479046781661,
@@ -30382,7 +30322,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:55+09:00",
+            "retrieved_at": "2026-08-12T21:58:12+09:00",
             "data_revision": "46653c900f37db698548df8654fddcea2e63ccc7d3e635e30ab65703596ae7bf",
             "source_meta": {
               "currency": "USD",
@@ -31212,8 +31152,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:56+09:00",
-            "data_revision": "41bb24e48f77802e31f078c7ac2c3e221a764eee188b3005610a8ed0f3291ea6",
+            "retrieved_at": "2026-08-12T21:58:13+09:00",
+            "data_revision": "dcc57a86ba59d7a79d9b4758d5d36b94ad343119e3a2bdfdf5ce233bab7c613a",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NYQ",
@@ -31253,8 +31193,8 @@
             "ma5": 358.9779968261719,
             "ma20": 351.62449951171874,
             "ma60": 328.949750773112,
-            "ma120": 313.66783905029297,
-            "ma200": 311.483350982666,
+            "ma120": 313.6678393046061,
+            "ma200": 311.48335205078126,
             "atr14": 6.364283970424107,
             "return_20d_pct": 5.584879430250744,
             "return_60d_pct": 21.260029000208313,
@@ -31262,7 +31202,7 @@
             "relative_strength_20d_pct": 3.1376314304744524,
             "relative_strength_60d_pct": 18.234396520162697,
             "high_252": 363.1199951171875,
-            "low_252": 276.4336079693154,
+            "low_252": 276.43363807803536,
             "distance_to_high_252_pct": -0.2974186458438055
           },
           "trend": {
@@ -32064,8 +32004,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:57+09:00",
-            "data_revision": "e7d2321e9e5b1abab5d31b32829af665712b40a0d7a4869b5d59c9b4546818ed",
+            "retrieved_at": "2026-08-12T21:58:14+09:00",
+            "data_revision": "c3fdca9af1679fe9df58f58aad9ac707034a04623929c81fc807e535c43b93a1",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NYQ",
@@ -32105,8 +32045,8 @@
             "ma5": 215.7500030517578,
             "ma20": 214.02902603149414,
             "ma60": 212.33935623168946,
-            "ma120": 192.84393297831218,
-            "ma200": 184.44136367797853,
+            "ma120": 192.84393348693848,
+            "ma200": 184.4413639831543,
             "atr14": 5.702399549220063,
             "return_20d_pct": -5.014308342076124,
             "return_60d_pct": 11.167382973507856,
@@ -32256,10 +32196,10 @@
             },
             {
               "date": "2026-04-16",
-              "open": 188.8697218298611,
-              "high": 190.4326743138572,
-              "low": 184.65569570317967,
-              "close": 185.29869079589844,
+              "open": 188.86973738271382,
+              "high": 190.43268999541436,
+              "low": 184.65571090902003,
+              "close": 185.2987060546875,
               "volume": 9138100
             },
             {
@@ -32272,10 +32212,10 @@
             },
             {
               "date": "2026-04-20",
-              "open": 186.88143567067522,
-              "high": 190.1260412540656,
-              "low": 185.99115325960173,
-              "close": 188.64222717285156,
+              "open": 186.8814205543121,
+              "high": 190.12602587525458,
+              "low": 185.99113821525128,
+              "close": 188.6422119140625,
               "volume": 4905200
             },
             {
@@ -32916,7 +32856,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:57+09:00",
+            "retrieved_at": "2026-08-12T21:58:15+09:00",
             "data_revision": "68c4d4d10814708e05357e321c91d8261b06c01cdf683d94c1c5f7b328bffec8",
             "source_meta": {
               "currency": "USD",
@@ -32958,7 +32898,7 @@
             "ma20": 358.9294998168945,
             "ma60": 345.06884002685547,
             "ma120": 324.6208979288737,
-            "ma200": 316.9667352294922,
+            "ma200": 316.96673568725583,
             "atr14": 10.078569684709821,
             "return_20d_pct": 4.051108508522749,
             "return_60d_pct": 26.40418643600604,
@@ -33768,8 +33708,8 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:58+09:00",
-            "data_revision": "b426c8f081ad5c8b9873bffc9eb53858391e95ec9dba0bc46e705e4df7d0567c",
+            "retrieved_at": "2026-08-12T21:58:16+09:00",
+            "data_revision": "39e9e96373d37e5b3d5b4bded880b1d508c2625327f79446c7b8690dfec5a73f",
             "source_meta": {
               "currency": "USD",
               "exchange_name": "NYQ",
@@ -33809,7 +33749,7 @@
             "ma5": 850.2360107421875,
             "ma20": 858.6096405029297,
             "ma60": 908.3320963541667,
-            "ma120": 839.9629887898762,
+            "ma120": 839.96298828125,
             "ma200": 747.0114923095703,
             "atr14": 40.510707310267854,
             "return_20d_pct": -9.471945769807988,
@@ -33818,7 +33758,7 @@
             "relative_strength_20d_pct": -11.919193769584279,
             "relative_strength_60d_pct": -11.2068723074198,
             "high_252": 1071.4723093369823,
-            "low_252": 401.8427420048564,
+            "low_252": 401.8428019779881,
             "distance_to_high_252_pct": -21.288680279655804
           },
           "trend": {
@@ -33896,10 +33836,10 @@
             },
             {
               "date": "2026-04-06",
-              "open": 714.0533667936859,
-              "high": 719.861530686015,
-              "low": 701.6301384462996,
-              "close": 718.5364990234375,
+              "open": 714.0534274480283,
+              "high": 719.8615918337244,
+              "low": 701.6301980453669,
+              "close": 718.5365600585938,
               "volume": 1246500
             },
             {
@@ -33920,26 +33860,26 @@
             },
             {
               "date": "2026-04-09",
-              "open": 770.1025436678556,
-              "high": 792.5381508146413,
-              "low": 770.0925714220997,
-              "close": 784.1198120117188,
+              "open": 770.1024837237906,
+              "high": 792.5380891242095,
+              "low": 770.0925114788108,
+              "close": 784.1197509765625,
               "volume": 2801900
             },
             {
               "date": "2026-04-10",
-              "open": 787.7062613078457,
-              "high": 794.8593407330197,
-              "low": 783.2928738722721,
-              "close": 787.6962890625,
+              "open": 787.7063223437747,
+              "high": 794.8594023232097,
+              "low": 783.2929345662269,
+              "close": 787.6963500976562,
               "volume": 1872000
             },
             {
               "date": "2026-04-13",
-              "open": 785.464738448129,
-              "high": 795.5468006613135,
-              "low": 782.3863547852659,
-              "close": 788.7623291015625,
+              "open": 785.4646776681433,
+              "high": 795.5467391011684,
+              "low": 782.3862942434884,
+              "close": 788.7622680664062,
               "volume": 1820100
             },
             {
@@ -33952,18 +33892,18 @@
             },
             {
               "date": "2026-04-15",
-              "open": 784.1496757954905,
-              "high": 787.0089132627536,
-              "low": 753.8138606766557,
-              "close": 767.2831420898438,
+              "open": 784.1496134186502,
+              "high": 787.0088506584693,
+              "low": 753.813800712942,
+              "close": 767.2830810546875,
               "volume": 2764700
             },
             {
               "date": "2026-04-16",
-              "open": 765.1212272185556,
-              "high": 769.9131949723961,
-              "low": 751.6220302277318,
-              "close": 769.7637329101562,
+              "open": 765.121287885604,
+              "high": 769.9132560194034,
+              "low": 751.6220898244186,
+              "close": 769.7637939453125,
               "volume": 2005100
             },
             {
@@ -34620,7 +34560,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:19:59+09:00",
+            "retrieved_at": "2026-08-12T21:58:17+09:00",
             "data_revision": "5a1578c1d3c8ac481aa047ec88791d62c40ff6e0b2601278792d48d48d688975",
             "source_meta": {
               "currency": "USD",
@@ -34662,7 +34602,7 @@
             "ma20": 153.5629997253418,
             "ma60": 148.14716618855795,
             "ma120": 150.59726473490397,
-            "ma200": 139.62418586730956,
+            "ma200": 139.62418594360352,
             "atr14": 4.24285888671875,
             "return_20d_pct": 10.138539585878824,
             "return_60d_pct": 5.304779605771204,
@@ -34670,7 +34610,7 @@
             "relative_strength_20d_pct": 7.691291586102532,
             "relative_strength_60d_pct": 2.279147125725589,
             "high_252": 175.22069359950967,
-            "low_252": 102.27000975754204,
+            "low_252": 102.27001736530904,
             "distance_to_high_252_pct": -8.800724521156111
           },
           "trend": {
@@ -35462,7 +35402,7 @@
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-12T21:20:00+09:00",
+            "retrieved_at": "2026-08-12T21:58:18+09:00",
             "data_revision": "e7886814a2b98f194a0dd5d82acccd5331ecf6fd5f531dd9061f39ee792e04f8",
             "source_meta": {
               "currency": "USD",
@@ -35504,7 +35444,7 @@
             "ma20": 944.112905883789,
             "ma60": 962.9503112792969,
             "ma120": 979.8571421305338,
-            "ma200": 955.3900509643555,
+            "ma200": 955.3900512695312,
             "atr14": 18.965223587473417,
             "return_20d_pct": 2.611490571780206,
             "return_60d_pct": -9.16481533233604,
@@ -36347,15 +36287,15 @@
   },
   "summary": {
     "schema_version": "lab_summary_v1",
-    "version": "1.5.1-candidate.16",
-    "revision": "lab-v151-candidate16-active-experiment-contract-20260811",
-    "generated_at": "2026-08-12T21:20:00+09:00",
+    "version": "1.5.1-candidate.17",
+    "revision": "lab-v151-candidate17-sync-state-and-cron-visibility-20260812",
+    "generated_at": "2026-08-12T21:58:19+09:00",
     "markets": {
       "KR": {
         "status": "READY",
         "market_state": "OFF",
         "last_successful_session": "2026-08-12",
-        "last_attempt_at": "2026-08-12T21:19:29+09:00",
+        "last_attempt_at": "2026-08-12T21:57:45+09:00",
         "last_error": null,
         "benchmark": "^KS11",
         "data_revision": "48cd9dc2dbbe26157e7b5cdf6f981956656ad120d7959e2d9a915d84623914e4",
@@ -36375,7 +36315,7 @@
         "status": "READY",
         "market_state": "WAIT",
         "last_successful_session": "2026-08-12",
-        "last_attempt_at": "2026-08-12T21:19:39+09:00",
+        "last_attempt_at": "2026-08-12T21:57:54+09:00",
         "last_error": null,
         "benchmark": "^N225",
         "data_revision": "d661762ef0de604ba1ebc83e4bd52e820e03250249d3bfb76299a73192eb6520",
@@ -36395,7 +36335,7 @@
         "status": "READY",
         "market_state": "ON",
         "last_successful_session": "2026-08-11",
-        "last_attempt_at": "2026-08-12T21:19:47+09:00",
+        "last_attempt_at": "2026-08-12T21:58:03+09:00",
         "last_error": null,
         "benchmark": "^GSPC",
         "data_revision": "17ed8b363ec48c43764e9db89f2d7aa4a37272d1dc21c2d7ccda27bad0b10bbc",
@@ -36418,8 +36358,8 @@
         "virtual_open": 14
       },
       "JP": {
-        "candidates": 17,
-        "virtual_wait": 1,
+        "candidates": 18,
+        "virtual_wait": 2,
         "virtual_open": 16
       },
       "US": {
@@ -36469,8 +36409,8 @@
       "note": "experiment_hash가 다른 성과는 승격 판단에서 합산하지 않는다. overall_reference_only는 운영 참고용이다."
     },
     "actual_buy": false,
-    "published_at": "2026-08-12T21:20:00+09:00",
-    "publish_id": "20260812_212000-01c0e14b3fb9"
+    "published_at": "2026-08-12T21:58:19+09:00",
+    "publish_id": "20260812_215819-c151eed26afd"
   },
-  "source_fingerprint": "e1d9e032be740e4ddf85d6ef5050ec0512fc4f031cc505b841799fb77dc7f40f"
+  "source_fingerprint": "647cfbd0b338d1becbc3a4f5efb2308cdb636661756a4da4c984523a26c4c84e"
 }
