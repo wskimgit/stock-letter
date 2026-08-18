@@ -3,8 +3,12 @@
 - 대상: `chatgpt/INSTRUCTION_v4.7.2.md`
 - 검증 시각: `2026-08-18T09:29+09:00`
 - candidate blob SHA: `ba5e6de43648594413ef3f690dff29de337c18a1`
+- frozen blob SHA: `4524356f60d2e39b5133c46ebb3eb33a4a29a433`
+- freeze commit: `23414a93bd68cc928f03ca817f74e3a507eb58fb`
 - 기준 비교: `v4.7.1 / SPEC FROZEN`
 - 결과: **PASS**
+
+candidate 검증 후 본문 규칙은 유지하고 상태 메타데이터만 `SPEC CANDIDATE → SPEC FROZEN`, 직전 버전을 `RELEASED_HISTORY`로 전환하여 동결했다.
 
 ## E — Eliminate: PASS
 
@@ -83,4 +87,4 @@
 
 ## 최종 판정
 
-`v4.7.2`는 v4.7.1의 상위 게이트와 독립성 원칙을 훼손하지 않으면서 5일선 진입 타이밍을 추가했다. **ERRC 및 회귀검증 PASS. SPEC FROZEN 승격 가능.**
+`v4.7.2`는 v4.7.1의 상위 게이트와 독립성 원칙을 훼손하지 않으면서 5일선 진입 타이밍을 추가했다. **ERRC 및 회귀검증 PASS / SPEC FROZEN.**
