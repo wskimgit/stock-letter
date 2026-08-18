@@ -4,9 +4,9 @@
   "version": "1.5.1-candidate.18",
   "revision": "lab-v151-candidate18-forward-state-integrity-20260816",
   "spec_version": "v4.6-candidate.4",
-  "generated_at": "2026-08-17T16:30:26+09:00",
-  "published_at": "2026-08-17T16:30:26+09:00",
-  "publish_id": "20260817_163026-df734cff5bf9",
+  "generated_at": "2026-08-18T16:30:37+09:00",
+  "published_at": "2026-08-18T16:30:37+09:00",
+  "publish_id": "20260818_163037-44631a458e11",
   "lab_only": true,
   "actual_buy": false,
   "source_policy": {
@@ -68,13 +68,13 @@
     "KR": {
       "status": "READY",
       "status_reason": "RUNTIME_PRODUCTION_CACHE_ALIGNED",
-      "market_session": "2026-08-14",
+      "market_session": "2026-08-18",
       "market_state": "OFF",
       "session_alignment": "ALIGNED",
-      "runtime_session": "2026-08-14",
-      "production_session": "2026-08-14",
-      "cache_session": "2026-08-14",
-      "data_revision": "b6be6bbf8e4e73e103d38ce7fbed751be537ae80e8bf83c442ff25a88b214fce",
+      "runtime_session": "2026-08-18",
+      "production_session": "2026-08-18",
+      "cache_session": "2026-08-18",
+      "data_revision": "b744b95f4674e7e0412ceaf29a5c08586c9cbb20fbfddb7c3a9dbd8996cd5305",
       "champion_action": "NO_NEW_BUY",
       "active_experiment_hashes": [
         "5e2f0e6ed77222d081d88229dd1cd997bfbf88af86a86e98894363a78fc404a5",
@@ -86,52 +86,197 @@
         "RS": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
         "VCP": "ad17056781baa4513dedf6bf928659eff004fc4186fbaaa894428aeaabec9c05"
       },
-      "top_candidate": null,
-      "current_review_rows": [],
+      "top_candidate": {
+        "kind": "VIRTUAL_WAIT",
+        "market": "KR",
+        "ticker": "035420",
+        "symbol": "035420.KS",
+        "name": "NAVER",
+        "sector": "인터넷",
+        "setup": "RS",
+        "setup_version": "v1",
+        "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+        "experiment_hash": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
+        "experiment_mode": "FORWARD",
+        "state": "VIRTUAL_WAIT",
+        "signal_date": "2026-08-18",
+        "entry_session": null,
+        "signal_price": 217000,
+        "entry_price": null,
+        "stop": 198828.57142857142,
+        "target": 256977.14285714287,
+        "planned_rr": 2.2,
+        "actual_rr": null,
+        "score": 9.619029793793612,
+        "reason": "relative_20d=11.3% ma20_distance=1.68%",
+        "data_date": "2026-08-18",
+        "data_quality_status": "VERIFIED",
+        "data_revision": "b0923ed7eee8e692b28b24b96cc5221ed27a0f2e76155c24ad0a5369b37c548c",
+        "selectable_for_new_review": true,
+        "actual_buy": false
+      },
+      "current_review_rows": [
+        {
+          "kind": "VIRTUAL_WAIT",
+          "market": "KR",
+          "ticker": "035420",
+          "symbol": "035420.KS",
+          "name": "NAVER",
+          "sector": "인터넷",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
+          "experiment_mode": "FORWARD",
+          "state": "VIRTUAL_WAIT",
+          "signal_date": "2026-08-18",
+          "entry_session": null,
+          "signal_price": 217000,
+          "entry_price": null,
+          "stop": 198828.57142857142,
+          "target": 256977.14285714287,
+          "planned_rr": 2.2,
+          "actual_rr": null,
+          "score": 9.619029793793612,
+          "reason": "relative_20d=11.3% ma20_distance=1.68%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "b0923ed7eee8e692b28b24b96cc5221ed27a0f2e76155c24ad0a5369b37c548c",
+          "selectable_for_new_review": true,
+          "actual_buy": false
+        },
+        {
+          "kind": "VIRTUAL_WAIT",
+          "market": "KR",
+          "ticker": "035720",
+          "symbol": "035720.KS",
+          "name": "카카오",
+          "sector": "인터넷",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
+          "experiment_mode": "FORWARD",
+          "state": "VIRTUAL_WAIT",
+          "signal_date": "2026-08-18",
+          "entry_session": null,
+          "signal_price": 38250,
+          "entry_price": null,
+          "stop": 35373.21428571428,
+          "target": 44578.92857142858,
+          "planned_rr": 2.2,
+          "actual_rr": null,
+          "score": 2.419752344874526,
+          "reason": "relative_20d=3.7% ma20_distance=1.28%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "5343ed8e7316ab7e24dfa1452d40c13bdb62c2e059926fdff386b139de20f5a6",
+          "selectable_for_new_review": true,
+          "actual_buy": false
+        },
+        {
+          "kind": "CANDIDATE",
+          "market": "KR",
+          "ticker": "035420",
+          "symbol": "035420.KS",
+          "name": "NAVER",
+          "sector": "인터넷",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
+          "experiment_mode": "FORWARD",
+          "state": "RS_ARMED",
+          "signal_date": null,
+          "entry_session": null,
+          "signal_price": null,
+          "entry_price": null,
+          "stop": null,
+          "target": null,
+          "planned_rr": null,
+          "actual_rr": null,
+          "score": 9.619029793793612,
+          "reason": "relative_20d=11.3% ma20_distance=1.68%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "b0923ed7eee8e692b28b24b96cc5221ed27a0f2e76155c24ad0a5369b37c548c",
+          "selectable_for_new_review": false,
+          "trade_attempted": true,
+          "trade_attempt_session": "2026-08-18",
+          "age_sessions": null,
+          "ttl_sessions": null,
+          "actual_buy": false
+        },
+        {
+          "kind": "CANDIDATE",
+          "market": "KR",
+          "ticker": "035720",
+          "symbol": "035720.KS",
+          "name": "카카오",
+          "sector": "인터넷",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "932769021cb8a8cb3f9e651962893ac5c2a891841f27b64adb1146ff7a3c2765",
+          "experiment_mode": "FORWARD",
+          "state": "RS_ARMED",
+          "signal_date": null,
+          "entry_session": null,
+          "signal_price": null,
+          "entry_price": null,
+          "stop": null,
+          "target": null,
+          "planned_rr": null,
+          "actual_rr": null,
+          "score": 2.419752344874526,
+          "reason": "relative_20d=3.7% ma20_distance=1.28%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "5343ed8e7316ab7e24dfa1452d40c13bdb62c2e059926fdff386b139de20f5a6",
+          "selectable_for_new_review": false,
+          "trade_attempted": true,
+          "trade_attempt_session": "2026-08-18",
+          "age_sessions": null,
+          "ttl_sessions": null,
+          "actual_buy": false
+        }
+      ],
       "virtual_open_reference": [],
       "integrity": {
-        "candidate_max_session": null,
+        "candidate_max_session": "2026-08-18",
         "candidate_ahead_of_market": false,
         "older_active_rows_excluded": 0,
         "old_experiment_rows_excluded": 28
       },
       "benchmark": {
         "symbol": "^KS11",
-        "latest_complete_session": "2026-08-14",
+        "latest_complete_session": "2026-08-18",
         "latest_bar": {
-          "date": "2026-08-14",
-          "open": 6995.669921875,
-          "high": 7010.85986328125,
-          "low": 6848.43017578125,
-          "close": 6977.93994140625,
-          "volume": 332900
+          "date": "2026-08-18",
+          "open": 7127.77001953125,
+          "high": 7216.6201171875,
+          "low": 6788.77978515625,
+          "close": 6869.830078125,
+          "volume": 399036
         },
-        "ma20": 6463.320556640625,
-        "ma60": 7540.865543619791,
-        "ma200": 5873.233419189453,
-        "atr14": 428.54928152901783,
-        "return_20d_pct": 2.3068328519079584,
-        "return_60d_pct": -4.039245626616605,
+        "ma20": 6480.998559570313,
+        "ma60": 7535.213541666667,
+        "ma200": 5888.35476928711,
+        "atr14": 404.62074497767856,
+        "return_20d_pct": 5.425804295003478,
+        "return_60d_pct": -4.704153975262681,
         "regime": {
           "state": "OFF",
-          "close": 6977.93994140625,
-          "ma20": 6463.320556640625,
-          "ma60": 7540.865543619791
+          "close": 6869.830078125,
+          "ma20": 6480.998559570313,
+          "ma60": 7535.213541666667
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-17T16:30:07+09:00",
-          "data_revision": "a0e83d0e320a56a3094454cd00d02cc3063d2fe3e640d0d6541f9d449016e42e"
+          "retrieved_at": "2026-08-18T16:30:07+09:00",
+          "data_revision": "d5be45ed4f2870be5d5e2921f596b0589820cf1531c9329f4ae1a281d3e42239"
         },
         "raw_adjusted_ohlcv": [
-          {
-            "date": "2025-09-18",
-            "open": 3432.77001953125,
-            "high": 3461.300048828125,
-            "low": 3422.77001953125,
-            "close": 3461.300048828125,
-            "volume": 391200
-          },
           {
             "date": "2025-09-19",
             "open": 3461.22998046875,
@@ -1883,61 +2028,69 @@
             "low": 6848.43017578125,
             "close": 6977.93994140625,
             "volume": 332900
+          },
+          {
+            "date": "2026-08-18",
+            "open": 7127.77001953125,
+            "high": 7216.6201171875,
+            "low": 6788.77978515625,
+            "close": 6869.830078125,
+            "volume": 399036
           }
         ]
       },
       "breadth": {
         "valid_symbols": 12,
-        "advancers": 10,
-        "decliners": 2,
+        "advancers": 1,
+        "decliners": 10,
         "above_ma20_pct": 91.67,
-        "above_ma60_pct": 58.33,
-        "ma20_rising_pct": 50,
+        "above_ma60_pct": 41.67,
+        "ma20_rising_pct": 66.67,
         "ma60_rising_pct": 25,
-        "early_alignment_pct": 8.33
+        "early_alignment_pct": 16.67
       },
       "sectors": {
         "방산": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": 23.012,
-          "avg_relative_strength_20d_pct": 20.705
-        },
-        "인터넷": {
-          "members": 2,
-          "data_ready_members": 2,
-          "avg_return_20d_pct": 15.71,
-          "avg_relative_strength_20d_pct": 13.403
+          "avg_return_20d_pct": 30.971,
+          "avg_relative_strength_20d_pct": 25.546
         },
         "2차전지": {
           "members": 2,
           "data_ready_members": 2,
-          "avg_return_20d_pct": 14.693,
-          "avg_relative_strength_20d_pct": 12.386
+          "avg_return_20d_pct": 16.123,
+          "avg_relative_strength_20d_pct": 10.698
+        },
+        "인터넷": {
+          "members": 2,
+          "data_ready_members": 2,
+          "avg_return_20d_pct": 12.93,
+          "avg_relative_strength_20d_pct": 7.504
         },
         "화학": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": 7.678,
-          "avg_relative_strength_20d_pct": 5.371
+          "avg_return_20d_pct": 6.917,
+          "avg_relative_strength_20d_pct": 1.491
         },
         "자동차": {
           "members": 2,
           "data_ready_members": 2,
-          "avg_return_20d_pct": 0.622,
-          "avg_relative_strength_20d_pct": -1.685
-        },
-        "반도체": {
-          "members": 2,
-          "data_ready_members": 2,
-          "avg_return_20d_pct": -1.524,
-          "avg_relative_strength_20d_pct": -3.831
+          "avg_return_20d_pct": 3.511,
+          "avg_relative_strength_20d_pct": -1.915
         },
         "금융": {
           "members": 2,
           "data_ready_members": 2,
-          "avg_return_20d_pct": -3.026,
-          "avg_relative_strength_20d_pct": -5.333
+          "avg_return_20d_pct": 2.946,
+          "avg_relative_strength_20d_pct": -2.48
+        },
+        "반도체": {
+          "members": 2,
+          "data_ready_members": 2,
+          "avg_return_20d_pct": 2.129,
+          "avg_relative_strength_20d_pct": -3.296
         }
       },
       "stocks": [
@@ -1949,12 +2102,12 @@
           "name": "삼성전자",
           "sector": "반도체",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:48+09:00",
-            "data_revision": "f0602703d646d191d44b58c83149020d103a60f42681e6801762e44060f234ca",
+            "retrieved_at": "2026-08-18T16:30:08+09:00",
+            "data_revision": "8fe448080f07d37a47d8b2c415732494ab5c1338a242e26bf7aa72ee6ab2d4cb",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -1968,13 +2121,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 283000,
+            "high": 288000,
+            "low": 265000,
+            "close": 268500,
+            "volume": 25575515
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 275000,
             "high": 275500,
@@ -1982,45 +2143,37 @@
             "close": 274500,
             "volume": 21669476
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 267500,
-            "high": 271000,
-            "low": 262500,
-            "close": 268000,
-            "volume": 35530867
-          },
           "indicators": {
-            "ma5": 253500,
-            "ma20": 244475,
-            "ma60": 290344.54375,
-            "ma120": 251347.84921875,
-            "ma200": 200227.5112109375,
-            "atr14": 22842.85714285714,
-            "return_20d_pct": 7.647058823529407,
-            "return_60d_pct": -0.25309188161913854,
-            "return_120d_pct": 44.93237850219218,
-            "relative_strength_20d_pct": 5.340225971621448,
-            "relative_strength_60d_pct": 3.7861537449974665,
+            "ma5": 261200,
+            "ma20": 245700,
+            "ma60": 290224.6109375,
+            "ma120": 252006.19622395834,
+            "ma200": 201091.3646875,
+            "atr14": 21950,
+            "return_20d_pct": 10.040983606557386,
+            "return_60d_pct": -2.6101102539244136,
+            "return_120d_pct": 41.68988105520373,
+            "relative_strength_20d_pct": 4.615179311553908,
+            "relative_strength_60d_pct": 2.0940437213382674,
             "high_252": 374087.44831391243,
             "low_252": 66663.4346685466,
-            "distance_to_high_252_pct": -26.621435379019843
+            "distance_to_high_252_pct": -28.225338430844538
           },
           "trend": {
-            "ma20_rising": false,
+            "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": -1.4014922363379756,
-            "ma60_slope_5d_pct": -0.7856540569877501,
+            "ma20_slope_5d_pct": 0.2039151712887488,
+            "ma60_slope_5d_pct": -0.5224746115174095,
             "above_ma20": true,
             "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 29888023,
-            "avg_traded_value_20": 7201129514175,
-            "last_volume": 21669476,
-            "volume_ratio_20": 0.7250220598398228
+            "avg_volume_20": 29826596.85,
+            "avg_traded_value_20": 7217471539450,
+            "last_volume": 25575515,
+            "volume_ratio_20": 0.8574734532612291
           },
           "corporate_actions_180d": [
             {
@@ -2051,10 +2204,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 29888023,
-                "avg_traded_value_20": 7201129514175,
-                "last_volume": 21669476,
-                "volume_ratio_20": 0.7250220598398228
+                "avg_volume_20": 29826596.85,
+                "avg_traded_value_20": 7217471539450,
+                "last_volume": 25575515,
+                "volume_ratio_20": 0.8574734532612291
               },
               "data_integrity": {
                 "ok": true
@@ -2071,14 +2224,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 190689.70476760744,
-              "high": 194385.62885163128,
-              "low": 189890.58604673744,
-              "close": 192887.28125,
-              "volume": 20635958
-            },
             {
               "date": "2026-04-07",
               "open": 201777.47232824427,
@@ -2790,6 +2935,14 @@
               "low": 266000,
               "close": 274500,
               "volume": 21669476
+            },
+            {
+              "date": "2026-08-18",
+              "open": 283000,
+              "high": 288000,
+              "low": 265000,
+              "close": 268500,
+              "volume": 25575515
             }
           ]
         },
@@ -2801,12 +2954,12 @@
           "name": "SK하이닉스",
           "sector": "반도체",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:49+09:00",
-            "data_revision": "625d290ab20054107dd2868ba62c5c5eb7562ee5f8feed25ca707d68c05dbcdc",
+            "retrieved_at": "2026-08-18T16:30:10+09:00",
+            "data_revision": "a364a399530a7d1ec572fa71ee8a43bcc0c6ee817bf6b00ba2267d638e94fe9b",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -2820,13 +2973,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 1736000,
+            "high": 1792000,
+            "low": 1640000,
+            "close": 1662000,
+            "volume": 5121374
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 1695000,
             "high": 1697000,
@@ -2834,45 +2995,37 @@
             "close": 1645000,
             "volume": 4520990
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 1582000,
-            "high": 1634000,
-            "low": 1567000,
-            "close": 1593000,
-            "volume": 4680347
-          },
           "indicators": {
-            "ma5": 1517400,
-            "ma20": 1611550,
-            "ma60": 2062189.0208333333,
-            "ma120": 1610054.153125,
-            "ma200": 1229144.97359375,
-            "atr14": 177428.57142857142,
-            "return_20d_pct": -10.694896851248647,
-            "return_60d_pct": -5.7148953127263535,
-            "return_120d_pct": 84.37483516070137,
-            "relative_strength_20d_pct": -13.001729703156606,
-            "relative_strength_60d_pct": -1.6756496861097485,
+            "ma5": 1565800,
+            "ma20": 1606450,
+            "ma60": 2060810.55,
+            "ma120": 1616011.7057291667,
+            "ma200": 1235068.98625,
+            "atr14": 169285.7142857143,
+            "return_20d_pct": -5.782312925170063,
+            "return_60d_pct": -4.740520370669421,
+            "return_120d_pct": 75.48422314872624,
+            "relative_strength_20d_pct": -11.208117220173541,
+            "relative_strength_60d_pct": -0.03636639540673947,
             "high_252": 2987000,
-            "low_252": 243980.453125,
-            "distance_to_high_252_pct": -44.92802142618011
+            "low_252": 243980.46875,
+            "distance_to_high_252_pct": -44.35888851690659
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": -6.593056280067233,
-            "ma60_slope_5d_pct": -1.403616031195043,
+            "ma20_slope_5d_pct": -4.791679013809047,
+            "ma60_slope_5d_pct": -1.0312991806506577,
             "above_ma20": true,
             "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 5757404.95,
-            "avg_traded_value_20": 9152228889700,
-            "last_volume": 4520990,
-            "volume_ratio_20": 0.7852478745654324
+            "avg_volume_20": 5719651.45,
+            "avg_traded_value_20": 9059512708300,
+            "last_volume": 5121374,
+            "volume_ratio_20": 0.8953996663555434
           },
           "corporate_actions_180d": [
             {
@@ -2903,10 +3056,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 5757404.95,
-                "avg_traded_value_20": 9152228889700,
-                "last_volume": 4520990,
-                "volume_ratio_20": 0.7852478745654324
+                "avg_volume_20": 5719651.45,
+                "avg_traded_value_20": 9059512708300,
+                "last_volume": 5121374,
+                "volume_ratio_20": 0.8953996663555434
               },
               "data_integrity": {
                 "ok": true
@@ -2923,14 +3076,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 876853.3796557563,
-              "high": 901349.2836484199,
-              "low": 868854.7171275396,
-              "close": 885851.875,
-              "volume": 3100989
-            },
             {
               "date": "2026-04-07",
               "open": 916846.7078329694,
@@ -3642,6 +3787,14 @@
               "low": 1626000,
               "close": 1645000,
               "volume": 4520990
+            },
+            {
+              "date": "2026-08-18",
+              "open": 1736000,
+              "high": 1792000,
+              "low": 1640000,
+              "close": 1662000,
+              "volume": 5121374
             }
           ]
         },
@@ -3653,12 +3806,12 @@
           "name": "현대차",
           "sector": "자동차",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:50+09:00",
-            "data_revision": "e27530d020f6aeb5a2e351861a546eb957e9ceb5a0a0fd3e3cfa4b6e8ed320fc",
+            "retrieved_at": "2026-08-18T16:30:11+09:00",
+            "data_revision": "7f6807777a69d1abd4b2537701ac8e39c29d9e6e7a13324bd79bf1cce9a58293",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -3672,13 +3825,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 459500,
+            "high": 459500,
+            "low": 427000,
+            "close": 435000,
+            "volume": 864881
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 424000,
             "high": 456000,
@@ -3686,45 +3847,37 @@
             "close": 453000,
             "volume": 1203960
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 419500,
-            "high": 431500,
-            "low": 415000,
-            "close": 418500,
-            "volume": 590756
-          },
           "indicators": {
-            "ma5": 418400,
-            "ma20": 399300,
-            "ma60": 514190.79791666666,
-            "ma120": 525869.24296875,
-            "ma200": 452666.3265625,
-            "atr14": 25892.85714285714,
-            "return_20d_pct": 6.58823529411765,
-            "return_60d_pct": -24.723656992874186,
-            "return_120d_pct": -10.981475291679054,
-            "relative_strength_20d_pct": 4.281402442209692,
-            "relative_strength_60d_pct": -20.68441136625758,
+            "ma5": 423800,
+            "ma20": 401100,
+            "ma60": 511610.35208333336,
+            "ma120": 525286.6182291667,
+            "ma200": 453603.388046875,
+            "atr14": 25071.428571428572,
+            "return_20d_pct": 9.022556390977442,
+            "return_60d_pct": -26.249530052680726,
+            "return_120d_pct": -13.846879787122568,
+            "relative_strength_20d_pct": 3.5967520959739643,
+            "relative_strength_60d_pct": -21.545376077418045,
             "high_252": 783000,
-            "low_252": 201064.5233264218,
-            "distance_to_high_252_pct": -42.1455938697318
+            "low_252": 201064.53865521325,
+            "distance_to_high_252_pct": -44.44444444444444
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": -1.1511325659116278,
-            "ma60_slope_5d_pct": -3.997257110976571,
+            "ma20_slope_5d_pct": -0.0934055669717937,
+            "ma60_slope_5d_pct": -3.5807577757220987,
             "above_ma20": true,
             "above_ma60": false,
-            "above_ma200": true,
+            "above_ma200": false,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 778888.3,
-            "avg_traded_value_20": 308904623275,
-            "last_volume": 1203960,
-            "volume_ratio_20": 1.5457415395763423
+            "avg_volume_20": 776893.85,
+            "avg_traded_value_20": 309665623525,
+            "last_volume": 864881,
+            "volume_ratio_20": 1.113255047649045
           },
           "corporate_actions_180d": [
             {
@@ -3755,10 +3908,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 778888.3,
-                "avg_traded_value_20": 308904623275,
-                "last_volume": 1203960,
-                "volume_ratio_20": 1.5457415395763423
+                "avg_volume_20": 776893.85,
+                "avg_traded_value_20": 309665623525,
+                "last_volume": 864881,
+                "volume_ratio_20": 1.113255047649045
               },
               "data_integrity": {
                 "ok": true
@@ -3775,14 +3928,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 467776.44572894456,
-              "high": 475747.0773920576,
-              "low": 463292.9654184435,
-              "close": 467278.28125,
-              "volume": 553057
-            },
             {
               "date": "2026-04-07",
               "open": 475248.90955338266,
@@ -4494,6 +4639,14 @@
               "low": 421500,
               "close": 453000,
               "volume": 1203960
+            },
+            {
+              "date": "2026-08-18",
+              "open": 459500,
+              "high": 459500,
+              "low": 427000,
+              "close": 435000,
+              "volume": 864881
             }
           ]
         },
@@ -4505,12 +4658,12 @@
           "name": "기아",
           "sector": "자동차",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:51+09:00",
-            "data_revision": "841bdb63d117d95d6d709c31d002fee8e30f8752938bd313a31c62c2b112215c",
+            "retrieved_at": "2026-08-18T16:30:12+09:00",
+            "data_revision": "5bd8a426207a03fc631e7a3b187a82717be6f457a8abb7b31f0b130c710742cb",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -4524,13 +4677,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 141800,
+            "high": 142300,
+            "low": 136000,
+            "close": 137200,
+            "volume": 513453
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 137400,
             "high": 142400,
@@ -4538,45 +4699,37 @@
             "close": 141700,
             "volume": 771767
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 137900,
-            "high": 141000,
-            "low": 135900,
-            "close": 137400,
-            "volume": 1035090
-          },
           "indicators": {
-            "ma5": 136900,
-            "ma20": 134110,
-            "ma60": 147843.33333333334,
-            "ma120": 153818.61184895833,
-            "ma200": 142304.613359375,
-            "atr14": 6085.714285714285,
-            "return_20d_pct": -5.3440213760855055,
-            "return_60d_pct": -8.521626856036157,
-            "return_120d_pct": -12.987929339536086,
-            "relative_strength_20d_pct": -7.650854227993464,
-            "relative_strength_60d_pct": -4.482381229419552,
+            "ma5": 137240,
+            "ma20": 133970,
+            "ma60": 147640,
+            "ma120": 153590.48463541668,
+            "ma200": 142439.7939453125,
+            "atr14": 5871.428571428572,
+            "return_20d_pct": -2.0000000000000018,
+            "return_60d_pct": -8.16599732262383,
+            "return_120d_pct": -16.633888161163345,
+            "relative_strength_20d_pct": -7.42580429500348,
+            "relative_strength_60d_pct": -3.4618433473611496,
             "high_252": 203563.70609032846,
             "low_252": 95794.68718967229,
-            "distance_to_high_252_pct": -30.39034181411363
+            "distance_to_high_252_pct": -32.60095198938878
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": -1.4983474109438122,
-            "ma60_slope_5d_pct": -1.7554352039516607,
+            "ma20_slope_5d_pct": -1.1656215418664684,
+            "ma60_slope_5d_pct": -1.410112297025068,
             "above_ma20": true,
             "above_ma60": false,
             "above_ma200": false,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 957264.1,
-            "avg_traded_value_20": 126778931980,
-            "last_volume": 771767,
-            "volume_ratio_20": 0.8062216059288132
+            "avg_volume_20": 939101.35,
+            "avg_traded_value_20": 124164263560,
+            "last_volume": 513453,
+            "volume_ratio_20": 0.5467492938861178
           },
           "corporate_actions_180d": [
             {
@@ -4597,10 +4750,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 957264.1,
-                "avg_traded_value_20": 126778931980,
-                "last_volume": 771767,
-                "volume_ratio_20": 0.8062216059288132
+                "avg_volume_20": 939101.35,
+                "avg_traded_value_20": 124164263560,
+                "last_volume": 513453,
+                "volume_ratio_20": 0.5467492938861178
               },
               "data_integrity": {
                 "ok": true
@@ -4617,14 +4770,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 151000,
-              "high": 154100,
-              "low": 150200,
-              "close": 151600,
-              "volume": 613147
-            },
             {
               "date": "2026-04-07",
               "open": 152200,
@@ -5336,6 +5481,14 @@
               "low": 137200,
               "close": 141700,
               "volume": 771767
+            },
+            {
+              "date": "2026-08-18",
+              "open": 141800,
+              "high": 142300,
+              "low": 136000,
+              "close": 137200,
+              "volume": 513453
             }
           ]
         },
@@ -5347,12 +5500,12 @@
           "name": "NAVER",
           "sector": "인터넷",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:51+09:00",
-            "data_revision": "e1ee5fedf5b1e5c3f48f113fd6010416dc923e9136f4f6ac7d5761ee880124ab",
+            "retrieved_at": "2026-08-18T16:30:13+09:00",
+            "data_revision": "b0923ed7eee8e692b28b24b96cc5221ed27a0f2e76155c24ad0a5369b37c548c",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -5366,13 +5519,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 225500,
+            "high": 226000,
+            "low": 214500,
+            "close": 217000,
+            "volume": 872906
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 227000,
             "high": 232500,
@@ -5380,45 +5541,37 @@
             "close": 228000,
             "volume": 750112
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 218500,
-            "high": 230000,
-            "low": 215500,
-            "close": 226500,
-            "volume": 1834477
-          },
           "indicators": {
-            "ma5": 219100,
-            "ma20": 211850,
-            "ma60": 215081.66666666666,
-            "ma120": 215478.48046875,
-            "ma200": 229598.375625,
-            "atr14": 12828.57142857143,
-            "return_20d_pct": 19.999999999999996,
-            "return_60d_pct": 15.093387178192842,
-            "return_120d_pct": -8.934776530734512,
-            "relative_strength_20d_pct": 17.693167148092037,
-            "relative_strength_60d_pct": 19.132632804809447,
+            "ma5": 220200,
+            "ma20": 213405,
+            "ma60": 215506.66666666666,
+            "ma120": 215188.026953125,
+            "ma200": 229483.47984375,
+            "atr14": 12114.285714285714,
+            "return_20d_pct": 16.72942442173211,
+            "return_60d_pct": 13.315926892950403,
+            "return_120d_pct": -13.839114523190265,
+            "relative_strength_20d_pct": 11.303620126728632,
+            "relative_strength_60d_pct": 18.020080868213086,
             "high_252": 304000,
             "low_252": 181100,
-            "distance_to_high_252_pct": -25
+            "distance_to_high_252_pct": -28.618421052631582
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 3.756489372122629,
-            "ma60_slope_5d_pct": 0.6190791781996774,
+            "ma20_slope_5d_pct": 4.003606413567917,
+            "ma60_slope_5d_pct": 0.7393556931946543,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": false,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 1366035.05,
-            "avg_traded_value_20": 291529279825,
-            "last_volume": 750112,
-            "volume_ratio_20": 0.549116217772011
+            "avg_volume_20": 1378176.35,
+            "avg_traded_value_20": 295143716325,
+            "last_volume": 872906,
+            "volume_ratio_20": 0.63337757900141
           },
           "corporate_actions_180d": [
             {
@@ -5439,10 +5592,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1366035.05,
-                "avg_traded_value_20": 291529279825,
-                "last_volume": 750112,
-                "volume_ratio_20": 0.549116217772011
+                "avg_volume_20": 1378176.35,
+                "avg_traded_value_20": 295143716325,
+                "last_volume": 872906,
+                "volume_ratio_20": 0.63337757900141
               },
               "data_integrity": {
                 "ok": true
@@ -5459,14 +5612,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 197100,
-              "high": 199400,
-              "low": 194200,
-              "close": 196800,
-              "volume": 717180
-            },
             {
               "date": "2026-04-07",
               "open": 197200,
@@ -6178,6 +6323,14 @@
               "low": 225000,
               "close": 228000,
               "volume": 750112
+            },
+            {
+              "date": "2026-08-18",
+              "open": 225500,
+              "high": 226000,
+              "low": 214500,
+              "close": 217000,
+              "volume": 872906
             }
           ]
         },
@@ -6189,12 +6342,12 @@
           "name": "카카오",
           "sector": "인터넷",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:52+09:00",
-            "data_revision": "79e6c7297f3a8c212c83a04c63aa132828b86c5381b460d4f89db894ae478d67",
+            "retrieved_at": "2026-08-18T16:30:14+09:00",
+            "data_revision": "5343ed8e7316ab7e24dfa1452d40c13bdb62c2e059926fdff386b139de20f5a6",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -6208,13 +6361,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 39650,
+            "high": 39850,
+            "low": 37650,
+            "close": 38250,
+            "volume": 2514145
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 40100,
             "high": 41400,
@@ -6222,45 +6383,37 @@
             "close": 40000,
             "volume": 2102824
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 39800,
-            "high": 40400,
-            "low": 39150,
-            "close": 40100,
-            "volume": 2630545
-          },
           "indicators": {
-            "ma5": 39980,
-            "ma20": 37605,
-            "ma60": 37761.666666666664,
-            "ma120": 43442.60110677083,
-            "ma200": 50057.4423046875,
-            "atr14": 1882.142857142857,
-            "return_20d_pct": 11.420612813370479,
-            "return_60d_pct": -3.8461538461538436,
-            "return_120d_pct": -30.458248225615712,
-            "relative_strength_20d_pct": 9.11377996146252,
-            "relative_strength_60d_pct": 0.19309178046276143,
+            "ma5": 39720,
+            "ma20": 37765,
+            "ma60": 37730,
+            "ma120": 43279.52626953125,
+            "ma200": 49954.10509765625,
+            "atr14": 1917.857142857143,
+            "return_20d_pct": 9.129814550641946,
+            "return_60d_pct": -4.732254047322537,
+            "return_120d_pct": -33.84525342733541,
+            "relative_strength_20d_pct": 3.704010255638468,
+            "relative_strength_60d_pct": -0.028100072059856096,
             "high_252": 69602.46697285821,
             "low_252": 32250,
-            "distance_to_high_252_pct": -42.530772629656674
+            "distance_to_high_252_pct": -45.0450513271092
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": 3.4596602242245034,
-            "ma60_slope_5d_pct": -0.7469061439053903,
+            "ma20_slope_5d_pct": 3.3030157970320717,
+            "ma60_slope_5d_pct": -0.6822120341325344,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": false,
-            "early_alignment": false
+            "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 2391978.75,
-            "avg_traded_value_20": 90192661532.5,
-            "last_volume": 2102824,
-            "volume_ratio_20": 0.8791148332734979
+            "avg_volume_20": 2424306.75,
+            "avg_traded_value_20": 91728021132.5,
+            "last_volume": 2514145,
+            "volume_ratio_20": 1.0370572948328425
           },
           "corporate_actions_180d": [
             {
@@ -6281,10 +6434,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 2391978.75,
-                "avg_traded_value_20": 90192661532.5,
-                "last_volume": 2102824,
-                "volume_ratio_20": 0.8791148332734979
+                "avg_volume_20": 2424306.75,
+                "avg_traded_value_20": 91728021132.5,
+                "last_volume": 2514145,
+                "volume_ratio_20": 1.0370572948328425
               },
               "data_integrity": {
                 "ok": true
@@ -6301,14 +6454,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 45000,
-              "high": 45450,
-              "low": 44000,
-              "close": 44850,
-              "volume": 1223887
-            },
             {
               "date": "2026-04-07",
               "open": 45050,
@@ -7020,6 +7165,14 @@
               "low": 39500,
               "close": 40000,
               "volume": 2102824
+            },
+            {
+              "date": "2026-08-18",
+              "open": 39650,
+              "high": 39850,
+              "low": 37650,
+              "close": 38250,
+              "volume": 2514145
             }
           ]
         },
@@ -7031,12 +7184,12 @@
           "name": "LG화학",
           "sector": "화학",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:53+09:00",
-            "data_revision": "1dc19e4fc9020e2b4787cbcf69df0720d703671594cb8512b59a118fc7ec6b82",
+            "retrieved_at": "2026-08-18T16:30:15+09:00",
+            "data_revision": "4f99ea932e388e10015ea003db3c3bc353a52ae1b8c78c61e43b51b99c0e51be",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -7050,13 +7203,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 281000,
+            "high": 281000,
+            "low": 268000,
+            "close": 270500,
+            "volume": 155671
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 280500,
             "high": 282500,
@@ -7064,45 +7225,37 @@
             "close": 280500,
             "volume": 137186
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 277000,
-            "high": 280000,
-            "low": 274000,
-            "close": 275500,
-            "volume": 213415
-          },
           "indicators": {
-            "ma5": 276700,
-            "ma20": 260100,
-            "ma60": 295041.6666666667,
-            "ma120": 322424.5721354167,
-            "ma200": 335878.82953125,
-            "atr14": 15303.57142857143,
-            "return_20d_pct": 7.677543186180413,
-            "return_60d_pct": -19.971469329529246,
-            "return_120d_pct": -15.604228965275501,
-            "relative_strength_20d_pct": 5.370710334272455,
-            "relative_strength_60d_pct": -15.93222370291264,
+            "ma5": 275200,
+            "ma20": 260975,
+            "ma60": 294016.6666666667,
+            "ma120": 321888.3502604167,
+            "ma200": 335296.27359375,
+            "atr14": 14553.57142857143,
+            "return_20d_pct": 6.9169960474308345,
+            "return_60d_pct": -18.524096385542165,
+            "return_120d_pct": -19.216745875817022,
+            "relative_strength_20d_pct": 1.4911917524273566,
+            "relative_strength_60d_pct": -13.819942410279484,
             "high_252": 437500,
             "low_252": 224000,
-            "distance_to_high_252_pct": -35.885714285714286
+            "distance_to_high_252_pct": -38.171428571428564
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": 1.542065196174125,
-            "ma60_slope_5d_pct": -2.7148077927073855,
+            "ma20_slope_5d_pct": 1.6059957173447437,
+            "ma60_slope_5d_pct": -2.4658594570686088,
             "above_ma20": true,
             "above_ma60": false,
             "above_ma200": false,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 195681.2,
-            "avg_traded_value_20": 50356151200,
-            "last_volume": 137186,
-            "volume_ratio_20": 0.7010688814255023
+            "avg_volume_20": 190941.25,
+            "avg_traded_value_20": 49293155975,
+            "last_volume": 155671,
+            "volume_ratio_20": 0.8152821875838773
           },
           "corporate_actions_180d": [
             {
@@ -7123,10 +7276,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 195681.2,
-                "avg_traded_value_20": 50356151200,
-                "last_volume": 137186,
-                "volume_ratio_20": 0.7010688814255023
+                "avg_volume_20": 190941.25,
+                "avg_traded_value_20": 49293155975,
+                "last_volume": 155671,
+                "volume_ratio_20": 0.8152821875838773
               },
               "data_integrity": {
                 "ok": true
@@ -7143,14 +7296,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 303500,
-              "high": 320500,
-              "low": 303500,
-              "close": 317000,
-              "volume": 299795
-            },
             {
               "date": "2026-04-07",
               "open": 316500,
@@ -7862,6 +8007,14 @@
               "low": 274000,
               "close": 280500,
               "volume": 137186
+            },
+            {
+              "date": "2026-08-18",
+              "open": 281000,
+              "high": 281000,
+              "low": 268000,
+              "close": 270500,
+              "volume": 155671
             }
           ]
         },
@@ -7873,12 +8026,12 @@
           "name": "삼성SDI",
           "sector": "2차전지",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:53+09:00",
-            "data_revision": "b5dc18503ef857a82741c23d859d6166f761817f4e49bb8a667d647376d7ab4a",
+            "retrieved_at": "2026-08-18T16:30:15+09:00",
+            "data_revision": "7a2bcb22c6e9fb2628392219ec6a61a068555621781e8791e66a2f9eafd0e6c4",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -7892,13 +8045,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 507000,
+            "high": 516000,
+            "low": 484000,
+            "close": 488000,
+            "volume": 487629
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 491500,
             "high": 518000,
@@ -7906,45 +8067,37 @@
             "close": 516000,
             "volume": 463047
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 486500,
-            "high": 493500,
-            "low": 479000,
-            "close": 487000,
-            "volume": 321399
-          },
           "indicators": {
-            "ma5": 485900,
-            "ma20": 430875,
-            "ma60": 492525,
-            "ma120": 495850,
-            "ma200": 424705,
-            "atr14": 33785.71428571428,
-            "return_20d_pct": 18.757192174913694,
-            "return_60d_pct": -12.0954003407155,
-            "return_120d_pct": 26.470588235294112,
-            "relative_strength_20d_pct": 16.450359323005735,
-            "relative_strength_60d_pct": -8.056154714098895,
+            "ma5": 487200,
+            "ma20": 435225,
+            "ma60": 491158.3333333333,
+            "ma120": 496566.6666666667,
+            "ma200": 425855,
+            "atr14": 32321.428571428572,
+            "return_20d_pct": 21.695760598503732,
+            "return_60d_pct": -14.385964912280702,
+            "return_120d_pct": 21.39303482587065,
+            "relative_strength_20d_pct": 16.269956303500255,
+            "relative_strength_60d_pct": -9.681810937018021,
             "high_252": 723000,
             "low_252": 189500,
-            "distance_to_high_252_pct": -28.63070539419087
+            "distance_to_high_252_pct": -32.50345781466113
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": 2.858677488660777,
-            "ma60_slope_5d_pct": -2.1667880553532415,
+            "ma20_slope_5d_pct": 3.3113761794552277,
+            "ma60_slope_5d_pct": -1.9432012910310048,
             "above_ma20": true,
-            "above_ma60": true,
+            "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 433969.25,
-            "avg_traded_value_20": 185478913450,
-            "last_volume": 463047,
-            "volume_ratio_20": 1.0670041713785021
+            "avg_volume_20": 439773.2,
+            "avg_traded_value_20": 189927483550,
+            "last_volume": 487629,
+            "volume_ratio_20": 1.1088192732071895
           },
           "corporate_actions_180d": [],
           "company_risk": {
@@ -7953,10 +8106,10 @@
             "lab_available": {
               "corporate_actions": [],
               "liquidity": {
-                "avg_volume_20": 433969.25,
-                "avg_traded_value_20": 185478913450,
-                "last_volume": 463047,
-                "volume_ratio_20": 1.0670041713785021
+                "avg_volume_20": 439773.2,
+                "avg_traded_value_20": 189927483550,
+                "last_volume": 487629,
+                "volume_ratio_20": 1.1088192732071895
               },
               "data_integrity": {
                 "ok": true
@@ -7973,14 +8126,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 441000,
-              "high": 470000,
-              "low": 438000,
-              "close": 453500,
-              "volume": 1125434
-            },
             {
               "date": "2026-04-07",
               "open": 448500,
@@ -8692,6 +8837,14 @@
               "low": 485500,
               "close": 516000,
               "volume": 463047
+            },
+            {
+              "date": "2026-08-18",
+              "open": 507000,
+              "high": 516000,
+              "low": 484000,
+              "close": 488000,
+              "volume": 487629
             }
           ]
         },
@@ -8703,12 +8856,12 @@
           "name": "LG에너지솔루션",
           "sector": "2차전지",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:54+09:00",
-            "data_revision": "c30baefb36b2c63694565115e8150775408006c95564b7ad45ed9cc9c3bf4e4c",
+            "retrieved_at": "2026-08-18T16:30:16+09:00",
+            "data_revision": "482f754e69edef78f8e39b0588bf147c4ac2ae7dc6a74b5cbd59c652a8eefd29",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -8722,13 +8875,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 366500,
+            "high": 367000,
+            "low": 350500,
+            "close": 351000,
+            "volume": 334816
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 366000,
             "high": 371500,
@@ -8736,45 +8897,37 @@
             "close": 369500,
             "volume": 243455
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 361500,
-            "high": 370000,
-            "low": 359500,
-            "close": 365500,
-            "volume": 321608
-          },
           "indicators": {
-            "ma5": 363100,
-            "ma20": 336450,
-            "ma60": 365341.6666666667,
-            "ma120": 389958.3333333333,
-            "ma200": 402352.5,
-            "atr14": 19142.85714285714,
-            "return_20d_pct": 10.628742514970057,
-            "return_60d_pct": -7.6250000000000036,
-            "return_120d_pct": -8.426270136307313,
-            "relative_strength_20d_pct": 8.321909663062097,
-            "relative_strength_60d_pct": -3.5857543733833985,
+            "ma5": 359800,
+            "ma20": 338125,
+            "ma60": 364783.3333333333,
+            "ma120": 389537.5,
+            "ma200": 401870,
+            "atr14": 18714.285714285714,
+            "return_20d_pct": 10.551181102362195,
+            "return_60d_pct": -8.712613784135236,
+            "return_120d_pct": -12.577833125778326,
+            "relative_strength_20d_pct": 5.125376807358717,
+            "relative_strength_60d_pct": -4.008459808872555,
             "high_252": 527000,
             "low_252": 290500,
-            "distance_to_high_252_pct": -29.88614800759013
+            "distance_to_high_252_pct": -33.396584440227706
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": 2.591858515017531,
-            "ma60_slope_5d_pct": -1.2679037924511194,
+            "ma20_slope_5d_pct": 2.4543595182183076,
+            "ma60_slope_5d_pct": -1.1404954944782109,
             "above_ma20": true,
-            "above_ma60": true,
+            "above_ma60": false,
             "above_ma200": false,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 298383.1,
-            "avg_traded_value_20": 100078872300,
-            "last_volume": 243455,
-            "volume_ratio_20": 0.8159141720828024
+            "avg_volume_20": 299603.85,
+            "avg_traded_value_20": 101027277225,
+            "last_volume": 334816,
+            "volume_ratio_20": 1.1175290304180003
           },
           "corporate_actions_180d": [],
           "company_risk": {
@@ -8783,10 +8936,10 @@
             "lab_available": {
               "corporate_actions": [],
               "liquidity": {
-                "avg_volume_20": 298383.1,
-                "avg_traded_value_20": 100078872300,
-                "last_volume": 243455,
-                "volume_ratio_20": 0.8159141720828024
+                "avg_volume_20": 299603.85,
+                "avg_traded_value_20": 101027277225,
+                "last_volume": 334816,
+                "volume_ratio_20": 1.1175290304180003
               },
               "data_integrity": {
                 "ok": true
@@ -8803,14 +8956,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 399500,
-              "high": 418000,
-              "low": 399500,
-              "close": 412500,
-              "volume": 393045
-            },
             {
               "date": "2026-04-07",
               "open": 408000,
@@ -9522,6 +9667,14 @@
               "low": 358500,
               "close": 369500,
               "volume": 243455
+            },
+            {
+              "date": "2026-08-18",
+              "open": 366500,
+              "high": 367000,
+              "low": 350500,
+              "close": 351000,
+              "volume": 334816
             }
           ]
         },
@@ -9533,12 +9686,12 @@
           "name": "KB금융",
           "sector": "금융",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:55+09:00",
-            "data_revision": "7d7307e8b63fcd29a1b7fc2665b1dc52fbe8031ddffffd1fc2a032f993cc5534",
+            "retrieved_at": "2026-08-18T16:30:17+09:00",
+            "data_revision": "4c69d82d81d147be1ca9750305ecb780de5eb51168fca13f8fd0358eb39b4844",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -9552,13 +9705,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 168400,
+            "high": 168500,
+            "low": 166100,
+            "close": 168500,
+            "volume": 972632
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 167100,
             "high": 169800,
@@ -9566,45 +9727,37 @@
             "close": 168500,
             "volume": 951351
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 167400,
-            "high": 170400,
-            "low": 165800,
-            "close": 168100,
-            "volume": 1281602
-          },
           "indicators": {
-            "ma5": 168180,
-            "ma20": 169087.8375,
-            "ma60": 163850.36796875,
-            "ma120": 158165.05690104168,
-            "ma200": 145594.873359375,
-            "atr14": 7194.8121091199555,
-            "return_20d_pct": -6.323640702517097,
-            "return_60d_pct": 11.026105033536915,
-            "return_120d_pct": 3.6205703743562134,
-            "relative_strength_20d_pct": -8.630473554425055,
-            "relative_strength_60d_pct": 15.06535066015352,
+            "ma5": 167540,
+            "ma20": 169129.94453125,
+            "ma60": 164147.47526041666,
+            "ma120": 158195.40013020832,
+            "ma200": 145880.64578125,
+            "atr14": 6621.315353293685,
+            "return_20d_pct": 0.5022971354515349,
+            "return_60d_pct": 11.831164807031103,
+            "return_120d_pct": 2.2086702219816123,
+            "relative_strength_20d_pct": -4.923507159551943,
+            "relative_strength_60d_pct": 16.535318782293785,
             "high_252": 193183.9651584318,
-            "low_252": 101795.3982606132,
+            "low_252": 102565.11563076568,
             "distance_to_high_252_pct": -12.777439958947035
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": -1.9205572600775378,
-            "ma60_slope_5d_pct": 0.7863796102363985,
+            "ma20_slope_5d_pct": -1.569199706012958,
+            "ma60_slope_5d_pct": 0.7550238893251571,
             "above_ma20": false,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 1084510.4,
-            "avg_traded_value_20": 182624035464.36563,
-            "last_volume": 951351,
-            "volume_ratio_20": 0.8772170372916664
+            "avg_volume_20": 1041586.05,
+            "avg_traded_value_20": 175468385474.3211,
+            "last_volume": 972632,
+            "volume_ratio_20": 0.9337989885713235
           },
           "corporate_actions_180d": [
             {
@@ -9645,10 +9798,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1084510.4,
-                "avg_traded_value_20": 182624035464.36563,
-                "last_volume": 951351,
-                "volume_ratio_20": 0.8772170372916664
+                "avg_volume_20": 1041586.05,
+                "avg_traded_value_20": 175468385474.3211,
+                "last_volume": 972632,
+                "volume_ratio_20": 0.9337989885713235
               },
               "data_integrity": {
                 "ok": true
@@ -9665,14 +9818,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 143771.8064148073,
-              "high": 147420.3364815754,
-              "low": 143081.54396974307,
-              "close": 145842.59375,
-              "volume": 576084
-            },
             {
               "date": "2026-04-07",
               "open": 144659.28125,
@@ -10384,6 +10529,14 @@
               "low": 166400,
               "close": 168500,
               "volume": 951351
+            },
+            {
+              "date": "2026-08-18",
+              "open": 168400,
+              "high": 168500,
+              "low": 166100,
+              "close": 168500,
+              "volume": 972632
             }
           ]
         },
@@ -10395,12 +10548,12 @@
           "name": "신한지주",
           "sector": "금융",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:55+09:00",
-            "data_revision": "07522383390d533cdd72a9dd2d8dfecdea75d1f2053590917ffd2a954af2038f",
+            "retrieved_at": "2026-08-18T16:30:18+09:00",
+            "data_revision": "9cbc754df06615d06e6cadada258202a8ed87046db4e7322f70dc44ff88762eb",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -10414,13 +10567,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 106400,
+            "high": 106700,
+            "low": 104500,
+            "close": 106500,
+            "volume": 849436
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 106000,
             "high": 108000,
@@ -10428,45 +10589,37 @@
             "close": 107400,
             "volume": 692324
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 105300,
-            "high": 108300,
-            "low": 104600,
-            "close": 106600,
-            "volume": 1362582
-          },
           "indicators": {
-            "ma5": 105740,
-            "ma20": 103714.105859375,
-            "ma60": 100985.68776041667,
-            "ma120": 97675.404296875,
-            "ma200": 90094.3848046875,
-            "atr14": 4711.299730992497,
-            "return_20d_pct": 0.27200034661061245,
-            "return_60d_pct": 15.222037019203082,
-            "return_120d_pct": 8.674883739645423,
-            "relative_strength_20d_pct": -2.034832505297346,
-            "relative_strength_60d_pct": 19.261282645819687,
+            "ma5": 105760,
+            "ma20": 103986.4359375,
+            "ma60": 101205.51106770833,
+            "ma120": 97725.38828125,
+            "ma200": 90271.6515625,
+            "atr14": 4514.285714285715,
+            "return_20d_pct": 5.38982522776672,
+            "return_60d_pct": 14.134940957020481,
+            "return_120d_pct": 5.968122811084298,
+            "relative_strength_20d_pct": -0.0359790672367577,
+            "relative_strength_60d_pct": 18.83909493228316,
             "high_252": 112469.061607965,
-            "low_252": 61644.769702148435,
-            "distance_to_high_252_pct": -4.507072020956581
+            "low_252": 61644.7658203125,
+            "distance_to_high_252_pct": -5.30729208782007
           },
           "trend": {
-            "ma20_rising": false,
+            "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": -0.32882748931800654,
-            "ma60_slope_5d_pct": 0.9677791264679492,
+            "ma20_slope_5d_pct": 0.028974385112734424,
+            "ma60_slope_5d_pct": 0.987337786465381,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 1127157.3,
-            "avg_traded_value_20": 116667770570.1582,
-            "last_volume": 692324,
-            "volume_ratio_20": 0.614221280383847
+            "avg_volume_20": 1100738.9,
+            "avg_traded_value_20": 114229428441.11914,
+            "last_volume": 849436,
+            "volume_ratio_20": 0.7716961760868086
           },
           "corporate_actions_180d": [
             {
@@ -10507,10 +10660,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 1127157.3,
-                "avg_traded_value_20": 116667770570.1582,
-                "last_volume": 692324,
-                "volume_ratio_20": 0.614221280383847
+                "avg_volume_20": 1100738.9,
+                "avg_traded_value_20": 114229428441.11914,
+                "last_volume": 849436,
+                "volume_ratio_20": 0.7716961760868086
               },
               "data_integrity": {
                 "ok": true
@@ -10527,14 +10680,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 90845.85126816468,
-              "high": 93013.53969321851,
-              "low": 90451.72609997308,
-              "close": 91535.5703125,
-              "volume": 674005
-            },
             {
               "date": "2026-04-07",
               "open": 90451.72673345187,
@@ -11246,6 +11391,14 @@
               "low": 105200,
               "close": 107400,
               "volume": 692324
+            },
+            {
+              "date": "2026-08-18",
+              "open": 106400,
+              "high": 106700,
+              "low": 104500,
+              "close": 106500,
+              "volume": 849436
             }
           ]
         },
@@ -11257,12 +11410,12 @@
           "name": "한화에어로스페이스",
           "sector": "방산",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-14",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-16T18:55:56+09:00",
-            "data_revision": "352f5b45c2dcc633286dce591a1d9fce0be479e34cd8ac47a4098db4decda948",
+            "retrieved_at": "2026-08-18T16:30:19+09:00",
+            "data_revision": "2ba6e4c37eaa861c9bce5e860e49efcf7882323fee36cb4ab80629120788c2bd",
             "source_meta": {
               "currency": "KRW",
               "exchange_name": "KSC",
@@ -11276,13 +11429,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 484,
+            "bar_count": 483,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-14",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 1124000,
+            "high": 1167000,
+            "low": 1121000,
+            "close": 1146000,
+            "volume": 175866
+          },
+          "previous_bar": {
             "date": "2026-08-14",
             "open": 1163000,
             "high": 1178000,
@@ -11290,45 +11451,37 @@
             "close": 1160000,
             "volume": 172790
           },
-          "previous_bar": {
-            "date": "2026-08-13",
-            "open": 1167000,
-            "high": 1213000,
-            "low": 1164000,
-            "close": 1185000,
-            "volume": 259007
-          },
           "indicators": {
-            "ma5": 1150200,
-            "ma20": 990000,
-            "ma60": 1056483.3333333333,
-            "ma120": 1218508.3333333333,
-            "ma200": 1144565.5528125,
-            "atr14": 72714.28571428571,
-            "return_20d_pct": 23.011664899257678,
-            "return_60d_pct": -9.797822706065318,
-            "return_120d_pct": 0.9573542210618013,
-            "relative_strength_20d_pct": 20.70483204734972,
-            "relative_strength_60d_pct": -5.758577079448713,
+            "ma5": 1149000,
+            "ma20": 1003550,
+            "ma60": 1054766.6666666667,
+            "ma120": 1217708.3333333333,
+            "ma200": 1145092.7540625,
+            "atr14": 72928.57142857143,
+            "return_20d_pct": 30.97142857142856,
+            "return_60d_pct": -8.246597277822254,
+            "return_120d_pct": -7.729468599033817,
+            "relative_strength_20d_pct": 25.545624276425084,
+            "relative_strength_60d_pct": -3.5424433025595725,
             "high_252": 1655000,
             "low_252": 783000,
-            "distance_to_high_252_pct": -29.90936555891238
+            "distance_to_high_252_pct": -30.755287009063448
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": 5.905006418485237,
-            "ma60_slope_5d_pct": -0.8911959223877775,
+            "ma20_slope_5d_pct": 6.3026322758328535,
+            "ma60_slope_5d_pct": -0.8444966705836165,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 225925.35,
-            "avg_traded_value_20": 222724698900,
-            "last_volume": 172790,
-            "volume_ratio_20": 0.7648101463602911
+            "avg_volume_20": 213935,
+            "avg_traded_value_20": 214616126950,
+            "last_volume": 175866,
+            "volume_ratio_20": 0.8220534274429149
           },
           "corporate_actions_180d": [],
           "company_risk": {
@@ -11337,10 +11490,10 @@
             "lab_available": {
               "corporate_actions": [],
               "liquidity": {
-                "avg_volume_20": 225925.35,
-                "avg_traded_value_20": 222724698900,
-                "last_volume": 172790,
-                "volume_ratio_20": 0.7648101463602911
+                "avg_volume_20": 213935,
+                "avg_traded_value_20": 214616126950,
+                "last_volume": 175866,
+                "volume_ratio_20": 0.8220534274429149
               },
               "data_integrity": {
                 "ok": true
@@ -11357,14 +11510,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 1449000,
-              "high": 1474000,
-              "low": 1410000,
-              "close": 1450000,
-              "volume": 128832
-            },
             {
               "date": "2026-04-07",
               "open": 1426000,
@@ -12076,6 +12221,14 @@
               "low": 1130000,
               "close": 1160000,
               "volume": 172790
+            },
+            {
+              "date": "2026-08-18",
+              "open": 1124000,
+              "high": 1167000,
+              "low": 1121000,
+              "close": 1146000,
+              "volume": 175866
             }
           ]
         }
@@ -12084,14 +12237,14 @@
     "JP": {
       "status": "READY",
       "status_reason": "RUNTIME_PRODUCTION_CACHE_ALIGNED",
-      "market_session": "2026-08-17",
-      "market_state": "ON",
+      "market_session": "2026-08-18",
+      "market_state": "WAIT",
       "session_alignment": "ALIGNED",
-      "runtime_session": "2026-08-17",
-      "production_session": "2026-08-17",
-      "cache_session": "2026-08-17",
-      "data_revision": "629d382b5abe4f942808572a84b6bc53d0618d64c6586e385bcdb4d5edda4d09",
-      "champion_action": "EXTERNAL_RISK_AND_CHAMPION_REVIEW_REQUIRED",
+      "runtime_session": "2026-08-18",
+      "production_session": "2026-08-18",
+      "cache_session": "2026-08-18",
+      "data_revision": "d0697a549c55c424d47dcdb5b70c71fc1bcca6f19a6486cc178772d1eb730f57",
+      "champion_action": "NO_NEW_BUY",
       "active_experiment_hashes": [
         "bd730af28672a8d2b402e98eab975efbd7561edb070121f4b32fb3edd8b609e3",
         "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
@@ -12102,8 +12255,223 @@
         "RS": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
         "VCP": "620900a66c70382d46676cce46bc512aa93a1b627b9fbade3a1ecfb5ed987bc2"
       },
-      "top_candidate": null,
-      "current_review_rows": [],
+      "top_candidate": {
+        "kind": "VIRTUAL_WAIT",
+        "market": "JP",
+        "ticker": "7974",
+        "symbol": "7974.T",
+        "name": "Nintendo",
+        "sector": "게임",
+        "setup": "GAP",
+        "setup_version": "v2",
+        "rule_hash": "3a7dd905aa9c323de8f62cc36770e1d12d6e258abf7d7e4c0def7df8ec6e2858",
+        "experiment_hash": "bd730af28672a8d2b402e98eab975efbd7561edb070121f4b32fb3edd8b609e3",
+        "experiment_mode": "FORWARD",
+        "state": "VIRTUAL_WAIT",
+        "signal_date": "2026-08-18",
+        "entry_session": null,
+        "signal_price": 8760,
+        "entry_price": null,
+        "stop": 8353.714285714286,
+        "target": 9572.571428571428,
+        "planned_rr": 2,
+        "actual_rr": null,
+        "score": 6.596254314291219,
+        "reason": "gap=3.3% volume_ratio=1.65",
+        "data_date": "2026-08-18",
+        "data_quality_status": "VERIFIED",
+        "data_revision": "eaa578371b672830441cba2825c5c172db32fcaa86a73505bf92058d8b197a8a",
+        "selectable_for_new_review": true,
+        "actual_buy": false
+      },
+      "current_review_rows": [
+        {
+          "kind": "VIRTUAL_WAIT",
+          "market": "JP",
+          "ticker": "7974",
+          "symbol": "7974.T",
+          "name": "Nintendo",
+          "sector": "게임",
+          "setup": "GAP",
+          "setup_version": "v2",
+          "rule_hash": "3a7dd905aa9c323de8f62cc36770e1d12d6e258abf7d7e4c0def7df8ec6e2858",
+          "experiment_hash": "bd730af28672a8d2b402e98eab975efbd7561edb070121f4b32fb3edd8b609e3",
+          "experiment_mode": "FORWARD",
+          "state": "VIRTUAL_WAIT",
+          "signal_date": "2026-08-18",
+          "entry_session": null,
+          "signal_price": 8760,
+          "entry_price": null,
+          "stop": 8353.714285714286,
+          "target": 9572.571428571428,
+          "planned_rr": 2,
+          "actual_rr": null,
+          "score": 6.596254314291219,
+          "reason": "gap=3.3% volume_ratio=1.65",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "eaa578371b672830441cba2825c5c172db32fcaa86a73505bf92058d8b197a8a",
+          "selectable_for_new_review": true,
+          "actual_buy": false
+        },
+        {
+          "kind": "VIRTUAL_WAIT",
+          "market": "JP",
+          "ticker": "6758",
+          "symbol": "6758.T",
+          "name": "Sony Group",
+          "sector": "전기전자",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
+          "experiment_mode": "FORWARD",
+          "state": "VIRTUAL_WAIT",
+          "signal_date": "2026-08-18",
+          "entry_session": null,
+          "signal_price": 3718,
+          "entry_price": null,
+          "stop": 3502.857142857143,
+          "target": 4191.314285714285,
+          "planned_rr": 2.2,
+          "actual_rr": null,
+          "score": 4.4503098456210255,
+          "reason": "relative_20d=6.21% ma20_distance=1.76%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "39962cbdf40ed2ef386c9ca74cb6fe565dfb818ed5d3df2f45b0facffa2a6cbe",
+          "selectable_for_new_review": true,
+          "actual_buy": false
+        },
+        {
+          "kind": "VIRTUAL_WAIT",
+          "market": "JP",
+          "ticker": "8306",
+          "symbol": "8306.T",
+          "name": "Mitsubishi UFJ",
+          "sector": "금융",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
+          "experiment_mode": "FORWARD",
+          "state": "VIRTUAL_WAIT",
+          "signal_date": "2026-08-18",
+          "entry_session": null,
+          "signal_price": 3654,
+          "entry_price": null,
+          "stop": 3506.5714285714284,
+          "target": 3978.3428571428576,
+          "planned_rr": 2.2,
+          "actual_rr": null,
+          "score": 3.4553613345333245,
+          "reason": "relative_20d=4.28% ma20_distance=0.82%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "847f591dda8901f437cb9d0232a5bc941d788d51c5efd8d8716133806a291db6",
+          "selectable_for_new_review": true,
+          "actual_buy": false
+        },
+        {
+          "kind": "CANDIDATE",
+          "market": "JP",
+          "ticker": "6758",
+          "symbol": "6758.T",
+          "name": "Sony Group",
+          "sector": "전기전자",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
+          "experiment_mode": "FORWARD",
+          "state": "RS_ARMED",
+          "signal_date": null,
+          "entry_session": null,
+          "signal_price": null,
+          "entry_price": null,
+          "stop": null,
+          "target": null,
+          "planned_rr": null,
+          "actual_rr": null,
+          "score": 4.4503098456210255,
+          "reason": "relative_20d=6.21% ma20_distance=1.76%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "39962cbdf40ed2ef386c9ca74cb6fe565dfb818ed5d3df2f45b0facffa2a6cbe",
+          "selectable_for_new_review": false,
+          "trade_attempted": true,
+          "trade_attempt_session": "2026-08-18",
+          "age_sessions": null,
+          "ttl_sessions": null,
+          "actual_buy": false
+        },
+        {
+          "kind": "CANDIDATE",
+          "market": "JP",
+          "ticker": "8306",
+          "symbol": "8306.T",
+          "name": "Mitsubishi UFJ",
+          "sector": "금융",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
+          "experiment_mode": "FORWARD",
+          "state": "RS_ARMED",
+          "signal_date": null,
+          "entry_session": null,
+          "signal_price": null,
+          "entry_price": null,
+          "stop": null,
+          "target": null,
+          "planned_rr": null,
+          "actual_rr": null,
+          "score": 3.4553613345333245,
+          "reason": "relative_20d=4.28% ma20_distance=0.82%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "847f591dda8901f437cb9d0232a5bc941d788d51c5efd8d8716133806a291db6",
+          "selectable_for_new_review": false,
+          "trade_attempted": true,
+          "trade_attempt_session": "2026-08-18",
+          "age_sessions": null,
+          "ttl_sessions": null,
+          "actual_buy": false
+        },
+        {
+          "kind": "CANDIDATE",
+          "market": "JP",
+          "ticker": "7203",
+          "symbol": "7203.T",
+          "name": "Toyota Motor",
+          "sector": "자동차",
+          "setup": "RS",
+          "setup_version": "v1",
+          "rule_hash": "4047c85ace74c202ef65cf5c34a5e5b7b9ffe3012186b33c0d2b32e76075c896",
+          "experiment_hash": "3d02877d0978b659ba9eeec2bc99972b3e12a2e4dc1182e037661a4ebc260162",
+          "experiment_mode": "FORWARD",
+          "state": "RS_ARMED",
+          "signal_date": null,
+          "entry_session": null,
+          "signal_price": null,
+          "entry_price": null,
+          "stop": null,
+          "target": null,
+          "planned_rr": null,
+          "actual_rr": null,
+          "score": 2.3904787660371296,
+          "reason": "relative_20d=3.29% ma20_distance=0.9%",
+          "data_date": "2026-08-18",
+          "data_quality_status": "VERIFIED",
+          "data_revision": "bc18f24cf3cbc7368743841130f01d035df089d7eff43d24ce3d684c78f7d29f",
+          "selectable_for_new_review": false,
+          "trade_attempted": true,
+          "trade_attempt_session": "2026-08-14",
+          "age_sessions": null,
+          "ttl_sessions": null,
+          "actual_buy": false
+        }
+      ],
       "virtual_open_reference": [
         {
           "kind": "VIRTUAL_OPEN",
@@ -12136,38 +12504,38 @@
         }
       ],
       "integrity": {
-        "candidate_max_session": "2026-08-14",
+        "candidate_max_session": "2026-08-18",
         "candidate_ahead_of_market": false,
-        "older_active_rows_excluded": 2,
+        "older_active_rows_excluded": 1,
         "old_experiment_rows_excluded": 39
       },
       "benchmark": {
         "symbol": "^N225",
-        "latest_complete_session": "2026-08-17",
+        "latest_complete_session": "2026-08-18",
         "latest_bar": {
-          "date": "2026-08-17",
-          "open": 68882.0625,
-          "high": 69225.5703125,
-          "low": 68492.0390625,
-          "close": 69220.25,
+          "date": "2026-08-18",
+          "open": 68847.3515625,
+          "high": 69093.203125,
+          "low": 67368.9609375,
+          "close": 67460.7265625,
           "volume": 0
         },
-        "ma20": 65426.10859375,
-        "ma60": 67036.13951822916,
-        "ma200": 57905.21462890625,
-        "atr14": 1763.49609375,
-        "return_20d_pct": 3.568028283979241,
-        "return_60d_pct": 12.217256005582877,
+        "ma20": 65338.132421875,
+        "ma60": 67006.81412760417,
+        "ma200": 57896.41701171875,
+        "atr14": 1834.2611607142858,
+        "return_20d_pct": 0.9354117715955956,
+        "return_60d_pct": 9.36478303656354,
         "regime": {
-          "state": "ON",
-          "close": 69220.25,
-          "ma20": 65426.10859375,
-          "ma60": 67036.13951822916
+          "state": "WAIT",
+          "close": 67460.7265625,
+          "ma20": 65338.132421875,
+          "ma60": 67006.81412760417
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-17T16:30:09+09:00",
-          "data_revision": "328115b91a086cdf49e8bc173c485448fdda992305fcc83b6def998344796f25"
+          "retrieved_at": "2026-08-18T16:30:23+09:00",
+          "data_revision": "5c9e5f1768dd760b699d1c70b13629ae3df18f6da5bced65fb70815d52de834c"
         },
         "raw_adjusted_ohlcv": [
           {
@@ -13923,79 +14291,79 @@
             "volume": 170600000
           },
           {
-            "date": "2026-08-17",
-            "open": 68882.0625,
-            "high": 69225.5703125,
-            "low": 68492.0390625,
-            "close": 69220.25,
+            "date": "2026-08-18",
+            "open": 68847.3515625,
+            "high": 69093.203125,
+            "low": 67368.9609375,
+            "close": 67460.7265625,
             "volume": 0
           }
         ]
       },
       "breadth": {
         "valid_symbols": 10,
-        "advancers": 4,
-        "decliners": 6,
-        "above_ma20_pct": 100,
+        "advancers": 2,
+        "decliners": 8,
+        "above_ma20_pct": 80,
         "above_ma60_pct": 70,
         "ma20_rising_pct": 70,
-        "ma60_rising_pct": 90,
+        "ma60_rising_pct": 80,
         "early_alignment_pct": 70
       },
       "sectors": {
         "게임": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": 23.743,
-          "avg_relative_strength_20d_pct": 20.175
+          "avg_return_20d_pct": 20.099,
+          "avg_relative_strength_20d_pct": 19.163
         },
         "산업재": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": 15.389,
-          "avg_relative_strength_20d_pct": 11.821
-        },
-        "전기전자": {
-          "members": 1,
-          "data_ready_members": 1,
-          "avg_return_20d_pct": 9.948,
-          "avg_relative_strength_20d_pct": 6.38
-        },
-        "통신": {
-          "members": 1,
-          "data_ready_members": 1,
-          "avg_return_20d_pct": 7.025,
-          "avg_relative_strength_20d_pct": 3.456
+          "avg_return_20d_pct": 16.896,
+          "avg_relative_strength_20d_pct": 15.961
         },
         "반도체장비": {
           "members": 2,
           "data_ready_members": 2,
-          "avg_return_20d_pct": 6.114,
-          "avg_relative_strength_20d_pct": 2.546
-        },
-        "자동차": {
-          "members": 1,
-          "data_ready_members": 1,
-          "avg_return_20d_pct": 3.575,
-          "avg_relative_strength_20d_pct": 0.007
-        },
-        "금융": {
-          "members": 1,
-          "data_ready_members": 1,
-          "avg_return_20d_pct": 0.551,
-          "avg_relative_strength_20d_pct": -3.017
+          "avg_return_20d_pct": 8.491,
+          "avg_relative_strength_20d_pct": 7.555
         },
         "투자/통신": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": -1.258,
-          "avg_relative_strength_20d_pct": -4.826
+          "avg_return_20d_pct": 7.485,
+          "avg_relative_strength_20d_pct": 6.55
+        },
+        "전기전자": {
+          "members": 1,
+          "data_ready_members": 1,
+          "avg_return_20d_pct": 7.147,
+          "avg_relative_strength_20d_pct": 6.212
+        },
+        "통신": {
+          "members": 1,
+          "data_ready_members": 1,
+          "avg_return_20d_pct": 6.155,
+          "avg_relative_strength_20d_pct": 5.219
+        },
+        "금융": {
+          "members": 1,
+          "data_ready_members": 1,
+          "avg_return_20d_pct": 5.212,
+          "avg_relative_strength_20d_pct": 4.276
+        },
+        "자동차": {
+          "members": 1,
+          "data_ready_members": 1,
+          "avg_return_20d_pct": 4.225,
+          "avg_relative_strength_20d_pct": 3.289
         },
         "소재": {
           "members": 1,
           "data_ready_members": 1,
-          "avg_return_20d_pct": -13.259,
-          "avg_relative_strength_20d_pct": -16.827
+          "avg_return_20d_pct": -12.785,
+          "avg_relative_strength_20d_pct": -13.72
         }
       },
       "stocks": [
@@ -14007,12 +14375,12 @@
           "name": "Toyota Motor",
           "sector": "자동차",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:11+09:00",
-            "data_revision": "a830920e9bbfb189fd86c5920764c26796d927b8d091dbf863e8dc5bdda59044",
+            "retrieved_at": "2026-08-18T16:30:25+09:00",
+            "data_revision": "bc18f24cf3cbc7368743841130f01d035df089d7eff43d24ce3d684c78f7d29f",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -14026,13 +14394,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 3006,
+            "high": 3027,
+            "low": 2989,
+            "close": 3022,
+            "volume": 17285000
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 3043,
             "high": 3052,
@@ -14040,45 +14416,37 @@
             "close": 3013,
             "volume": 15465900
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 2985,
-            "high": 3027,
-            "low": 2968.5,
-            "close": 3020,
-            "volume": 22125700
-          },
           "indicators": {
-            "ma5": 2999.7,
-            "ma20": 2988.95,
-            "ma60": 2893.525,
-            "ma120": 3086.786895751953,
-            "ma200": 3166.0669665527344,
-            "atr14": 93.57142857142857,
-            "return_20d_pct": 3.57511172224132,
-            "return_60d_pct": 1.1752854264607038,
-            "return_120d_pct": -18.019754178460655,
-            "relative_strength_20d_pct": 0.0070834382620788006,
-            "relative_strength_60d_pct": -11.041970579122173,
+            "ma5": 3007.9,
+            "ma20": 2995.075,
+            "ma60": 2894.108333333333,
+            "ma120": 3080.9816446940104,
+            "ma200": 3166.372403564453,
+            "atr14": 90.53571428571429,
+            "return_20d_pct": 4.224866356268331,
+            "return_60d_pct": 1.1717442249749022,
+            "return_120d_pct": -18.733514847412692,
+            "relative_strength_20d_pct": 3.289454584672735,
+            "relative_strength_60d_pct": -8.19303881158864,
             "high_252": 3941.3143289923573,
-            "low_252": 2562.3330737532856,
-            "distance_to_high_252_pct": -23.553420293420025
+            "low_252": 2575.433436275196,
+            "distance_to_high_252_pct": -23.325070071926756
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 1.2636999644266567,
-            "ma60_slope_5d_pct": 0.04725421326057244,
+            "ma20_slope_5d_pct": 1.200351404774369,
+            "ma60_slope_5d_pct": 0.12743224035680623,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": false,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 36096250,
-            "avg_traded_value_20": 108561239195,
-            "last_volume": 15465900,
-            "volume_ratio_20": 0.42846279045607233
+            "avg_volume_20": 35171525,
+            "avg_traded_value_20": 105985869682.5,
+            "last_volume": 17285000,
+            "volume_ratio_20": 0.49144869322555673
           },
           "corporate_actions_180d": [
             {
@@ -14099,10 +14467,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 36096250,
-                "avg_traded_value_20": 108561239195,
-                "last_volume": 15465900,
-                "volume_ratio_20": 0.42846279045607233
+                "avg_volume_20": 35171525,
+                "avg_traded_value_20": 105985869682.5,
+                "last_volume": 17285000,
+                "volume_ratio_20": 0.49144869322555673
               },
               "data_integrity": {
                 "ok": true
@@ -14119,14 +14487,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 3255,
-              "high": 3297,
-              "low": 3244,
-              "close": 3247,
-              "volume": 11430400
-            },
             {
               "date": "2026-04-07",
               "open": 3235,
@@ -14838,6 +15198,14 @@
               "low": 3007,
               "close": 3013,
               "volume": 15465900
+            },
+            {
+              "date": "2026-08-18",
+              "open": 3006,
+              "high": 3027,
+              "low": 2989,
+              "close": 3022,
+              "volume": 17285000
             }
           ]
         },
@@ -14849,12 +15217,12 @@
           "name": "Sony Group",
           "sector": "전기전자",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:12+09:00",
-            "data_revision": "391254a6dba142c01732f6b37d12a03bc6408c247f558b0862106ff01cc1efea",
+            "retrieved_at": "2026-08-18T16:30:25+09:00",
+            "data_revision": "39962cbdf40ed2ef386c9ca74cb6fe565dfb818ed5d3df2f45b0facffa2a6cbe",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -14868,13 +15236,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 3711,
+            "high": 3758,
+            "low": 3703,
+            "close": 3718,
+            "volume": 12306200
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 3853,
             "high": 3889,
@@ -14882,45 +15258,37 @@
             "close": 3780,
             "volume": 14750800
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 3750,
-            "high": 3912,
-            "low": 3727,
-            "close": 3912,
-            "volume": 23873300
-          },
           "indicators": {
-            "ma5": 3783.6,
-            "ma20": 3641.25,
-            "ma60": 3472.516666666667,
-            "ma120": 3411.5944071451822,
-            "ma200": 3661.3734436035156,
-            "atr14": 147.07142857142858,
-            "return_20d_pct": 9.947643979057585,
-            "return_60d_pct": 6.359032076533477,
-            "return_120d_pct": 9.265239030413275,
-            "relative_strength_20d_pct": 6.379615695078344,
-            "relative_strength_60d_pct": -5.8582239290494,
+            "ma5": 3774.4,
+            "ma20": 3653.65,
+            "ma60": 3475.733333333333,
+            "ma120": 3413.981233723958,
+            "ma200": 3657.9594909667967,
+            "atr14": 143.42857142857142,
+            "return_20d_pct": 7.1469740634005685,
+            "return_60d_pct": 5.47517730496454,
+            "return_120d_pct": 8.34656694001852,
+            "relative_strength_20d_pct": 6.211562291804973,
+            "relative_strength_60d_pct": -3.8896057315990005,
             "high_252": 4757.396194480884,
             "low_252": 3043,
-            "distance_to_high_252_pct": -20.544771856814748
+            "distance_to_high_252_pct": -21.848005757575983
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 2.835477357131766,
-            "ma60_slope_5d_pct": 0.4173795696074345,
+            "ma20_slope_5d_pct": 2.598916065260748,
+            "ma60_slope_5d_pct": 0.41940935990716355,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 19705495,
-            "avg_traded_value_20": 72260240285,
-            "last_volume": 14750800,
-            "volume_ratio_20": 0.7485627739876618
+            "avg_volume_20": 19192795,
+            "avg_traded_value_20": 70633768165,
+            "last_volume": 12306200,
+            "volume_ratio_20": 0.6411885293413492
           },
           "corporate_actions_180d": [
             {
@@ -14941,10 +15309,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 19705495,
-                "avg_traded_value_20": 72260240285,
-                "last_volume": 14750800,
-                "volume_ratio_20": 0.7485627739876618
+                "avg_volume_20": 19192795,
+                "avg_traded_value_20": 70633768165,
+                "last_volume": 12306200,
+                "volume_ratio_20": 0.6411885293413492
               },
               "data_integrity": {
                 "ok": true
@@ -14961,14 +15329,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 3327,
-              "high": 3345,
-              "low": 3284,
-              "close": 3292,
-              "volume": 8935300
-            },
             {
               "date": "2026-04-07",
               "open": 3317,
@@ -15680,6 +16040,14 @@
               "low": 3780,
               "close": 3780,
               "volume": 14750800
+            },
+            {
+              "date": "2026-08-18",
+              "open": 3711,
+              "high": 3758,
+              "low": 3703,
+              "close": 3718,
+              "volume": 12306200
             }
           ]
         },
@@ -15691,12 +16059,12 @@
           "name": "SoftBank Group",
           "sector": "투자/통신",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:14+09:00",
-            "data_revision": "ec5fec10c08aeec082bcc6e67cb1af96835998f9fe07b642fccb9447e70f8ba4",
+            "retrieved_at": "2026-08-18T16:30:26+09:00",
+            "data_revision": "40dd7fae2921bf4623efc6f2bb8ad0985f0d7f1f550b4a5cf8550975db918243",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -15710,13 +16078,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 5801,
+            "high": 6230,
+            "low": 5781,
+            "close": 5830,
+            "volume": 53888100
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 5750,
             "high": 5915,
@@ -15724,45 +16100,37 @@
             "close": 5886,
             "volume": 26818700
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 5834,
-            "high": 5970,
-            "low": 5730,
-            "close": 5739,
-            "volume": 41591000
-          },
           "indicators": {
-            "ma5": 5640.8,
-            "ma20": 5468.75,
-            "ma60": 6346.533333333334,
-            "ma120": 5402.316143798828,
-            "ma200": 5117.464936523437,
-            "atr14": 378.07142857142856,
-            "return_20d_pct": -1.258178158027179,
-            "return_60d_pct": -2.533532041728759,
-            "return_120d_pct": 36.250939410999905,
-            "relative_strength_20d_pct": -4.82620644200642,
-            "relative_strength_60d_pct": -14.750788047311636,
+            "ma5": 5710,
+            "ma20": 5489.05,
+            "ma60": 6331.083333333333,
+            "ma120": 5413.951047770182,
+            "ma200": 5115.5083520507815,
+            "atr14": 385.2142857142857,
+            "return_20d_pct": 7.485250737463134,
+            "return_60d_pct": -13.719106112179958,
+            "return_120d_pct": 31.489576613307314,
+            "relative_strength_20d_pct": 6.549838965867538,
+            "relative_strength_60d_pct": -23.0838891487435,
             "high_252": 9074,
-            "low_252": 2811.5350162591753,
-            "distance_to_high_252_pct": -35.13334802733083
+            "low_252": 2911.2791798353396,
+            "distance_to_high_252_pct": -35.750495922415695
           },
           "trend": {
             "ma20_rising": false,
-            "ma60_rising": true,
-            "ma20_slope_5d_pct": -3.0363475177304977,
-            "ma60_slope_5d_pct": 0.11226059179998416,
+            "ma60_rising": false,
+            "ma20_slope_5d_pct": -1.9059277659631446,
+            "ma60_slope_5d_pct": -0.06287752825543391,
             "above_ma20": true,
             "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 46822795,
-            "avg_traded_value_20": 253798007620,
-            "last_volume": 26818700,
-            "volume_ratio_20": 0.5727701646174689
+            "avg_volume_20": 46006990,
+            "avg_traded_value_20": 250467009730,
+            "last_volume": 53888100,
+            "volume_ratio_20": 1.1713024477367462
           },
           "corporate_actions_180d": [
             {
@@ -15783,10 +16151,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 46822795,
-                "avg_traded_value_20": 253798007620,
-                "last_volume": 26818700,
-                "volume_ratio_20": 0.5727701646174689
+                "avg_volume_20": 46006990,
+                "avg_traded_value_20": 250467009730,
+                "last_volume": 53888100,
+                "volume_ratio_20": 1.1713024477367462
               },
               "data_integrity": {
                 "ok": true
@@ -15803,14 +16171,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 3620,
-              "high": 3697,
-              "low": 3615,
-              "close": 3648,
-              "volume": 28379500
-            },
             {
               "date": "2026-04-07",
               "open": 3663,
@@ -16522,6 +16882,14 @@
               "low": 5653,
               "close": 5886,
               "volume": 26818700
+            },
+            {
+              "date": "2026-08-18",
+              "open": 5801,
+              "high": 6230,
+              "low": 5781,
+              "close": 5830,
+              "volume": 53888100
             }
           ]
         },
@@ -16533,12 +16901,12 @@
           "name": "Mitsubishi UFJ",
           "sector": "금융",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:15+09:00",
-            "data_revision": "7894e59ee3fa2ade693c430bb9a4b5590f496974596e700fce156093f1c33c23",
+            "retrieved_at": "2026-08-18T16:30:27+09:00",
+            "data_revision": "847f591dda8901f437cb9d0232a5bc941d788d51c5efd8d8716133806a291db6",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -16552,13 +16920,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 3641,
+            "high": 3709,
+            "low": 3637,
+            "close": 3654,
+            "volume": 29977100
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 3705,
             "high": 3742,
@@ -16566,45 +16942,37 @@
             "close": 3649,
             "volume": 28917900
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 3672,
-            "high": 3735,
-            "low": 3658,
-            "close": 3686,
-            "volume": 40725500
-          },
           "indicators": {
-            "ma5": 3632,
-            "ma20": 3615.2,
-            "ma60": 3375.45,
-            "ma120": 3081.254209391276,
-            "ma200": 2859.9907458496095,
-            "atr14": 105.21428571428571,
-            "return_20d_pct": 0.5511160099200829,
-            "return_60d_pct": 18.976198239321818,
-            "return_120d_pct": 25.998885034552032,
-            "relative_strength_20d_pct": -3.016912274059158,
-            "relative_strength_60d_pct": 6.75894223373894,
+            "ma5": 3660.8,
+            "ma20": 3624.25,
+            "ma60": 3384.8333333333335,
+            "ma120": 3087.100231933594,
+            "ma200": 2866.939971923828,
+            "atr14": 98.28571428571429,
+            "return_20d_pct": 5.211632594298887,
+            "return_60d_pct": 18.21417017146554,
+            "return_120d_pct": 23.76047755844597,
+            "relative_strength_20d_pct": 4.276220822703292,
+            "relative_strength_60d_pct": 8.849387134901999,
             "high_252": 3813,
-            "low_252": 1954.0507497633732,
-            "distance_to_high_252_pct": -4.3010752688172005
+            "low_252": 1962.7526307204419,
+            "distance_to_high_252_pct": -4.169944925255709
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 0.3219003219003147,
-            "ma60_slope_5d_pct": 1.5193287083450135,
+            "ma20_slope_5d_pct": 0.5047073667863611,
+            "ma60_slope_5d_pct": 1.505920220715029,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 44818920,
-            "avg_traded_value_20": 162027190315,
-            "last_volume": 28917900,
-            "volume_ratio_20": 0.6452163505947934
+            "avg_volume_20": 43364700,
+            "avg_traded_value_20": 157247977010,
+            "last_volume": 29977100,
+            "volume_ratio_20": 0.6912788512315317
           },
           "corporate_actions_180d": [
             {
@@ -16625,10 +16993,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 44818920,
-                "avg_traded_value_20": 162027190315,
-                "last_volume": 28917900,
-                "volume_ratio_20": 0.6452163505947934
+                "avg_volume_20": 43364700,
+                "avg_traded_value_20": 157247977010,
+                "last_volume": 29977100,
+                "volume_ratio_20": 0.6912788512315317
               },
               "data_integrity": {
                 "ok": true
@@ -16645,14 +17013,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 2778.5,
-              "high": 2815.5,
-              "low": 2770,
-              "close": 2792,
-              "volume": 27808200
-            },
             {
               "date": "2026-04-07",
               "open": 2800,
@@ -17364,6 +17724,14 @@
               "low": 3649,
               "close": 3649,
               "volume": 28917900
+            },
+            {
+              "date": "2026-08-18",
+              "open": 3641,
+              "high": 3709,
+              "low": 3637,
+              "close": 3654,
+              "volume": 29977100
             }
           ]
         },
@@ -17375,12 +17743,12 @@
           "name": "Hitachi",
           "sector": "산업재",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:16+09:00",
-            "data_revision": "ca83a40e9b5fa7f1ff86088749a430a0b98c5342d61dad6949f8eeb6883072a0",
+            "retrieved_at": "2026-08-18T16:30:29+09:00",
+            "data_revision": "a1e5b0b15ee34d0dad3d4a317e71ecbb8f4806ec882260fc6fe01b9a5f0e8eb6",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -17394,13 +17762,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 5500,
+            "high": 5552,
+            "low": 5472,
+            "close": 5514,
+            "volume": 11545800
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 5668,
             "high": 5688,
@@ -17408,45 +17784,37 @@
             "close": 5571,
             "volume": 9693800
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 5670,
-            "high": 5830,
-            "low": 5670,
-            "close": 5767,
-            "volume": 10672600
-          },
           "indicators": {
-            "ma5": 5665.8,
-            "ma20": 5252.5,
-            "ma60": 4973.016666666666,
-            "ma120": 4930.933479817709,
-            "ma200": 4964.723256835938,
-            "atr14": 176.5,
-            "return_20d_pct": 15.389395194697597,
-            "return_60d_pct": 8.74487604918992,
-            "return_120d_pct": 14.069190102719586,
-            "relative_strength_20d_pct": 11.821366910718357,
-            "relative_strength_60d_pct": -3.472379956392958,
+            "ma5": 5644.6,
+            "ma20": 5292.35,
+            "ma60": 4981.55,
+            "ma120": 4935.521647135417,
+            "ma200": 4969.932016601562,
+            "atr14": 167.42857142857142,
+            "return_20d_pct": 16.896332414670347,
+            "return_60d_pct": 10.235905637744903,
+            "return_120d_pct": 11.09275634121667,
+            "relative_strength_20d_pct": 15.96092064307475,
+            "relative_strength_60d_pct": 0.8711226011813622,
             "high_252": 6004.425743829508,
             "low_252": 3777.929085460556,
-            "distance_to_high_252_pct": -7.218437904322839
+            "distance_to_high_252_pct": -8.167737678053522
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 4.4618796177520625,
-            "ma60_slope_5d_pct": 1.2672791509840353,
+            "ma20_slope_5d_pct": 4.300227624331177,
+            "ma60_slope_5d_pct": 1.1636289790323495,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 12525450,
-            "avg_traded_value_20": 65929035860,
-            "last_volume": 9693800,
-            "volume_ratio_20": 0.7739282820178117
+            "avg_volume_20": 12501300,
+            "avg_traded_value_20": 66275220440,
+            "last_volume": 11545800,
+            "volume_ratio_20": 0.923567948933311
           },
           "corporate_actions_180d": [
             {
@@ -17467,10 +17835,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 12525450,
-                "avg_traded_value_20": 65929035860,
-                "last_volume": 9693800,
-                "volume_ratio_20": 0.7739282820178117
+                "avg_volume_20": 12501300,
+                "avg_traded_value_20": 66275220440,
+                "last_volume": 11545800,
+                "volume_ratio_20": 0.923567948933311
               },
               "data_integrity": {
                 "ok": true
@@ -17487,14 +17855,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 4805,
-              "high": 4811,
-              "low": 4719,
-              "close": 4719,
-              "volume": 7853200
-            },
             {
               "date": "2026-04-07",
               "open": 4718,
@@ -18206,6 +18566,14 @@
               "low": 5568,
               "close": 5571,
               "volume": 9693800
+            },
+            {
+              "date": "2026-08-18",
+              "open": 5500,
+              "high": 5552,
+              "low": 5472,
+              "close": 5514,
+              "volume": 11545800
             }
           ]
         },
@@ -18217,12 +18585,12 @@
           "name": "Tokyo Electron",
           "sector": "반도체장비",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:17+09:00",
-            "data_revision": "72405e0758a21fa669803418b17cf09cf8e41cb63972262c12908b881d4bd109",
+            "retrieved_at": "2026-08-18T16:30:30+09:00",
+            "data_revision": "7972fd0e882ceee784355d4a0d6df2ad58326ff2fc9c3bdb42261dd56d78cf37",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -18236,13 +18604,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 60110,
+            "high": 60300,
+            "low": 56380,
+            "close": 56380,
+            "volume": 3784600
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 59270,
             "high": 60430,
@@ -18250,45 +18626,37 @@
             "close": 60090,
             "volume": 2533100
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 61500,
-            "high": 61650,
-            "low": 59000,
-            "close": 59130,
-            "volume": 3188800
-          },
           "indicators": {
-            "ma5": 58734,
-            "ma20": 58822,
-            "ma60": 64002.833333333336,
-            "ma120": 53686.94134114583,
-            "ma200": 46360.26450195313,
-            "atr14": 3912.8571428571427,
-            "return_20d_pct": -15.23487092678798,
-            "return_60d_pct": 23.135245901639333,
-            "return_120d_pct": 39.78314450284655,
-            "relative_strength_20d_pct": -18.802899210767222,
-            "relative_strength_60d_pct": 10.917989896056456,
+            "ma5": 58660,
+            "ma20": 58386,
+            "ma60": 64112,
+            "ma120": 53788.30361328125,
+            "ma200": 46490.03706054688,
+            "atr14": 3664.285714285714,
+            "return_20d_pct": -13.394777265745006,
+            "return_60d_pct": 13.144691952638965,
+            "return_120d_pct": 27.50888273447667,
+            "relative_strength_20d_pct": -14.330189037340602,
+            "relative_strength_60d_pct": 3.7799089160754242,
             "high_252": 81260,
             "low_252": 19490.131093906683,
-            "distance_to_high_252_pct": -26.052178193453113
+            "distance_to_high_252_pct": -30.61777012060054
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": -5.375340835055942,
-            "ma60_slope_5d_pct": 1.3743001127211274,
-            "above_ma20": true,
+            "ma20_slope_5d_pct": -4.837500407471396,
+            "ma60_slope_5d_pct": 1.3743322695325189,
+            "above_ma20": false,
             "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 4443155,
-            "avg_traded_value_20": 257829564500,
-            "last_volume": 2533100,
-            "volume_ratio_20": 0.5701129040062748
+            "avg_volume_20": 4315610,
+            "avg_traded_value_20": 247876299400,
+            "last_volume": 3784600,
+            "volume_ratio_20": 0.8769559807304181
           },
           "corporate_actions_180d": [
             {
@@ -18309,10 +18677,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 4443155,
-                "avg_traded_value_20": 257829564500,
-                "last_volume": 2533100,
-                "volume_ratio_20": 0.5701129040062748
+                "avg_volume_20": 4315610,
+                "avg_traded_value_20": 247876299400,
+                "last_volume": 3784600,
+                "volume_ratio_20": 0.8769559807304181
               },
               "data_integrity": {
                 "ok": true
@@ -18329,14 +18697,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 38200,
-              "high": 39260,
-              "low": 38200,
-              "close": 38370,
-              "volume": 2127100
-            },
             {
               "date": "2026-04-07",
               "open": 38650,
@@ -19048,6 +19408,14 @@
               "low": 59010,
               "close": 60090,
               "volume": 2533100
+            },
+            {
+              "date": "2026-08-18",
+              "open": 60110,
+              "high": 60300,
+              "low": 56380,
+              "close": 56380,
+              "volume": 3784600
             }
           ]
         },
@@ -19059,12 +19427,12 @@
           "name": "Advantest",
           "sector": "반도체장비",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:18+09:00",
-            "data_revision": "185992094f0693ade0830ae798299b5e0d1a7f36053213a272cbe023d99515d3",
+            "retrieved_at": "2026-08-18T16:30:31+09:00",
+            "data_revision": "ecd551e6d88583fe16a082589c0901d66764b8cf539be1d02c09f1af0344ef56",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -19078,13 +19446,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 37560,
+            "high": 37590,
+            "low": 35800,
+            "close": 35860,
+            "volume": 6670300
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 36900,
             "high": 38590,
@@ -19092,45 +19468,37 @@
             "close": 37780,
             "volume": 6600200
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 38350,
-            "high": 38730,
-            "low": 36370,
-            "close": 36870,
-            "volume": 9994100
-          },
           "indicators": {
-            "ma5": 35880,
-            "ma20": 31333,
-            "ma60": 29751,
-            "ma120": 27717.02703450521,
-            "ma200": 25212.48458984375,
-            "atr14": 2653.9285714285716,
-            "return_20d_pct": 27.46288798920378,
-            "return_60d_pct": 41.260048607216305,
-            "return_120d_pct": 40.32427267306924,
-            "relative_strength_20d_pct": 23.894859705224537,
-            "relative_strength_60d_pct": 29.04279260163343,
+            "ma5": 36200,
+            "ma20": 31750.75,
+            "ma60": 29901.25,
+            "ma120": 27799.529817708335,
+            "ma200": 25304.9028515625,
+            "atr14": 2571.785714285714,
+            "return_20d_pct": 30.376295219051073,
+            "return_60d_pct": 33.58167256472342,
+            "return_120d_pct": 38.13737040536669,
+            "relative_strength_20d_pct": 29.440883447455477,
+            "relative_strength_60d_pct": 24.21688952815988,
             "high_252": 38730,
             "low_252": 9711.253449554897,
-            "distance_to_high_252_pct": -2.452878905241418
+            "distance_to_high_252_pct": -7.4102762716240616
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 4.997193529199873,
-            "ma60_slope_5d_pct": 2.8361072224814654,
+            "ma20_slope_5d_pct": 5.6131655759107835,
+            "ma60_slope_5d_pct": 2.8872015736381096,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 10007420,
-            "avg_traded_value_20": 308541288700,
-            "last_volume": 6600200,
-            "volume_ratio_20": 0.6595306282738208
+            "avg_volume_20": 9668835,
+            "avg_traded_value_20": 302015026100,
+            "last_volume": 6670300,
+            "volume_ratio_20": 0.6898762880946877
           },
           "corporate_actions_180d": [
             {
@@ -19151,10 +19519,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 10007420,
-                "avg_traded_value_20": 308541288700,
-                "last_volume": 6600200,
-                "volume_ratio_20": 0.6595306282738208
+                "avg_volume_20": 9668835,
+                "avg_traded_value_20": 302015026100,
+                "last_volume": 6670300,
+                "volume_ratio_20": 0.6898762880946877
               },
               "data_integrity": {
                 "ok": true
@@ -19171,14 +19539,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 21690,
-              "high": 22385,
-              "low": 21625,
-              "close": 21930,
-              "volume": 6851400
-            },
             {
               "date": "2026-04-07",
               "open": 21900,
@@ -19890,6 +20250,14 @@
               "low": 36900,
               "close": 37780,
               "volume": 6600200
+            },
+            {
+              "date": "2026-08-18",
+              "open": 37560,
+              "high": 37590,
+              "low": 35800,
+              "close": 35860,
+              "volume": 6670300
             }
           ]
         },
@@ -19901,12 +20269,12 @@
           "name": "Shin-Etsu Chemical",
           "sector": "소재",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:19+09:00",
-            "data_revision": "f0b338995df1c19852a6b36a97c0a7cfef50c2367b45bb488a23328e87a892d2",
+            "retrieved_at": "2026-08-18T16:30:32+09:00",
+            "data_revision": "f05ffbd75814a3e37af75744d922b7027bb673e87be0cb1617ed93e1855e6cbf",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -19920,13 +20288,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 6343,
+            "high": 6405,
+            "low": 6221,
+            "close": 6242,
+            "volume": 5242300
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 6390,
             "high": 6408,
@@ -19934,45 +20310,37 @@
             "close": 6385,
             "volume": 4280400
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 6478,
-            "high": 6508,
-            "low": 6361,
-            "close": 6372,
-            "volume": 6102200
-          },
           "indicators": {
-            "ma5": 6366.2,
-            "ma20": 6324.1,
-            "ma60": 6941.583333333333,
-            "ma120": 6749.985876464843,
-            "ma200": 6018.481672363281,
-            "atr14": 199.92857142857142,
-            "return_20d_pct": -13.2590680614047,
-            "return_60d_pct": -6.883476739098726,
-            "return_120d_pct": 15.984058365264886,
-            "relative_strength_20d_pct": -16.82709634538394,
-            "relative_strength_60d_pct": -19.100732744681604,
+            "ma5": 6357.4,
+            "ma20": 6278.35,
+            "ma60": 6928.383333333333,
+            "ma120": 6754.540795898438,
+            "ma200": 6025.289147949219,
+            "atr14": 189.5,
+            "return_20d_pct": -12.784686321084248,
+            "return_60d_pct": -11.259596246801252,
+            "return_120d_pct": 9.597032766673475,
+            "relative_strength_20d_pct": -13.720098092679844,
+            "relative_strength_60d_pct": -20.624379283364792,
             "high_252": 7930,
-            "low_252": 4196.224482642085,
-            "distance_to_high_252_pct": -19.482976040353094
+            "low_252": 4237.402407502523,
+            "distance_to_high_252_pct": -21.286254728877687
           },
           "trend": {
             "ma20_rising": false,
             "ma60_rising": false,
-            "ma20_slope_5d_pct": -4.058923031410943,
-            "ma60_slope_5d_pct": -0.7201155617425847,
-            "above_ma20": true,
+            "ma20_slope_5d_pct": -4.000030581273551,
+            "ma60_slope_5d_pct": -0.7150755797151742,
+            "above_ma20": false,
             "above_ma60": false,
             "above_ma200": true,
             "early_alignment": false
           },
           "liquidity": {
-            "avg_volume_20": 8638235,
-            "avg_traded_value_20": 53715604030,
-            "last_volume": 4280400,
-            "volume_ratio_20": 0.4955178922546099
+            "avg_volume_20": 8525240,
+            "avg_traded_value_20": 52667063590,
+            "last_volume": 5242300,
+            "volume_ratio_20": 0.6149152399228643
           },
           "corporate_actions_180d": [
             {
@@ -19993,10 +20361,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 8638235,
-                "avg_traded_value_20": 53715604030,
-                "last_volume": 4280400,
-                "volume_ratio_20": 0.4955178922546099
+                "avg_volume_20": 8525240,
+                "avg_traded_value_20": 52667063590,
+                "last_volume": 5242300,
+                "volume_ratio_20": 0.6149152399228643
               },
               "data_integrity": {
                 "ok": true
@@ -20013,14 +20381,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 6466,
-              "high": 6613,
-              "low": 6438,
-              "close": 6523,
-              "volume": 5253100
-            },
             {
               "date": "2026-04-07",
               "open": 6571,
@@ -20732,6 +21092,14 @@
               "low": 6326,
               "close": 6385,
               "volume": 4280400
+            },
+            {
+              "date": "2026-08-18",
+              "open": 6343,
+              "high": 6405,
+              "low": 6221,
+              "close": 6242,
+              "volume": 5242300
             }
           ]
         },
@@ -20743,12 +21111,12 @@
           "name": "Nintendo",
           "sector": "게임",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:20+09:00",
-            "data_revision": "08e1821cba61c636e2c54fd4459b3a0488e83b7667886f24860bba3fcf50eb8a",
+            "retrieved_at": "2026-08-18T16:30:33+09:00",
+            "data_revision": "8b70eb11cbc20d41ecae4a7bc93321ca7ad438e816ccf6462cd69e0eaf1d592d",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -20762,13 +21130,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 8611,
+            "high": 8834,
+            "low": 8540,
+            "close": 8760,
+            "volume": 8133300
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 9050,
             "high": 9067,
@@ -20776,45 +21152,37 @@
             "close": 8761,
             "volume": 11825900
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 8600,
-            "high": 8945,
-            "low": 8585,
-            "close": 8900,
-            "volume": 18615900
-          },
           "indicators": {
-            "ma5": 8547.8,
-            "ma20": 7757.9,
-            "ma60": 7337.75,
-            "ma120": 7882.120743815104,
-            "ma200": 9209.02594482422,
-            "atr14": 333.85714285714283,
-            "return_20d_pct": 23.74293785310735,
-            "return_60d_pct": 20.44267253230685,
-            "return_120d_pct": 3.434176477885731,
-            "relative_strength_20d_pct": 20.174909569128108,
-            "relative_strength_60d_pct": 8.225416526723974,
-            "high_252": 14463.939554412957,
+            "ma5": 8646.8,
+            "ma20": 7831.2,
+            "ma60": 7363.083333333333,
+            "ma120": 7884.683520507812,
+            "ma200": 9187.897502441407,
+            "atr14": 338.57142857142856,
+            "return_20d_pct": 20.098711269536594,
+            "return_60d_pct": 20.994475138121537,
+            "return_120d_pct": 3.6383840423803715,
+            "relative_strength_20d_pct": 19.163299497940997,
+            "relative_strength_60d_pct": 11.629692101557996,
+            "high_252": 14463.938568521302,
             "low_252": 6544,
-            "distance_to_high_252_pct": -39.428673861354646
+            "distance_to_high_252_pct": -39.4355834788673
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 5.050135749057194,
-            "ma60_slope_5d_pct": 1.4080322099172538,
+            "ma20_slope_5d_pct": 5.163360951831009,
+            "ma60_slope_5d_pct": 1.4977048517458291,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": false,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 12110910,
-            "avg_traded_value_20": 95397462050,
-            "last_volume": 11825900,
-            "volume_ratio_20": 0.9764666734374213
+            "avg_volume_20": 11909715,
+            "avg_traded_value_20": 94526116610,
+            "last_volume": 8133300,
+            "volume_ratio_20": 0.6829130671892653
           },
           "corporate_actions_180d": [
             {
@@ -20835,10 +21203,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 12110910,
-                "avg_traded_value_20": 95397462050,
-                "last_volume": 11825900,
-                "volume_ratio_20": 0.9764666734374213
+                "avg_volume_20": 11909715,
+                "avg_traded_value_20": 94526116610,
+                "last_volume": 8133300,
+                "volume_ratio_20": 0.6829130671892653
               },
               "data_integrity": {
                 "ok": true
@@ -20855,14 +21223,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 8823,
-              "high": 8873,
-              "low": 8777,
-              "close": 8849,
-              "volume": 4549600
-            },
             {
               "date": "2026-04-07",
               "open": 8900,
@@ -21574,6 +21934,14 @@
               "low": 8761,
               "close": 8761,
               "volume": 11825900
+            },
+            {
+              "date": "2026-08-18",
+              "open": 8611,
+              "high": 8834,
+              "low": 8540,
+              "close": 8760,
+              "volume": 8133300
             }
           ]
         },
@@ -21585,12 +21953,12 @@
           "name": "NTT",
           "sector": "통신",
           "data_status": "LIVE",
-          "latest_complete_session": "2026-08-17",
+          "latest_complete_session": "2026-08-18",
           "source": {
             "source_id": "YAHOO_QUERY1",
             "provider_revision": "yahoo-chart-v8-adjusted-failover-v2",
-            "retrieved_at": "2026-08-17T16:30:22+09:00",
-            "data_revision": "6845a8376ff303624e6fc34c20098883fa4b19c3021742aa65d6f6136f0dfa7e",
+            "retrieved_at": "2026-08-18T16:30:33+09:00",
+            "data_revision": "df3bda783eb040dd78da70662aba9dd066ebf1e05dfdd9ad0742452a0a9569d6",
             "source_meta": {
               "currency": "JPY",
               "exchange_name": "JPX",
@@ -21604,13 +21972,21 @@
           },
           "data_integrity": {
             "ok": true,
-            "bar_count": 486,
+            "bar_count": 487,
             "minimum_bars": 220,
-            "benchmark_session": "2026-08-17",
+            "benchmark_session": "2026-08-18",
             "session_matches_benchmark": true,
             "adjustment_status": "ADJUSTED_CLOSE_RATIO_APPLIED"
           },
           "latest_bar": {
+            "date": "2026-08-18",
+            "open": 160,
+            "high": 161,
+            "low": 158.8000030517578,
+            "close": 160.39999389648438,
+            "volume": 188431900
+          },
+          "previous_bar": {
             "date": "2026-08-17",
             "open": 163,
             "high": 163.3000030517578,
@@ -21618,45 +21994,37 @@
             "close": 161.5,
             "volume": 242864700
           },
-          "previous_bar": {
-            "date": "2026-08-14",
-            "open": 160,
-            "high": 162.6999969482422,
-            "low": 159.39999389648438,
-            "close": 162.6999969482422,
-            "volume": 269560000
-          },
           "indicators": {
-            "ma5": 160.5999969482422,
-            "ma20": 155.40499877929688,
-            "ma60": 150.17333297729493,
-            "ma120": 151.38641726175945,
-            "ma200": 152.0802431488037,
-            "atr14": 3.4142859322684154,
-            "return_20d_pct": 7.024523878236266,
-            "return_60d_pct": 5.074823166316933,
-            "return_120d_pct": 7.344634945761563,
-            "relative_strength_20d_pct": 3.4564955942570252,
-            "relative_strength_60d_pct": -7.142432839265944,
+            "ma5": 160.6999969482422,
+            "ma20": 155.8699981689453,
+            "ma60": 150.3033327738444,
+            "ma120": 151.47343114217122,
+            "ma200": 152.09508476257324,
+            "atr14": 3.4357147216796875,
+            "return_20d_pct": 6.154856000864428,
+            "return_60d_pct": 5.111394155304061,
+            "return_120d_pct": 6.96304484817305,
+            "relative_strength_20d_pct": 5.219444229268833,
+            "relative_strength_60d_pct": -4.25338888125948,
             "high_252": 163.3000030517578,
             "low_252": 142.60000610351562,
-            "distance_to_high_252_pct": -1.102267616729502
+            "distance_to_high_252_pct": -1.7758782002926687
           },
           "trend": {
             "ma20_rising": true,
             "ma60_rising": true,
-            "ma20_slope_5d_pct": 1.80811627632127,
-            "ma60_slope_5d_pct": 0.3709437104068014,
+            "ma20_slope_5d_pct": 1.7029877985540676,
+            "ma60_slope_5d_pct": 0.36727045372901834,
             "above_ma20": true,
             "above_ma60": true,
             "above_ma200": true,
             "early_alignment": true
           },
           "liquidity": {
-            "avg_volume_20": 269852980,
-            "avg_traded_value_20": 42014637072.08649,
-            "last_volume": 242864700,
-            "volume_ratio_20": 0.8999889495383746
+            "avg_volume_20": 264927820,
+            "avg_traded_value_20": 41358066084.51599,
+            "last_volume": 188431900,
+            "volume_ratio_20": 0.7112575040250586
           },
           "corporate_actions_180d": [
             {
@@ -21677,10 +22045,10 @@
                 }
               ],
               "liquidity": {
-                "avg_volume_20": 269852980,
-                "avg_traded_value_20": 42014637072.08649,
-                "last_volume": 242864700,
-                "volume_ratio_20": 0.8999889495383746
+                "avg_volume_20": 264927820,
+                "avg_traded_value_20": 41358066084.51599,
+                "last_volume": 188431900,
+                "volume_ratio_20": 0.7112575040250586
               },
               "data_integrity": {
                 "ok": true
@@ -21697,14 +22065,6 @@
             "instruction": "Champion 판정 전 거래소/공시/기업 공식자료로 별도 확인. 미확인 시 자료 제한으로 처리."
           },
           "raw_adjusted_ohlcv": [
-            {
-              "date": "2026-04-06",
-              "open": 158,
-              "high": 158.39999389648438,
-              "low": 156.8000030517578,
-              "close": 157.10000610351562,
-              "volume": 99742600
-            },
             {
               "date": "2026-04-07",
               "open": 157.6999969482422,
@@ -22416,6 +22776,14 @@
               "low": 161.10000610351562,
               "close": 161.5,
               "volume": 242864700
+            },
+            {
+              "date": "2026-08-18",
+              "open": 160,
+              "high": 161,
+              "low": 158.8000030517578,
+              "close": 160.39999389648438,
+              "volume": 188431900
             }
           ]
         }
@@ -22476,7 +22844,7 @@
         },
         "source": {
           "source_id": "YAHOO_QUERY1",
-          "retrieved_at": "2026-08-17T16:30:26+09:00",
+          "retrieved_at": "2026-08-18T16:30:37+09:00",
           "data_revision": "026f87c25d388ae2a15b555d5ae850fa9a7ae200a9404f8aae7821fc99beb361"
         },
         "raw_adjusted_ohlcv": [
@@ -36230,16 +36598,16 @@
     "schema_version": "lab_summary_v1",
     "version": "1.5.1-candidate.18",
     "revision": "lab-v151-candidate18-forward-state-integrity-20260816",
-    "generated_at": "2026-08-17T16:30:26+09:00",
+    "generated_at": "2026-08-18T16:30:37+09:00",
     "markets": {
       "KR": {
         "status": "READY",
         "market_state": "OFF",
-        "last_successful_session": "2026-08-14",
-        "last_attempt_at": "2026-08-16T18:55:47+09:00",
+        "last_successful_session": "2026-08-18",
+        "last_attempt_at": "2026-08-18T16:30:06+09:00",
         "last_error": null,
         "benchmark": "^KS11",
-        "data_revision": "a0e83d0e320a56a3094454cd00d02cc3063d2fe3e640d0d6541f9d449016e42e",
+        "data_revision": "d5be45ed4f2870be5d5e2921f596b0589820cf1531c9329f4ae1a281d3e42239",
         "consecutive_errors": 0,
         "market_state_session": "2026-08-07",
         "processed_session_ids": [
@@ -36254,12 +36622,12 @@
       },
       "JP": {
         "status": "READY",
-        "market_state": "ON",
-        "last_successful_session": "2026-08-17",
-        "last_attempt_at": "2026-08-17T16:30:08+09:00",
+        "market_state": "WAIT",
+        "last_successful_session": "2026-08-18",
+        "last_attempt_at": "2026-08-18T16:30:22+09:00",
         "last_error": null,
         "benchmark": "^N225",
-        "data_revision": "328115b91a086cdf49e8bc173c485448fdda992305fcc83b6def998344796f25",
+        "data_revision": "5c9e5f1768dd760b699d1c70b13629ae3df18f6da5bced65fb70815d52de834c",
         "consecutive_errors": 0,
         "market_state_session": "2026-08-07",
         "processed_session_ids": [
@@ -36294,13 +36662,13 @@
     },
     "counts": {
       "KR": {
-        "candidates": 14,
-        "virtual_wait": 0,
+        "candidates": 16,
+        "virtual_wait": 2,
         "virtual_open": 14
       },
       "JP": {
-        "candidates": 22,
-        "virtual_wait": 0,
+        "candidates": 24,
+        "virtual_wait": 3,
         "virtual_open": 20
       },
       "US": {
@@ -36350,8 +36718,8 @@
       "note": "experiment_hash가 다른 성과는 승격 판단에서 합산하지 않는다. overall_reference_only는 운영 참고용이다."
     },
     "actual_buy": false,
-    "published_at": "2026-08-17T16:30:26+09:00",
-    "publish_id": "20260817_163026-df734cff5bf9"
+    "published_at": "2026-08-18T16:30:37+09:00",
+    "publish_id": "20260818_163037-44631a458e11"
   },
-  "source_fingerprint": "07bff6ae0769c69ba39a2f35e7b1776e4a05cc067d8b682bb460a5837f6275cd"
+  "source_fingerprint": "959bfe5fced012044990fbee1a36cb588bf5323e281cea0eacdcd80f5a32058c"
 }
