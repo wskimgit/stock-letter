@@ -1,8 +1,8 @@
 # 종목 누적 분석 프로젝트 지시문 v4.7.2
 
-상태: **SPEC CANDIDATE**  
+상태: **SPEC FROZEN**  
 직전 기준: `v4.7.1 / SPEC FROZEN`  
-작성 시각: `2026-08-18T09:29+09:00`  
+동결 시각: `2026-08-18T09:29+09:00`  
 식별: `CHATGPT_STOCK_WIKI_V1`
 
 핵심 변경:
@@ -18,7 +18,7 @@
 9. 5일선 진입모드를 `5D-MOMENTUM / 5D-PULLBACK / 5D-RECLAIM / 5D-HALT`로 표준화한다.
 10. LAB 구현 메타데이터는 `v1.5.1-candidate.17 / IMPLEMENTATION_CANDIDATE`를 현재 후보로 기록하되, LAB과 Champion/Wiki는 계속 독립한다.
 
-이 파일은 candidate 단계에서 ERRC·회귀검증 후 동결 여부를 결정한다. 동결 후에는 직접 수정·덮어쓰기하지 않는다.
+이 파일은 동결본이다. **직접 수정·덮어쓰기하지 않는다.** 향후 변경은 새 버전 파일로 생성한다.
 
 ---
 
@@ -730,13 +730,13 @@ LAB과 ChatGPT Wiki는 독립한다.
 
 FROZEN 파일은 직접 수정하지 않는다. 변경 시 새 버전을 만든다.
 
-현재 지시문 후보:
+현재 지시문:
 
-`v4.7.2 / SPEC CANDIDATE`
+`v4.7.2 / SPEC FROZEN`
 
 직전 지시문:
 
-`v4.7.1 / SPEC FROZEN`
+`v4.7.1 / RELEASED_HISTORY`
 
 현재 LAB 구현 후보:
 
@@ -858,14 +858,16 @@ v4.7.1의 다음 핵심 불변조건이 유지되어야 한다.
 
 ---
 
-## 18. 동결 후보 선언
+## 18. 동결 선언
 
-이 문서는 `2026-08-18` 기준 v4.7.1에 5일선 진입 프레임워크를 통합한 차기 지시문 후보다.
+이 문서는 `2026-08-18` 기준 종목 누적 분석 프로젝트의 현재 운영 지시문이다.
 
 - Version: `v4.7.2`
-- Status: `SPEC CANDIDATE`
-- Candidate date: `2026-08-18`
-- Previous: `v4.7.1 / SPEC FROZEN`
-- 핵심 변경: **상위 Champion 게이트를 유지하면서 5일선 위 조건부 모멘텀 선진입과 5일선 아래 정상 눌림/재돌파 규칙을 통합한다.**
+- Status: `SPEC FROZEN`
+- Freeze date: `2026-08-18`
+- Previous: `v4.7.1 / RELEASED_HISTORY`
+- 핵심 동결사항: **상위 Champion 게이트를 유지하면서 5일선 위 조건부 모멘텀 선진입과 5일선 아래 정상 눌림/재돌파 규칙을 통합한다.**
 
-ERRC·회귀검증 PASS 후 `SPEC FROZEN`으로 승격하고 v4.7.1은 `RELEASED_HISTORY`로 보존한다.
+ERRC·회귀검증 결과는 `chatgpt/INSTRUCTION_v4.7.2_ERRC.md`에 기록한다.
+
+이 파일 자체는 수정하지 않는다. 변경이 필요하면 다음 새 버전으로 생성하고 기존 동결본은 보존한다.
