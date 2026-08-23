@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 22일 19:59 KST
+- 최종 갱신일: 2026년 8월 23일 19:58 KST
 - 한국 자료 기준일: 2026년 8월 21일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 21일 정규장 마감
 - 한국주식 1차·2차 전망일: 2026년 8월 24일·8월 25일
@@ -27,7 +27,7 @@
 
 ## 최신 일일 기사
 
-- [2026년 8월 24일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260822.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260824).html)
+- [2026년 8월 24일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260823.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260824).html)
 
 ## 출처
 
@@ -36,5 +36,6 @@
 - [Reuters: SK하이닉스 자사주 매입·소각, 2026-08-19](https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/)
 - [Yahoo Finance: GOOGL 역사적 시세](https://finance.yahoo.com/quote/GOOGL/history/)
 - [Reuters: 2026년 8월 21일 미국 시장 마감](https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/)
+- [Reuters: 다음 주 엔비디아 실적·잭슨홀 전망, 2026-08-21](https://www.reuters.com/business/wall-st-week-ahead-nvidia-earnings-jackson-hole-test-pillars-stock-rally-2026-08-21/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
