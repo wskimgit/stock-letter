@@ -1,6 +1,6 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 22일 19:59 KST
+- 최종 갱신일: 2026년 8월 23일 19:58 KST
 - 자료 기준일: 2026년 8월 21일 미국 정규장 마감
 - 1차·2차 전망일: 2026년 8월 24일·8월 25일
 
@@ -31,7 +31,7 @@
 ## 2차 거래일 전망
 
 - 상승·횡보·하락: 35%·39%·26% (합계 100%)
-- 전제·위험요인: 1차에 $340.40을 지키면 반등 모멘텀이 이어질 수 있지만, 장기금리·유가 상승과 $350 돌파 실패, 다음 주 대형 기술주 이벤트가 위험이다.
+- 전제·위험요인: 1차에 $340.40을 지키면 반등 모멘텀이 이어질 수 있지만, 장기금리·유가 상승과 $350 돌파 실패, AI 투자 재원 조달에 따른 현금흐름 부담이 위험이다.
 
 방향 확률은 가격 전망이고 W는 거래량·가격 신호 충돌에 따른 행동 단계다. 상승 확률이 우세해도 평균 이하 거래량이어서 확인 전 대기를 유지한다.
 
@@ -39,6 +39,7 @@
 
 - [Yahoo Finance: GOOGL 2026년 8월 21일 역사적 시세](https://finance.yahoo.com/quote/GOOGL/history/)
 - [Reuters: 2026년 8월 21일 미국 시장 마감](https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/)
+- [Reuters: 알파벳 호주달러 채권 조달, 2026-08-19](https://www.reuters.com/business/finance/alphabet-raises-39-billion-inaugural-australian-dollar-bond-2026-08-19/)
 - [AP: 2026년 8월 21일 미국 시장 마감](https://apnews.com/article/09c079b43680c3e4564346892b5dc824)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
