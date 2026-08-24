@@ -1,9 +1,9 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 23일 19:58 KST
-- 한국 자료 기준일: 2026년 8월 21일 정규장 마감
-- 미국 자료 기준일: 2026년 8월 21일 정규장 마감
-- 한국주식 1차·2차 전망일: 2026년 8월 24일·8월 25일
+- 최종 갱신일: 2026년 8월 24일 19:57 KST
+- 한국 자료 기준일: 2026년 8월 24일 정규장 마감
+- 미국 자료 기준일: 2026년 8월 21일 정규장 마감·8월 24일 06:57 ET 프리마켓
+- 한국주식 1차·2차 전망일: 2026년 8월 25일·8월 26일
 - 미국주식 1차·2차 전망일: 2026년 8월 24일·8월 25일
 
 > **법적 고지:** 본 Wiki는 생성형 AI가 공개된 자료를 바탕으로 작성한 일반적인 정보 제공 자료이며, 특정 금융상품의 매수·매도 권유나 투자자문이 아니다. 제시된 수치·확률·전망은 오류, 지연 또는 시장 변동으로 달라질 수 있다. 최종 투자 판단과 그에 따른 손익의 책임은 투자자 본인에게 있다.
@@ -12,11 +12,11 @@
 
 | 종목 | 현재가·거래량 | 1차 상승·횡보·하락 | 2차 상승·횡보·하락 | 거래량 사이클 | 기본 행동 | 결론 |
 |---|---:|---:|---:|---|---|---|
-| [[삼성전자]] | 281,500원·27,669,712주 | 36%·35%·29% | 33%·39%·28% | S1 관심 증가 (S1→S1) | 신규매입 금지·매도 준비 | 환원 기대는 강하나 2일 급등 뒤 추격 금지 |
-| [[SK하이닉스]] | 1,730,000원·4,247,155주 | 35%·34%·31% | 31%·40%·29% | S1 관심 증가 (S1→S1) | 신규매입 금지·매도 준비 | 1,720,000원 돌파 유지와 거래량 확인 |
-| [[알파벳-A|알파벳 A]] | $344.82·20,849,776주 | 36%·37%·27% | 35%·39%·26% | W 중립 (W→W) | 대기 | 반등했지만 주간 약세와 평균 이하 거래량 |
+| [[삼성전자]] | 257,000원·32,451,480주 | 33%·31%·36% | 35%·36%·29% | W 중립 (S1→W) | 대기 | 기대 소멸 급락 뒤 255,000원 지지 확인 |
+| [[SK하이닉스]] | 1,671,000원·3,994,599주 | 34%·35%·31% | 35%·37%·28% | W 중립 (S1→W) | 대기 | 자사주 매입 기대와 외국인 매도 충돌 |
+| [[알파벳-A|알파벳 A]] | $344.82·20,849,776주, 프리마켓 $343.66 | 31%·37%·32% | 33%·39%·28% | W 중립 (W→W) | 대기 | 선물 약세·AI 투자비 부담으로 확인 필요 |
 
-방향 확률은 다음 거래일 가격 방향, 사이클 코드는 거래량과 가격 구조에 따른 행동 단계다. 삼성전자와 SK하이닉스는 상승 가능성이 우세해도 S1이므로 신규 추격매입보다 매도 준비를 우선한다.
+방향 확률은 다음 거래일 가격 방향, 사이클 코드는 거래량과 가격 구조에 따른 행동 단계다. 세 종목 모두 W이므로 반등 가능성과 별개로 지지 확인 전 대기를 우선한다.
 
 ## 주제 페이지
 
@@ -27,15 +27,14 @@
 
 ## 최신 일일 기사
 
-- [2026년 8월 24일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260823.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260824).html)
+- [2026년 8월 25일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260824.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260825).html)
 
 ## 출처
 
 - [한국거래소 정보데이터시스템](https://data.krx.co.kr/)
-- [Reuters: 삼성전자 주주환원 발표, 2026-08-21](https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/)
+- [Reuters: 삼성전자 주주환원 실망 급락, 2026-08-24](https://www.reuters.com/world/asia-pacific/samsung-electronics-shares-fall-after-shareholder-return-announcement-2026-08-24/)
 - [Reuters: SK하이닉스 자사주 매입·소각, 2026-08-19](https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/)
 - [Yahoo Finance: GOOGL 역사적 시세](https://finance.yahoo.com/quote/GOOGL/history/)
-- [Reuters: 2026년 8월 21일 미국 시장 마감](https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/)
-- [Reuters: 다음 주 엔비디아 실적·잭슨홀 전망, 2026-08-21](https://www.reuters.com/business/wall-st-week-ahead-nvidia-earnings-jackson-hole-test-pillars-stock-rally-2026-08-21/)
+- [Reuters: 2026년 8월 24일 미국 프리마켓](https://www.reuters.com/business/sp-nasdaq-futures-slip-markets-await-iran-sanctions-nvidia-results-2026-08-24/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
