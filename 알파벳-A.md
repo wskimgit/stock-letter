@@ -1,7 +1,7 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 28일 20:18 KST
-- 자료 기준일: 2026년 8월 27일 미국 정규장 마감·8월 28일 07:00 ET 프리마켓
+- 최종 갱신일: 2026년 8월 28일 20:30 KST
+- 자료 기준일: 2026년 8월 27일 미국 정규장 마감·8월 28일 07:30 ET 프리마켓
 - 1차·2차 전망일: 2026년 8월 28일·8월 31일
 
 ## 현재 상태
@@ -9,7 +9,7 @@
 - 현재가: $340.65, 전일 대비 -0.39%
 - 거래량: 23.39백만주
 - 장중 범위: $338.52~$341.69
-- 프리마켓: $341.83, 정규장 종가 대비 +0.35% (2026년 8월 28일 07:00 ET)
+- 프리마켓: $341.67, 정규장 종가 대비 +0.30% (2026년 8월 28일 07:30 ET)
 
 ## 거래량 사이클 판정
 
@@ -17,7 +17,7 @@
 - 현재 의미: 중립
 - 기본 행동: 대기
 - 판정 근거: 나스닥이 +1.57% 상승한 날 알파벳은 -0.39%로 상대약세였지만, $338.52 저점에서 반등해 시가 $339.67보다 높은 종가로 마감했다.
-- 판정 근거: 23.39백만주는 공개 65일 평균 31.63백만주의 약 0.74배이고 프리마켓은 +0.35%다. 정확한 동시점 20일 평균 자료는 제한이어서 M1·M2로 단정하지 않았다.
+- 판정 근거: 23.39백만주는 공개 65일 평균 31.63백만주의 약 0.74배이고 프리마켓은 +0.30%다. 정확한 동시점 20일 평균 자료는 제한이어서 M1·M2로 단정하지 않았다.
 - 다음 코드 변경 조건: $338.52 지지와 양봉·거래량 회복이 이어지면 M2, $341.69~$346.88 돌파와 20일 평균의 1.2배 이상 거래량이면 S1, $338.52 이탈 뒤 상대강도·거래량이 함께 약해지면 M0로 전환한다.
 
 ## 1차 거래일 전망
@@ -41,7 +41,7 @@
 
 - [Yahoo Finance: GOOGL 8월 27일 OHLC](https://finance.yahoo.com/quote/GOOGL/history/)
 - [Investing.com: GOOGL 8월 27일 OHLC·거래량](https://www.investing.com/equities/google-inc-historical-data)
-- [MarketWatch: GOOGL 8월 28일 프리마켓](https://www.marketwatch.com/investing/stock/googl)
+- [Public: GOOGL 8월 28일 07:30 ET 프리마켓](https://public.com/stocks/googl/pre-market)
 - [AP: 8월 27일 미국 주요 지수](https://apnews.com/article/b4216a1f191d0304b4ed59e6912e23a4)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
 - [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
