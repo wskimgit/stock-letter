@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 28일 20:09 KST
+- 최종 갱신일: 2026년 8월 28일 20:18 KST
 - 한국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 27일 정규장 마감·8월 28일 07:00 ET 프리마켓
 - 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
@@ -36,5 +36,6 @@
 - [AP: 8월 27일 미국 주요 지수](https://apnews.com/article/b4216a1f191d0304b4ed59e6912e23a4)
 - [MarketWatch: GOOGL 8월 28일 프리마켓](https://www.marketwatch.com/investing/stock/googl)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
+- [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
