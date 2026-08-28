@@ -1,6 +1,6 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 28일 20:09 KST
+- 최종 갱신일: 2026년 8월 28일 20:18 KST
 - 자료 기준일: 2026년 8월 27일 미국 정규장 마감·8월 28일 07:00 ET 프리마켓
 - 1차·2차 전망일: 2026년 8월 28일·8월 31일
 
@@ -24,7 +24,7 @@
 
 - 상승·횡보·하락: 33%·39%·28% (합계 100%)
 - 핵심 근거: 프리마켓 반등과 기술주 강세는 $338.52 지지 후 회복 가능성을 높인다.
-- 핵심 근거: Google·Marvell AI 칩 계약은 장기 인프라 수요를 지지하지만, 주요 매출 기여가 2029년 이후라는 평가로 단기 상승 재료는 제한적이다.
+- 핵심 근거: Google·Marvell AI 칩 계약과 EU 검색 정책 조정은 장기 수요·과징금 위험 완화에 긍정적이지만, 계약 매출 시점과 규제 감시 때문에 단기 상승 재료는 제한적이다.
 - 핵심 근거: 나스닥 대비 뚜렷한 상대약세와 잭슨홀·금리 위험은 $341.69 위 추세 확정을 어렵게 한다.
 - 지지선·저항선: $338.52·$336.00 / $341.69·$346.88
 - 신규 투자자 대응: W에 따라 신규 진입을 대기하고 $338.52 지지 또는 $341.69 돌파를 확인한다.
@@ -44,5 +44,6 @@
 - [MarketWatch: GOOGL 8월 28일 프리마켓](https://www.marketwatch.com/investing/stock/googl)
 - [AP: 8월 27일 미국 주요 지수](https://apnews.com/article/b4216a1f191d0304b4ed59e6912e23a4)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
+- [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
