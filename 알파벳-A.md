@@ -1,6 +1,6 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 29일 20:08 KST
+- 최종 갱신일: 2026년 8월 29일 20:17 KST
 - 자료 기준일: 2026년 8월 28일 미국 정규장 마감
 - 1차·2차 전망일: 2026년 8월 31일·9월 1일
 
@@ -9,6 +9,7 @@
 - 현재가: $346.59, 전일 대비 +1.74%
 - 거래량: 25.35백만주
 - 장중 범위: $340.27~$349.14
+- 시간외: $346.20, 정규장 종가 대비 -0.11% (2026년 8월 28일 19:59 ET)
 
 ## 거래량 사이클 판정
 
@@ -40,6 +41,7 @@
 
 - [Google Finance: GOOGL 8월 28일 OHLC·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Investing.com: GOOGL 8월 28일 OHLC·거래량](https://www.investing.com/equities/google-inc-historical-data)
+- [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
 - [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
 - [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
