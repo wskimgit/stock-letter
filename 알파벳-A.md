@@ -1,6 +1,6 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 29일 20:30 KST
+- 최종 갱신일: 2026년 8월 29일 20:51 KST
 - 자료 기준일: 2026년 8월 28일 미국 정규장 마감
 - 1차·2차 전망일: 2026년 8월 31일·9월 1일
 
@@ -25,7 +25,7 @@
 - 상승·횡보·하락: 38%·37%·25% (합계 100%)
 - 핵심 근거: 시장 하락 속 +1.74% 상대강세, 높아진 저점과 5일선 회복은 월요일 모멘텀 지속 가능성을 높인다.
 - 핵심 근거: 최근 3일 거래량 회복과 $341.69·$346.88 회복은 바닥 확인 신호지만 $349.14~$350.16 저항이 가깝다.
-- 핵심 근거: 매파적 연준과 개인정보 소송 부담은 상단을 제한하고 Google·Marvell 계약 및 EU 정책 조정은 중기 하단을 지지한다.
+- 핵심 근거: 매파적 연준, 개인정보 소송과 미국 대형주 펀드 유출은 상단을 제한하고 기술주 펀드 순유입, Google·Marvell 계약 및 EU 정책 조정은 중기 하단을 지지한다.
 - 지지선·저항선: $341.69·$340.27 / $349.14·$350.16
 - 신규 투자자 대응: M2에 따라 $341.69~$340.27 지지를 확인하며 소액 분할매입하고 $349.14 위 추격매수는 피한다.
 - 기존 보유자 대응: $349.14~$350.16에서 일부 이익을 확보하고 $340.27 종가 이탈 시 위험을 줄인다.
@@ -43,6 +43,7 @@
 - [Investing.com: GOOGL 8월 28일 OHLC·거래량](https://www.investing.com/equities/google-inc-historical-data)
 - [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
 - [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
+- [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
 - [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
 - [Reuters: Google 개인정보 소송 배심 평결 유지](https://www.reuters.com/legal/government/judge-google-privacy-class-action-awards-lawyers-147-million-legal-fees-2026-08-28/)
