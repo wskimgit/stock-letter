@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 29일 20:30 KST
+- 최종 갱신일: 2026년 8월 29일 20:51 KST
 - 한국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
@@ -16,7 +16,7 @@
 | [[SK하이닉스]] | 1,653,000원·2.80백만주 | 29%·36%·35% | 32%·36%·32% | W 중립 (W→W) | 대기 | 지지 이탈 부담을 자사주 매입이 일부 완충 |
 | [[알파벳-A|알파벳 A]] | 정규장 $346.59·25.35백만주, 시간외 $346.20 | 38%·37%·25% | 35%·35%·30% | M2 바닥 확인 (M2→M2) | 분할매입 | 시장 하락 속 상대강세·저점 상승·거래량 회복 |
 
-방향 확률은 가격 방향이고 사이클 코드는 거래량·가격 구조에 따른 행동 단계다. 삼성전자의 M1은 256,000원 지지를 다시 확인할 때만 매입 검토라는 뜻이고 SK하이닉스는 W 대기다. 알파벳 A는 M2로 전환됐지만 금리 위험이 남아 한 번에 매수하지 않고 분할매입이 우선이다.
+방향 확률은 가격 방향이고 사이클 코드는 거래량·가격 구조에 따른 행동 단계다. 삼성전자의 M1은 256,000원 지지를 다시 확인할 때만 매입 검토라는 뜻이고 SK하이닉스는 W 대기다. 알파벳 A는 M2로 전환됐지만 금리 위험과 미국 대형주 펀드 유출이 남아 한 번에 매수하지 않고 분할매입이 우선이다.
 
 ## 주제 페이지
 
@@ -37,6 +37,7 @@
 - [Reuters: CXMT의 LPDDR6 공급 확대](https://www.reuters.com/world/asia-pacific/chinas-cxmt-supply-memory-chip-xiaomis-upcoming-folding-phone-2026-08-29/)
 - [Reuters: CXMT의 미국 국방부 지정 소송](https://www.reuters.com/world/cxmt-sues-pentagon-over-inclusion-list-companies-tied-chinas-military-2026-08-29/)
 - [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
+- [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
 - [Google Finance: GOOGL 8월 28일 종가·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
