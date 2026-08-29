@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 29일 20:17 KST
+- 최종 갱신일: 2026년 8월 29일 20:30 KST
 - 한국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
@@ -35,6 +35,7 @@
 - [연합뉴스: 8월 28일 한국 시장 마감·수급](https://www.yna.co.kr/amp/view/AKR20260828123351008)
 - [연합뉴스: 삼성전자·SK하이닉스 자사주 매입 진행](https://www.yna.co.kr/amp/view/AKR20260828067251008)
 - [Reuters: CXMT의 LPDDR6 공급 확대](https://www.reuters.com/world/asia-pacific/chinas-cxmt-supply-memory-chip-xiaomis-upcoming-folding-phone-2026-08-29/)
+- [Reuters: CXMT의 미국 국방부 지정 소송](https://www.reuters.com/world/cxmt-sues-pentagon-over-inclusion-list-companies-tied-chinas-military-2026-08-29/)
 - [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
 - [Google Finance: GOOGL 8월 28일 종가·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
