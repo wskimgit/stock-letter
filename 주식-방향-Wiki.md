@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 30일 20:01 KST
+- 최종 갱신일: 2026년 8월 30일 20:10 KST
 - 한국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
@@ -40,6 +40,7 @@
 - [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
 - [Reuters: G20 앞둔 미국 관세·이란·국채시장 위험](https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/)
 - [Reuters: 엔화의 무질서한 움직임과 세계시장 불안 위험](https://www.reuters.com/business/finance/bessent-says-disorderly-yen-moves-can-destabilize-global-markets-2026-08-29/)
+- [Reuters: 한국 신임 경제부총리 지명과 재정·채권시장 과제](https://www.reuters.com/world/asia-pacific/south-korea-vice-finance-minister-lee-hyoung-il-named-finance-minister-yonhap-2026-08-30/)
 - [Google Finance: GOOGL 8월 28일 종가·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
