@@ -1,6 +1,6 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 29일 21:27 KST
+- 최종 갱신일: 2026년 8월 30일 20:01 KST
 - 한국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 미국 자료 기준일: 2026년 8월 28일 정규장 마감
 - 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
@@ -12,9 +12,9 @@
 
 | 종목 | 현재가·거래량 | 1차 상승·횡보·하락 | 2차 상승·횡보·하락 | 거래량 사이클 | 기본 행동 | 결론 |
 |---|---:|---:|---:|---|---|---|
-| [[삼성전자]] | 257,000원·14.70백만주 | 30%·40%·30% | 33%·37%·30% | M1 거래량 고갈 (M1→M1) | 매입 검토 | 외국인 매도·CXMT 성장 부담과 자사주 매입의 하단 지지가 충돌 |
-| [[SK하이닉스]] | 1,653,000원·2.80백만주 | 29%·36%·35% | 32%·36%·32% | W 중립 (W→W) | 대기 | 지지 이탈·CXMT 성장 부담을 자사주 매입이 일부 완충 |
-| [[알파벳-A|알파벳 A]] | 정규장 $346.59·25.35백만주, 시간외 $346.20 | 38%·37%·25% | 35%·35%·30% | M2 바닥 확인 (M2→M2) | 분할매입 | 시장 하락 속 상대강세·저점 상승·거래량 회복 |
+| [[삼성전자]] | 257,000원·14.70백만주 | 28%·40%·32% | 31%·37%·32% | M1 거래량 고갈 (M1→M1) | 매입 검토 | 자사주 하단 지지와 외국인 매도·CXMT·글로벌 금리 위험이 충돌 |
+| [[SK하이닉스]] | 1,653,000원·2.80백만주 | 27%·36%·37% | 30%·36%·34% | W 중립 (W→W) | 대기 | 지지 이탈·CXMT·글로벌 위험회피를 자사주 매입이 일부 완충 |
+| [[알파벳-A|알파벳 A]] | 정규장 $346.59·25.35백만주, 시간외 $346.20 | 36%·37%·27% | 33%·35%·32% | M2 바닥 확인 (M2→M2) | 분할매입 | 상대강세·거래량 회복과 국채·대형주 자금 유출 위험이 충돌 |
 
 방향 확률은 가격 방향이고 사이클 코드는 거래량·가격 구조에 따른 행동 단계다. 삼성전자의 M1은 256,000원 지지를 다시 확인할 때만 매입 검토라는 뜻이고 SK하이닉스는 W 대기다. 알파벳 A는 M2로 전환됐지만 금리 위험과 미국 대형주 펀드 유출이 남아 한 번에 매수하지 않고 분할매입이 우선이다.
 
@@ -27,7 +27,7 @@
 
 ## 최신 일일 기사
 
-- [2026년 8월 31일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260829.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260831).html)
+- [2026년 8월 31일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260830.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260831).html)
 
 ## 출처
 
@@ -38,6 +38,8 @@
 - [Reuters: CXMT의 미국 국방부 지정 소송](https://www.reuters.com/world/cxmt-sues-pentagon-over-inclusion-list-companies-tied-chinas-military-2026-08-29/)
 - [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
 - [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
+- [Reuters: G20 앞둔 미국 관세·이란·국채시장 위험](https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/)
+- [Reuters: 엔화의 무질서한 움직임과 세계시장 불안 위험](https://www.reuters.com/business/finance/bessent-says-disorderly-yen-moves-can-destabilize-global-markets-2026-08-29/)
 - [Google Finance: GOOGL 8월 28일 종가·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
 - [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
