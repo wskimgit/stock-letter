@@ -1,6 +1,6 @@
 # SK하이닉스
 
-- 최종 갱신일: 2026년 8월 30일 20:01 KST
+- 최종 갱신일: 2026년 8월 30일 20:10 KST
 - 자료 기준일: 2026년 8월 28일 한국거래소 정규장 마감
 - 1차·2차 전망일: 2026년 8월 31일·9월 1일
 
@@ -27,6 +27,7 @@
 - 핵심 근거: 1,662,000원 지지 이탈, 저가 마감과 CXMT의 LPDDR6 공급 확대·상반기 매출 874% 증가는 하락·중기 경쟁 위험을 높인다. 다만 CXMT의 미국 국방부 지정은 미국 확장을 제약할 수 있다.
 - 핵심 근거: 40조원 규모 자사주 취득 계획과 아직 남은 매입 여력은 추세 반전 신호는 아니지만 하단 충격을 일부 완충한다.
 - 핵심 근거: G20을 앞둔 관세·이란·미 국채시장 불안과 엔화 변동성은 월요일 외국인 위험회피 가능성을 높인다.
+- 핵심 근거: 신임 경제부총리 지명과 2027년 예산안 공개 예정은 재정확대 기대와 국내 채권·원화 변동 위험을 동시에 만든다.
 - 지지선·저항선: 1,653,000원·1,557,000원 / 1,704,000원·1,725,000원
 - 신규 투자자 대응: W에 따라 신규 진입을 대기하고 1,653,000원 회복·지지 또는 1,557,000원 바닥 확인을 기다린다.
 - 기존 보유자 대응: 1,557,000원 종가 이탈 시 위험을 줄이고 1,704,000~1,725,000원 회복 실패 시 비중을 재점검한다.
@@ -48,5 +49,6 @@
 - [Reuters: CXMT의 미국 국방부 지정 소송](https://www.reuters.com/world/cxmt-sues-pentagon-over-inclusion-list-companies-tied-chinas-military-2026-08-29/)
 - [Reuters: G20 앞둔 미국 관세·이란·국채시장 위험](https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/)
 - [Reuters: 엔화의 무질서한 움직임과 세계시장 불안 위험](https://www.reuters.com/business/finance/bessent-says-disorderly-yen-moves-can-destabilize-global-markets-2026-08-29/)
+- [Reuters: 한국 신임 경제부총리 지명과 재정·채권시장 과제](https://www.reuters.com/world/asia-pacific/south-korea-vice-finance-minister-lee-hyoung-il-named-finance-minister-yonhap-2026-08-30/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
