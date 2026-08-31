@@ -1,7 +1,7 @@
 # 알파벳 A
 
-- 최종 갱신일: 2026년 8월 30일 20:10 KST
-- 자료 기준일: 2026년 8월 28일 미국 정규장 마감
+- 최종 갱신일: 2026년 8월 31일 20:00 KST
+- 자료 기준일: 2026년 8월 28일 미국 정규장 마감, 8월 31일 06:02 ET 프리마켓
 - 1차·2차 전망일: 2026년 8월 31일·9월 1일
 
 ## 현재 상태
@@ -9,45 +9,41 @@
 - 현재가: $346.59, 전일 대비 +1.74%
 - 거래량: 25.35백만주
 - 장중 범위: $340.27~$349.14
-- 시간외: $346.20, 정규장 종가 대비 -0.11% (2026년 8월 28일 19:59 ET)
+- 프리마켓: $344.80, 정규장 종가 대비 -0.52% (2026년 8월 31일 06:02 ET, 지연 시세)
 
 ## 거래량 사이클 판정
 
 - 직전 코드 → 현재 코드: M2 → M2
 - 현재 의미: 바닥 확인
 - 기본 행동: 분할매입
-- 판정 근거: $340.27 저점은 전일 $338.52보다 높았고 종가는 시가 $340.71 위 양봉이자 5일 평균 약 $344.85 위로 회복했다.
-- 판정 근거: 거래량은 최근 3거래일 20.42→23.39→25.35백만주로 회복했고, 나스닥 -0.52%와 달리 +1.74% 상승해 상대강도가 개선됐다. 다만 공개 65일 평균 31.66백만주의 약 0.80배여서 S1은 아니다.
-- 다음 코드 변경 조건: $349.14~$350.16 돌파와 평균 1.2배 이상 거래량이면 S1, $340.27~$338.52 지지 재확인과 양봉 지속이면 M2 유지, $338.52 이탈과 상대강도 약화가 겹치면 W/M0로 전환한다.
+- 판정 근거: 8월 28일 저점 $340.27은 전일 $338.52보다 높았고 종가는 시가 $340.71과 5일 평균 약 $344.85 위였다.
+- 판정 근거: 거래량은 최근 3거래일 20.42→23.39→25.35백만주로 회복했고 나스닥 하락에도 +1.74%로 상대강세였다. 프리마켓 -0.52%는 아직 정규장 거래량 구조를 바꾸지 않는다.
+- 다음 코드 변경 조건: $349.14~$350.16 돌파와 평균 1.2배 이상 거래량이면 S1, $340.27~$338.52 지지와 양봉이면 M2 유지, $338.52 이탈과 상대강도 약화가 겹치면 W/M0로 전환한다.
 
 ## 1차 거래일 전망
 
-- 상승·횡보·하락: 36%·37%·27% (합계 100%)
-- 핵심 근거: 시장 하락 속 +1.74% 상대강세, 높아진 저점과 5일선 회복은 월요일 모멘텀 지속 가능성을 높인다.
-- 핵심 근거: 최근 3일 거래량 회복과 $341.69·$346.88 회복은 바닥 확인 신호지만 $349.14~$350.16 저항이 가깝다.
-- 핵심 근거: 매파적 연준, 개인정보 소송과 미국 대형주 펀드 유출은 상단을 제한하고 기술주 펀드 순유입, Google·Marvell 계약 및 EU 정책 조정은 중기 하단을 지지한다.
-- 핵심 근거: G20을 앞둔 관세·이란 제재와 미 국채시장 불안은 대형기술주의 월요일 위험 프리미엄을 높인다.
+- 상승·횡보·하락: 31%·37%·32% (합계 100%)
+- 핵심 근거: 높아진 저점, 5일선 회복과 최근 3일 거래량 증가는 바닥 구조를 지지한다.
+- 핵심 근거: 프리마켓 -0.52%, 유가·국채금리 상승과 미국 지수선물 약세는 1차 정규장의 하락 위험을 높인다.
+- 핵심 근거: AI 데이터센터 수요는 중기 지지지만 AI 밸류에이션·집중·사이버 위험과 $349.14~$350.16 저항은 상단을 제한한다.
 - 지지선·저항선: $341.69·$340.27 / $349.14·$350.16
 - 신규 투자자 대응: M2에 따라 $341.69~$340.27 지지를 확인하며 소액 분할매입하고 $349.14 위 추격매수는 피한다.
 - 기존 보유자 대응: $349.14~$350.16에서 일부 이익을 확보하고 $340.27 종가 이탈 시 위험을 줄인다.
 
 ## 2차 거래일 전망
 
-- 상승·횡보·하락: 33%·35%·32% (합계 100%)
-- 전제·위험요인: 1차에 $349.14를 돌파하면 상승 관성이 이어지지만 $341.69 아래로 밀리면 매파적 금리 충격과 소송 부담이 반전을 키울 수 있다.
+- 상승·횡보·하락: 34%·35%·31% (합계 100%)
+- 전제·위험요인: 1차에 $340.27을 지키고 프리마켓 낙폭을 회복하면 반등 가능성이 높아지지만 유가·금리 상승이 지속되면 $338.52 재시험 위험이 남는다.
 
-방향은 1차 상승 우세이고 M2는 저점·양봉·거래량 회복에 따른 바닥 확인 단계다. 다만 거래량이 평균 이하이므로 S1 추세 돌파로 보지 않고 분할매입만 적용한다.
+1차는 하락 확률이 상승보다 1%포인트 높지만 M2는 8월 28일 정규장의 저점·거래량 구조를 반영하므로, 방향 약세와 사이클의 분할매입 판단은 서로 모순되지 않는다.
 
 ## 최신 출처
 
 - [Google Finance: GOOGL 8월 28일 OHLC·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
 - [Investing.com: GOOGL 8월 28일 OHLC·거래량](https://www.investing.com/equities/google-inc-historical-data)
-- [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
-- [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
-- [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
-- [Reuters: G20 앞둔 미국 관세·이란·국채시장 위험](https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/)
-- [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
-- [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
-- [Reuters: Google 개인정보 소송 배심 평결 유지](https://www.reuters.com/legal/government/judge-google-privacy-class-action-awards-lawyers-147-million-legal-fees-2026-08-28/)
+- [MarketWatch: GOOGL 8월 31일 프리마켓](https://www.marketwatch.com/investing/stock/googl)
+- [AP: 8월 31일 유가·금리·미국 선물](https://apnews.com/article/00f872327d65e5330598054a234dc25a)
+- [Reuters: AI 데이터센터용 웨이퍼 수요](https://www.reuters.com/world/asia-pacific/soitec-locks-customers-into-multi-year-deals-ai-wafer-demand-surges-2026-08-31/)
+- [Reuters: AI 사이버·밸류에이션 금융안정 위험](https://www.reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
