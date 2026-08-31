@@ -1,9 +1,9 @@
 # 주식 방향 Wiki
 
-- 최종 갱신일: 2026년 8월 30일 20:10 KST
-- 한국 자료 기준일: 2026년 8월 28일 정규장 마감
-- 미국 자료 기준일: 2026년 8월 28일 정규장 마감
-- 한국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
+- 최종 갱신일: 2026년 8월 31일 20:00 KST
+- 한국 자료 기준일: 2026년 8월 31일 정규장 마감
+- 미국 자료 기준일: 2026년 8월 28일 정규장 마감, 8월 31일 06:02 ET 프리마켓
+- 한국주식 1차·2차 전망일: 2026년 9월 1일·9월 2일
 - 미국주식 1차·2차 전망일: 2026년 8월 31일·9월 1일
 
 > **법적 고지:** 본 Wiki는 생성형 AI가 공개된 자료를 바탕으로 작성한 일반적인 정보 제공 자료이며, 특정 금융상품의 매수·매도 권유나 투자자문이 아니다. 제시된 수치·확률·전망은 오류, 지연 또는 시장 변동으로 달라질 수 있다. 최종 투자 판단과 그에 따른 손익의 책임은 투자자 본인에게 있다.
@@ -12,11 +12,11 @@
 
 | 종목 | 현재가·거래량 | 1차 상승·횡보·하락 | 2차 상승·횡보·하락 | 거래량 사이클 | 기본 행동 | 결론 |
 |---|---:|---:|---:|---|---|---|
-| [[삼성전자]] | 257,000원·14.70백만주 | 28%·40%·32% | 31%·37%·32% | M1 거래량 고갈 (M1→M1) | 매입 검토 | 자사주 하단 지지와 외국인 매도·CXMT·글로벌 금리 위험이 충돌 |
-| [[SK하이닉스]] | 1,653,000원·2.80백만주 | 27%·36%·37% | 30%·36%·34% | W 중립 (W→W) | 대기 | 지지 이탈·CXMT·글로벌 위험회피를 자사주 매입이 일부 완충 |
-| [[알파벳-A|알파벳 A]] | 정규장 $346.59·25.35백만주, 시간외 $346.20 | 36%·37%·27% | 33%·35%·32% | M2 바닥 확인 (M2→M2) | 분할매입 | 상대강세·거래량 회복과 국채·대형주 자금 유출 위험이 충돌 |
+| [[삼성전자]] | 260,000원·17.01백만주 | 35%·38%·27% | 32%·37%·31% | M2 바닥 확인 (M1→M2) | 분할매입 | 장중 저점 반전과 자사주 수급이 외국인·기관 매도를 일부 상쇄 |
+| [[SK하이닉스]] | 1,674,000원·3.74백만주 | 36%·35%·29% | 33%·35%·32% | M2 바닥 확인 (W→M2) | 분할매입 | 거래량 회복·고가 마감과 외국인 위험회피가 충돌 |
+| [[알파벳-A|알파벳 A]] | 정규장 $346.59·25.35백만주, 프리마켓 $344.80 | 31%·37%·32% | 34%·35%·31% | M2 바닥 확인 (M2→M2) | 분할매입 | 바닥 구조는 유지되나 유가·금리 상승과 프리마켓 약세가 1차 부담 |
 
-방향 확률은 가격 방향이고 사이클 코드는 거래량·가격 구조에 따른 행동 단계다. 삼성전자의 M1은 256,000원 지지를 다시 확인할 때만 매입 검토라는 뜻이고 SK하이닉스는 W 대기다. 알파벳 A는 M2로 전환됐지만 금리 위험과 미국 대형주 펀드 유출이 남아 한 번에 매수하지 않고 분할매입이 우선이다.
+방향 확률은 가격 방향이고 사이클 코드는 거래량·가격 구조에 따른 행동 단계다. 삼성전자와 SK하이닉스는 당일 저점에서 고가권까지 반전해 M2로 올라섰지만 지수 수급이 약해 분할매입만 적용한다. 알파벳 A도 M2를 유지하나 프리마켓 약세로 1차 방향은 하락 확률이 소폭 우세하다.
 
 ## 주제 페이지
 
@@ -27,23 +27,19 @@
 
 ## 최신 일일 기사
 
-- [2026년 8월 31일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260830.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260831).html)
+- [2026년 9월 1일 주식 방향 레터](https://github.com/wskimgit/stock-letter/blob/main/260831.AutoGen.%EC%A3%BC%EC%8B%9D%20%EB%B0%A9%ED%96%A5%20%EB%A0%88%ED%84%B0(260901).html)
 
 ## 출처
 
 - [한국거래소 정보데이터시스템](https://data.krx.co.kr/)
-- [연합뉴스: 8월 28일 한국 시장 마감·수급](https://www.yna.co.kr/amp/view/AKR20260828123351008)
-- [연합뉴스: 삼성전자·SK하이닉스 자사주 매입 진행](https://www.yna.co.kr/amp/view/AKR20260828067251008)
+- [Investing.com: 삼성전자 8월 31일 시세·거래량](https://kr.investing.com/equities/samsung-electronics-co-ltd-historical-data)
+- [Investing.com: SK하이닉스 8월 31일 시세·거래량](https://kr.investing.com/equities/sk-hynix-inc-historical-data)
+- [Investing.com: 8월 31일 한국 시장 마감·수급](https://kr.investing.com/news/stock-market-news/article-2079273)
+- [AP: 8월 31일 유가·금리·미국 선물](https://apnews.com/article/00f872327d65e5330598054a234dc25a)
+- [MarketWatch: GOOGL 8월 31일 프리마켓](https://www.marketwatch.com/investing/stock/googl)
+- [Reuters: AI 데이터센터용 웨이퍼 수요](https://www.reuters.com/world/asia-pacific/soitec-locks-customers-into-multi-year-deals-ai-wafer-demand-surges-2026-08-31/)
+- [Reuters: AI 사이버·밸류에이션 금융안정 위험](https://www.reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/)
 - [Reuters: CXMT의 LPDDR6 공급 확대](https://www.reuters.com/world/asia-pacific/chinas-cxmt-supply-memory-chip-xiaomis-upcoming-folding-phone-2026-08-29/)
-- [Reuters: CXMT의 미국 국방부 지정 소송](https://www.reuters.com/world/cxmt-sues-pentagon-over-inclusion-list-companies-tied-chinas-military-2026-08-29/)
-- [AP: 8월 28일 미국 주요 지수](https://apnews.com/article/3f3477bcea915ac53ec2ae905ae57919)
-- [Reuters: 미국 주식형 펀드의 3월 이후 최대 주간 유출](https://www.reuters.com/business/us-equity-funds-post-biggest-weekly-outflow-since-march-ahead-nvidia-earnings-2026-08-28/)
-- [Reuters: G20 앞둔 미국 관세·이란·국채시장 위험](https://www.reuters.com/world/china/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-2026-08-30/)
-- [Reuters: 엔화의 무질서한 움직임과 세계시장 불안 위험](https://www.reuters.com/business/finance/bessent-says-disorderly-yen-moves-can-destabilize-global-markets-2026-08-29/)
-- [Reuters: 한국 신임 경제부총리 지명과 재정·채권시장 과제](https://www.reuters.com/world/asia-pacific/south-korea-vice-finance-minister-lee-hyoung-il-named-finance-minister-yonhap-2026-08-30/)
-- [Google Finance: GOOGL 8월 28일 종가·거래량](https://www.google.com/finance/quote/GOOGL:NASDAQ)
-- [Yahoo Finance: GOOGL 8월 28일 시간외 가격](https://finance.yahoo.com/quote/GOOGL/)
-- [Reuters: Google·Marvell AI 칩 계약과 단기 선반영 평가](https://www.reuters.com/business/marvell-shares-slide-concerns-over-timing-google-ai-deal-revenue-eclipse-strong-2026-08-28/)
-- [Reuters: Google의 EU 검색 정책 조정과 과징금 위험 완화](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/)
+- [Reuters: SK하이닉스 미국 AI 패키징 투자](https://www.reuters.com/world/asia-pacific/sk-hynix-holds-groundbreaking-ceremony-4-billion-indiana-ai-chip-packaging-2026-08-27/)
 
 [[주식-방향-Wiki]] · [[시장-흐름]] · [[삼성전자]] · [[SK하이닉스]] · [[알파벳-A]]
